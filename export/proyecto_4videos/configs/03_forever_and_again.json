@@ -1,0 +1,151 @@
+{
+ "size": [
+  1080,
+  1920
+ ],
+ "fps": 60,
+ "duration": 60.0,
+ "world_res": 1.5,
+ "preset": "luna",
+ "background": "../media/fondos/8.webp",
+ "grade": {
+  "exposure": 1.0,
+  "vignette": 0.35
+ },
+ "character": {
+  "image": "../recortes/3_final.png",
+  "height": 0.5,
+  "center_x": 0.56,
+  "bottom_y": 1.0,
+  "brightness": 0.95,
+  "rim": [
+   10,
+   0.3
+  ]
+ },
+ "credit": "Forever & Again - The Kid LAROI",
+ "audio": {
+  "file": "../media/audio/forever.mp3",
+  "start": 0,
+  "fade_in": 1.0,
+  "fade_out": 2.0
+ },
+ "lyrics": [
+  {
+   "start": 0.4,
+   "text": "Cuando todo\nse derrumbe\ny no haya nadie"
+  },
+  {
+   "start": 3.9,
+   "text": "hasta mi\núltimo\naliento,"
+  },
+  {
+   "start": 6.0,
+   "text": "aunque esté\nbajo tierra"
+  },
+  {
+   "start": 7.3,
+   "text": "Ahí estaré,\nesto nunca\nacabará"
+  },
+  {
+   "start": 11.2,
+   "text": "Siempre\nestaré ahí,"
+  },
+  {
+   "start": 13.2,
+   "text": "por siempre\ny otra vez"
+  },
+  {
+   "start": 14.8,
+   "text": "Cuando pierdas\nla esperanza"
+  },
+  {
+   "start": 17.0,
+   "text": "y te gane\nla oscuridad"
+  },
+  {
+   "start": 18.8,
+   "text": "hasta que\nse me hiele\nla sangre"
+  },
+  {
+   "start": 20.9,
+   "text": "no te voy\na soltar"
+  },
+  {
+   "start": 22.4,
+   "text": "Ahí estaré,\nesto nunca\nacabará"
+  },
+  {
+   "start": 26.0,
+   "text": "Siempre\nestaré ahí,"
+  },
+  {
+   "start": 28.0,
+   "text": "por siempre\ny otra vez"
+  },
+  {
+   "start": 29.5,
+   "text": "Ahogándote\nen tu dolor,"
+  },
+  {
+   "start": 31.9,
+   "text": "tanto alcohol\nque ya no\nsientes nada"
+  },
+  {
+   "start": 33.9,
+   "text": "Vidrio en\ntus venas,"
+  },
+  {
+   "start": 35.7,
+   "text": "no se vuela\ncon alas\nrotas"
+  },
+  {
+   "start": 37.6,
+   "text": "La rabia\npasará,"
+  },
+  {
+   "start": 39.3,
+   "text": "no huyas\nde mí"
+  },
+  {
+   "start": 41.3,
+   "text": "Nada\nva a cambiar,"
+  },
+  {
+   "start": 43.2,
+   "text": "no huyas\nde mí"
+  },
+  {
+   "start": 45.0,
+   "text": "Luchando con\ntus miedos,\ntus demonios"
+  },
+  {
+   "start": 47.0,
+   "text": "aguantando\nel llanto,\nlo veo"
+  },
+  {
+   "start": 48.8,
+   "text": "No quieres\nmostrarte\ndébil"
+  },
+  {
+   "start": 50.6,
+   "text": "ya conozco\ntu secreto"
+  },
+  {
+   "start": 52.4,
+   "text": "Cada vez\nque despiertas\nde noche"
+  },
+  {
+   "start": 55.6,
+   "text": "me vas a\nencontrar\na tu lado",
+   "hold_to_end": true
+  }
+ ],
+ "output": "../render/03_forever_and_again.mp4",
+ "text_follows_zoom": false,
+ "background_zoom": 1.35,
+ "background_focus": [
+  1.0,
+  0.5
+ ]
+}

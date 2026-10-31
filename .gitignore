@@ -9,3 +9,6 @@ export/**/*.jpg
 export/ref_analisis/*.json
 export/ref_analisis/*.txt
 __pycache__/
+export/**/*.mp3
+export/**/*.webp
+export/proyecto_4videos/work/

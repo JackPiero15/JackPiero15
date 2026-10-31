@@ -77,9 +77,9 @@ def font(path, size, weight=None):
     return f
 
 
-def cover(img, W, H, focus=(0.5, 0.5)):
-    """Escala tipo 'cover' y recorta respetando el punto focal."""
-    s = max(W/img.width, H/img.height)
+def cover(img, W, H, focus=(0.5, 0.5), zoom=1.0):
+    """Escala tipo 'cover' (con zoom extra opcional) y recorta respetando el punto focal."""
+    s = max(W/img.width, H/img.height)*zoom
     img = img.resize((max(W, round(img.width*s)), max(H, round(img.height*s))), Image.LANCZOS)
     x = int((img.width-W)*focus[0]); y = int((img.height-H)*focus[1])
     return img.crop((x, y, x+W, y+H))
@@ -113,22 +113,34 @@ class Renderer:
         c = self.cfg; WR = self.WR
         Ww, Hw = round(self.W*WR), round(self.H*WR)
         bg = Image.open(c["background"]).convert("RGB")
-        world = cover(bg, Ww, Hw, tuple(c.get("background_focus", [0.5, 0.5]))).convert("RGBA")
+        world = cover(bg, Ww, Hw, tuple(c.get("background_focus", [0.5, 0.5])),
+                      c.get("background_zoom", 1.0)).convert("RGBA")
+        g = c.get("grade", {})
+        if g:  # corrección solo del fondo, antes del personaje
+            a = np.asarray(world.convert("RGB"), np.float32)/255
+            a = a*g.get("exposure", 1.0)
+            if "saturation" in g:
+                l = a.mean(axis=2, keepdims=True); a = l + (a-l)*g["saturation"]
+            if "vignette" in g:
+                yy, xx = np.mgrid[0:Hw, 0:Ww]; r = np.sqrt(((xx/Ww-0.5)/0.5)**2+((yy/Hw-0.5)/0.5)**2)
+                a *= (1 - g["vignette"]*np.clip(r-0.35, 0, None)**1.5)[..., None]
+            world = Image.fromarray((np.clip(a, 0, 1)*255).astype(np.uint8)).convert("RGBA")
         ch = c.get("character")
         if ch:
             im = Image.open(ch["image"]).convert("RGBA")
             h = ch.get("height", 0.62) * Hw
             im = im.resize((round(im.width*h/im.height), round(h)), Image.LANCZOS)
+            if ch.get("brightness", 1.0) != 1.0:
+                rgb = Image.eval(im.convert("RGB"), lambda v: int(min(255, v*ch["brightness"])))
+                rgb.putalpha(im.split()[3]); im = rgb
             cx, by = ch.get("center_x", 0.5)*Ww, ch.get("bottom_y", 1.0)*Hw
-            world.alpha_composite(im, (round(cx-im.width/2), round(by-im.height)))
-        g = c.get("grade", {})
-        if g:
-            a = np.asarray(world.convert("RGB"), np.float32)/255
-            a = a*g.get("exposure", 1.0)
-            if "vignette" in g:
-                yy, xx = np.mgrid[0:Hw, 0:Ww]; r = np.sqrt(((xx/Ww-0.5)/0.5)**2+((yy/Hw-0.5)/0.5)**2)
-                a *= (1 - g["vignette"]*np.clip(r-0.35, 0, None)**1.5)[..., None]
-            world = Image.fromarray((np.clip(a, 0, 1)*255).astype(np.uint8)).convert("RGBA")
+            pos = (round(cx-im.width/2), round(by-im.height))
+            if ch.get("rim"):  # halo de luz alrededor de la silueta (ref1)
+                rad, op = ch["rim"]
+                al = im.split()[3].filter(ImageFilter.GaussianBlur(rad*WR)).point(lambda v: int(min(255, v*op)))
+                halo = Image.new("RGBA", im.size, (235, 240, 255, 0)); halo.putalpha(al)
+                world.alpha_composite(halo, pos)
+            world.alpha_composite(im, pos)
         self.world = world.convert("RGB")
 
     # --- capas de texto (a resolución de salida, coordenadas de mundo sin cámara)
@@ -202,12 +214,14 @@ class Renderer:
         """Transforma solo el recuadro de la capa de texto con la misma cámara que el fondo."""
         crop, (x0, y0, x1, y1) = layer
         s, dx, dy = self.camera(t)
+        if not self.cfg.get("text_follows_zoom", True):
+            s = 1.0   # el texto solo flota; evita que el zoom de apertura lo saque del cuadro
         cx, cy = self.R(*self.P["zoom_center"])
         fw = lambda x, c, d: s*(x-c)+c+d
         u0 = max(0, int(math.floor(fw(x0, cx, dx)))-2); v0 = max(0, int(math.floor(fw(y0, cy, dy)))-2)
         u1 = min(self.W, int(math.ceil(fw(x1, cx, dx)))+2); v1 = min(self.H, int(math.ceil(fw(y1, cy, dy)))+2)
         if u1 <= u0 or v1 <= v0: return
-        a, _, c, _, _, e = self.affine(t, 1.0)
+        a = 1/s; c = (-cx-dx)/s + cx; e = (-cy-dy)/s + cy
         L = crop.transform((u1-u0, v1-v0), Image.AFFINE, (a, 0, a*u0+c-x0, 0, a, a*v0+e-y0), Image.BICUBIC)
         if alpha < 1: L.putalpha(L.split()[3].point(lambda v: int(v*alpha)))
         img.alpha_composite(L, (u0, v0))
@@ -261,9 +275,10 @@ def main():
     cfg["lyrics"] = ev
     r = Renderer(cfg)
     if a.preview:
-        os.makedirs(os.path.join(base, "preview"), exist_ok=True)
+        pdir = os.path.join(base, "preview", os.path.splitext(os.path.basename(a.config))[0])
+        os.makedirs(pdir, exist_ok=True)
         for t in a.preview.split(","):
-            r.frame(float(t)).save(os.path.join(base, "preview", f"t{float(t):06.2f}.png"))
+            r.frame(float(t)).save(os.path.join(pdir, f"t{float(t):06.2f}.png"))
         print("preview ok"); return
     out = a.out or os.path.join(base, cfg.get("output", "salida.mp4"))
     n = int(round(cfg["duration"]*r.fps))

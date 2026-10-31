@@ -1,0 +1,95 @@
+{
+ "size": [
+  1080,
+  1920
+ ],
+ "fps": 60,
+ "duration": 60.0,
+ "world_res": 1.5,
+ "preset": "luna",
+ "background": "../media/fondos/6.webp",
+ "grade": {
+  "exposure": 0.62,
+  "saturation": 0.9,
+  "vignette": 0.5
+ },
+ "character": {
+  "image": "../recortes/4_final.png",
+  "height": 0.62,
+  "center_x": 0.67,
+  "bottom_y": 1.0,
+  "brightness": 0.9,
+  "rim": [
+   10,
+   0.3
+  ]
+ },
+ "credit": "Slow Dancing in the Dark - Joji",
+ "audio": {
+  "file": "../media/audio/dancing.mp3",
+  "start": 0,
+  "fade_in": 1.0,
+  "fade_out": 2.0
+ },
+ "lyrics": [
+  {
+   "start": 1.6,
+   "text": "Bailando\nlento en la\noscuridad"
+  },
+  {
+   "start": 7.2,
+   "text": "No me sigas,\nterminarás\nen mis brazos"
+  },
+  {
+   "start": 11.7,
+   "text": "Ya tomaste\ntu decisión"
+  },
+  {
+   "start": 14.4,
+   "text": "No necesito\nmás señales"
+  },
+  {
+   "start": 17.2,
+   "text": "¿Puedes?"
+  },
+  {
+   "start": 19.9,
+   "text": "¿Puedes?"
+  },
+  {
+   "start": 23.7,
+   "text": "Dame razones\npara estar\ncompletos"
+  },
+  {
+   "start": 28.6,
+   "text": "Deberías\nestar con él,"
+  },
+  {
+   "start": 31.4,
+   "text": "no puedo\ncompetir"
+  },
+  {
+   "start": 33.9,
+   "text": "Me miraste\ncomo si fuera\notra persona"
+  },
+  {
+   "start": 38.6,
+   "text": "Qué más da…"
+  },
+  {
+   "start": 40.6,
+   "text": "¿No lo ves?"
+  },
+  {
+   "start": 45.8,
+   "text": "No quiero\nbailar lento"
+  },
+  {
+   "start": 51.5,
+   "text": "en la\noscuridad",
+   "hold_to_end": true
+  }
+ ],
+ "output": "../render/04_slow_dancing_in_the_dark.mp4",
+ "text_follows_zoom": false
+}
