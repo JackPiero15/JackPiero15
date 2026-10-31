@@ -1,0 +1,517 @@
+{
+ "id": "confident",
+ "source": "media/confident.mp3",
+ "in": 181.4,
+ "out": 241.7,
+ "duration": 60.3,
+ "beat": 0.45,
+ "beat_phase": 0.24,
+ "accent": [
+  204,
+  32,
+  160
+ ],
+ "media": [
+  {
+   "file": "media/pinterest/721561171566919936.gif"
+  },
+  {
+   "file": "media/pinterest2/34340015904830327.gif",
+   "cutout": true
+  },
+  {
+   "file": "media/pinterest/598064025514034773.jpg",
+   "fy": 0.3
+  },
+  {
+   "file": "media/pinterest/129830401750454107.jpg",
+   "crop": [
+    0.12,
+    0,
+    0.88,
+    0.82
+   ]
+  },
+  {
+   "file": "media/pinterest2/325948091790147377.gif"
+  },
+  {
+   "file": "media/pinterest2/45458277481606690.gif",
+   "cutout": true
+  },
+  {
+   "file": "media/pinterest2/543809723737108612.gif"
+  },
+  {
+   "file": "media/pinterest/402016704209379744.jpg"
+  },
+  {
+   "file": "media/pinterest/506162445620237576.jpg",
+   "crop": [
+    0.12,
+    0,
+    0.88,
+    0.82
+   ]
+  },
+  {
+   "file": "media/pinterest/575475658605470542.jpg",
+   "crop": [
+    0,
+    0,
+    1,
+    0.9
+   ],
+   "fy": 0.2
+  },
+  {
+   "file": "media/pinterest2/613896992927952529.gif",
+   "cutout": true
+  },
+  {
+   "file": "media/pinterest2/857724691505911452.gif"
+  },
+  {
+   "file": "media/pinterest/329044316537251641.gif"
+  },
+  {
+   "file": "media/pinterest/560557484841004165.jpg"
+  },
+  {
+   "file": "media/pinterest2/464222674073712465.jpg",
+   "crop": [
+    0.12,
+    0,
+    0.88,
+    0.85
+   ]
+  },
+  {
+   "file": "media/pinterest/966866613722010875.gif"
+  },
+  {
+   "file": "media/pinterest/844284261417317512.jpg"
+  },
+  {
+   "file": "media/pinterest/807129564511901829.jpg",
+   "fy": 0.35
+  }
+ ],
+ "shots": [
+  {
+   "t": 0.0,
+   "m": 0,
+   "y": 760,
+   "w": 780,
+   "h": 820
+  },
+  {
+   "t": 2.33,
+   "m": 1,
+   "y": 760,
+   "w": 980,
+   "h": 820
+  },
+  {
+   "t": 5.67,
+   "m": 2,
+   "y": 760,
+   "w": 780,
+   "h": 820
+  },
+  {
+   "t": 8.67,
+   "m": 3,
+   "y": 760,
+   "w": 780,
+   "h": 820
+  },
+  {
+   "t": 13.35,
+   "m": 4,
+   "y": 760,
+   "w": 780,
+   "h": 820
+  },
+  {
+   "t": 16.37,
+   "m": 5,
+   "y": 760,
+   "w": 980,
+   "h": 820
+  },
+  {
+   "t": 19.71,
+   "m": 6,
+   "y": 760,
+   "w": 780,
+   "h": 820
+  },
+  {
+   "t": 21.85,
+   "m": 7,
+   "y": 760,
+   "w": 780,
+   "h": 820
+  },
+  {
+   "t": 23.65,
+   "m": 8,
+   "y": 760,
+   "w": 780,
+   "h": 820
+  },
+  {
+   "t": 27.29,
+   "m": 9,
+   "y": 760,
+   "w": 780,
+   "h": 820
+  },
+  {
+   "t": 30.75,
+   "m": 10,
+   "y": 760,
+   "w": 980,
+   "h": 820
+  },
+  {
+   "t": 34.27,
+   "m": 11,
+   "y": 760,
+   "w": 780,
+   "h": 820
+  },
+  {
+   "t": 38.15,
+   "m": 12,
+   "y": 760,
+   "w": 780,
+   "h": 820
+  },
+  {
+   "t": 41.43,
+   "m": 13,
+   "y": 760,
+   "w": 780,
+   "h": 820
+  },
+  {
+   "t": 44.51,
+   "m": 14,
+   "y": 760,
+   "w": 780,
+   "h": 820
+  },
+  {
+   "t": 46.85,
+   "m": 15,
+   "y": 760,
+   "w": 780,
+   "h": 820
+  },
+  {
+   "t": 48.51,
+   "m": 16,
+   "y": 760,
+   "w": 780,
+   "h": 820
+  },
+  {
+   "t": 50.57,
+   "m": 5,
+   "y": 760,
+   "w": 980,
+   "h": 820
+  },
+  {
+   "t": 52.07,
+   "m": 0,
+   "y": 760,
+   "w": 780,
+   "h": 820
+  },
+  {
+   "t": 54.49,
+   "m": 10,
+   "y": 760,
+   "w": 980,
+   "h": 820
+  },
+  {
+   "t": 57.79,
+   "m": 1,
+   "y": 760,
+   "w": 980,
+   "h": 820
+  }
+ ],
+ "subs": [
+  {
+   "src_t0": 181.54,
+   "src_t1": 183.713,
+   "t0": 0.14,
+   "t1": 2.313,
+   "en": "But still, I gotta have it",
+   "es": "Pero aun así, | tengo que tenerla",
+   "conf": "media: Whisper 'But still I gotta have it' p≥0.7"
+  },
+  {
+   "src_t0": 183.78,
+   "src_t1": 186.41,
+   "t0": 2.38,
+   "t1": 5.01,
+   "en": "Explosive, explosive",
+   "es": "Explosiva, | explosiva",
+   "conf": "alta"
+  },
+  {
+   "src_t0": 187.12,
+   "src_t1": 189.89,
+   "t0": 5.72,
+   "t1": 8.49,
+   "en": "I could still smell her perfume",
+   "es": "Todavía huelo | su perfume",
+   "conf": "alta"
+  },
+  {
+   "src_t0": 190.12,
+   "src_t1": 193.89,
+   "t0": 8.72,
+   "t1": 12.49,
+   "en": "It's not hard to notice that I'm open",
+   "es": "No cuesta notar | que estoy clavado",
+   "conf": "alta"
+  },
+  {
+   "src_t0": 194.8,
+   "src_t1": 197.753,
+   "t0": 13.4,
+   "t1": 16.353,
+   "en": "Hypnotized by the way she moves",
+   "es": "Hipnotizado | por cómo se mueve",
+   "conf": "alta"
+  },
+  {
+   "src_t0": 197.82,
+   "src_t1": 201.093,
+   "t0": 16.42,
+   "t1": 19.693,
+   "en": "Then she started dancing, sexual romancin'",
+   "es": "Y empezó a bailar, | romance sexual",
+   "conf": "media: 'romancin'' de la letra del usuario; Whisper no lo resuelve"
+  },
+  {
+   "src_t0": 201.16,
+   "src_t1": 203.233,
+   "t0": 19.76,
+   "t1": 21.833,
+   "en": "Nasty but she fancy",
+   "es": "Atrevida, | pero elegante",
+   "conf": "alta"
+  },
+  {
+   "src_t0": 203.3,
+   "src_t1": 205.033,
+   "t0": 21.9,
+   "t1": 23.633,
+   "en": "Mona Lisa masterpiece",
+   "es": "Obra maestra, | tipo Mona Lisa",
+   "conf": "alta"
+  },
+  {
+   "src_t0": 205.1,
+   "src_t1": 206.833,
+   "t0": 23.7,
+   "t1": 25.433,
+   "en": "What's your nationality?",
+   "es": "¿De qué país eres?",
+   "conf": "alta: nbest 'What's your nationality'"
+  },
+  {
+   "src_t0": 206.9,
+   "src_t1": 208.673,
+   "t0": 25.5,
+   "t1": 27.273,
+   "en": "Wonder if there's more of you",
+   "es": "¿Habrá más | como tú?",
+   "conf": "media: Whisper 'of her', letra 'of you'"
+  },
+  {
+   "src_t0": 208.74,
+   "src_t1": 212.133,
+   "t0": 27.34,
+   "t1": 30.733,
+   "en": "She's got my attention, 'cause she's confident",
+   "es": "Tiene mi atención | porque es *segura*",
+   "conf": "alta"
+  },
+  {
+   "src_t0": 212.2,
+   "src_t1": 215.653,
+   "t0": 30.8,
+   "t1": 34.253,
+   "en": "Oh, no, no, oh, no, no, she's confident",
+   "es": "Oh, no, no, oh, no, no, | ella es *segura*",
+   "conf": "alta"
+  },
+  {
+   "src_t0": 215.72,
+   "src_t1": 219.533,
+   "t0": 34.32,
+   "t1": 38.133,
+   "en": "Oh, no, no, oh, no, no, and I'm down with it",
+   "es": "Oh, no, no, oh, no, no, | y yo me apunto",
+   "conf": "alta"
+  },
+  {
+   "src_t0": 219.6,
+   "src_t1": 222.813,
+   "t0": 38.2,
+   "t1": 41.413,
+   "en": "Oh, no, no, oh, no, no, she's confident",
+   "es": "Oh, no, no, oh, no, no, | ella es *segura*",
+   "conf": "alta"
+  },
+  {
+   "src_t0": 222.88,
+   "src_t1": 225.893,
+   "t0": 41.48,
+   "t1": 44.493,
+   "en": "You could tell by the way she walks in the room",
+   "es": "Se nota por cómo | entra al lugar",
+   "conf": "alta"
+  },
+  {
+   "src_t0": 225.96,
+   "src_t1": 227.83,
+   "t0": 44.56,
+   "t1": 46.43,
+   "en": "She said it's her first time",
+   "es": "Dijo que era | su primera vez",
+   "conf": "alta"
+  },
+  {
+   "src_t0": 228.3,
+   "src_t1": 229.893,
+   "t0": 46.9,
+   "t1": 48.493,
+   "en": "I think she might've lied",
+   "es": "Creo que mintió",
+   "conf": "media: nbest 'I think she might like'"
+  },
+  {
+   "src_t0": 229.96,
+   "src_t1": 231.43,
+   "t0": 48.56,
+   "t1": 50.03,
+   "en": "Feels so good, damn",
+   "es": "Se siente tan bien, | carajo",
+   "conf": "media: Whisper 'down', letra 'damn'"
+  },
+  {
+   "src_t0": 232.02,
+   "src_t1": 233.453,
+   "t0": 50.62,
+   "t1": 52.053,
+   "en": "And I don't know why",
+   "es": "Y no sé por qué",
+   "conf": "alta"
+  },
+  {
+   "src_t0": 233.52,
+   "src_t1": 235.03,
+   "t0": 52.12,
+   "t1": 53.63,
+   "en": "I'm addicted",
+   "es": "Estoy enganchado",
+   "conf": "alta"
+  },
+  {
+   "src_t0": 235.94,
+   "src_t1": 236.973,
+   "t0": 54.54,
+   "t1": 55.573,
+   "en": "Something like an addict",
+   "es": "Como un adicto",
+   "conf": "media: Whisper 'a headache', letra 'an addict'"
+  },
+  {
+   "src_t0": 237.04,
+   "src_t1": 238.13,
+   "t0": 55.64,
+   "t1": 56.73,
+   "en": "Got me twisted",
+   "es": "Me tiene loco",
+   "conf": "alta"
+  },
+  {
+   "src_t0": 239.24,
+   "src_t1": 241.65,
+   "t0": 57.84,
+   "t1": 60.25,
+   "en": "But still, I gotta have it",
+   "es": "Pero aun así, | tengo que tenerla",
+   "conf": "media: Whisper 'still … headache', letra 'still I gotta have it'"
+  }
+ ],
+ "spiral": "media/refs/1075164111056995905.jpg",
+ "decos": {
+  "skull": {
+   "file": "media/refs/1149192029967347719.jpg",
+   "size": 400
+  },
+  "cross": {
+   "file": "media/deco/764063893058317375.jpg",
+   "size": 230
+  },
+  "cross2": {
+   "file": "media/deco/928093435718576954.jpg",
+   "size": 170
+  }
+ },
+ "chorus": [
+  [
+   30.8,
+   44.5
+  ]
+ ],
+ "hypno": [
+  [
+   13.3,
+   16.4
+  ]
+ ],
+ "star_flash": [
+  [
+   2.38,
+   5.0
+  ],
+  [
+   30.8,
+   34.3
+  ],
+  [
+   38.2,
+   41.4
+  ]
+ ],
+ "crosses": [
+  [
+   "cross",
+   0,
+   60.3,
+   120,
+   300,
+   -8
+  ],
+  [
+   "cross2",
+   19.7,
+   60.3,
+   960,
+   1180,
+   10
+  ]
+ ]
+}
