@@ -1,0 +1,1066 @@
+{
+ "id": "confident_v3",
+ "duration": 60.3,
+ "font": "fonts/RobotoCondensed[wght].ttf",
+ "font_size": 88,
+ "font_weight": 400,
+ "text_y": 960,
+ "max_text_w": 860,
+ "images": [
+  {
+   "file": "media/swag_boards/swag_24.jpg",
+   "k": 7,
+   "dim": 0.5
+  },
+  {
+   "file": "media/refs/1149192029967347719.jpg",
+   "k": 6,
+   "dim": 0.5,
+   "fy": 0.3
+  },
+  {
+   "file": "media/swag_boards/swag_23.jpg",
+   "k": 6,
+   "dim": 0.5
+  },
+  {
+   "file": "media/swag_boards/912269751295_04.jpg",
+   "k": 6,
+   "dim": 0.5
+  },
+  {
+   "file": "media/refs/1075164111056995905.jpg",
+   "k": 6,
+   "dim": 0.45,
+   "spin": 70
+  },
+  {
+   "file": "media/swag_boards/926396910540_14.jpg",
+   "k": 6,
+   "dim": 0.5
+  },
+  {
+   "file": "media/swag_boards/926396910540_02.jpg",
+   "k": 6,
+   "dim": 0.55
+  },
+  {
+   "file": "media/swag_boards/926396910540_05.jpg",
+   "k": 6,
+   "dim": 0.5
+  },
+  {
+   "file": "media/swag_boards/swag_05.jpg",
+   "k": 6,
+   "dim": 0.5
+  }
+ ],
+ "events": [
+  {
+   "t": 0.0,
+   "text": "Pero aun",
+   "line": "Pero aun así, tengo que tenerla",
+   "mode": "hold",
+   "img": 0,
+   "img_t0": 0.11,
+   "swap": true
+  },
+  {
+   "t": 0.91,
+   "text": "Pero aun así,",
+   "line": "Pero aun así, tengo que tenerla",
+   "mode": "hold",
+   "img": 0,
+   "img_t0": 0.11,
+   "swap": false
+  },
+  {
+   "t": 1.09,
+   "text": "Pero aun así, tengo",
+   "line": "Pero aun así, tengo que tenerla",
+   "mode": "hold",
+   "img": 0,
+   "img_t0": 0.11,
+   "swap": false
+  },
+  {
+   "t": 1.35,
+   "text": "Pero aun así, tengo que",
+   "line": "Pero aun así, tengo que tenerla",
+   "mode": "hold",
+   "img": 0,
+   "img_t0": 0.11,
+   "swap": false
+  },
+  {
+   "t": 1.57,
+   "text": "Pero aun así, tengo que tenerla",
+   "line": "Pero aun así, tengo que tenerla",
+   "mode": "hold",
+   "img": 0,
+   "img_t0": 0.11,
+   "swap": false
+  },
+  {
+   "t": 2.35,
+   "text": "Explosiva,",
+   "line": "Explosiva, explosiva",
+   "mode": "hold",
+   "img": 1,
+   "img_t0": 2.35,
+   "swap": true
+  },
+  {
+   "t": 3.49,
+   "text": "Explosiva, explosiva",
+   "line": "Explosiva, explosiva",
+   "mode": "hold",
+   "img": 1,
+   "img_t0": 2.35,
+   "swap": false
+  },
+  {
+   "t": 5.69,
+   "text": "Toda_",
+   "line": "Todavía huelo su perfume",
+   "mode": "hold",
+   "img": 2,
+   "img_t0": 5.69,
+   "swap": true
+  },
+  {
+   "t": 6.37,
+   "text": "Todavía",
+   "line": "Todavía huelo su perfume",
+   "mode": "hold",
+   "img": 2,
+   "img_t0": 5.69,
+   "swap": false
+  },
+  {
+   "t": 6.63,
+   "text": "Todavía huelo",
+   "line": "Todavía huelo su perfume",
+   "mode": "hold",
+   "img": 2,
+   "img_t0": 5.69,
+   "swap": false
+  },
+  {
+   "t": 6.95,
+   "text": "Todavía huelo su",
+   "line": "Todavía huelo su perfume",
+   "mode": "hold",
+   "img": 2,
+   "img_t0": 5.69,
+   "swap": false
+  },
+  {
+   "t": 7.37,
+   "text": "Todavía huelo su perf-",
+   "line": "Todavía huelo su perfume",
+   "mode": "hold",
+   "img": 2,
+   "img_t0": 5.69,
+   "swap": false
+  },
+  {
+   "t": 7.87,
+   "text": "Todavía huelo su perfume",
+   "line": "Todavía huelo su perfume",
+   "mode": "hold",
+   "img": 2,
+   "img_t0": 5.69,
+   "swap": false
+  },
+  {
+   "t": 8.69,
+   "text": "No",
+   "line": "No cuesta notar que estoy clavado",
+   "mode": "hold",
+   "img": 3,
+   "img_t0": 8.69,
+   "swap": true
+  },
+  {
+   "t": 8.93,
+   "text": "No cues-",
+   "line": "No cuesta notar que estoy clavado",
+   "mode": "hold",
+   "img": 3,
+   "img_t0": 8.69,
+   "swap": false
+  },
+  {
+   "t": 9.11,
+   "text": "No cuesta",
+   "line": "No cuesta notar que estoy clavado",
+   "mode": "hold",
+   "img": 3,
+   "img_t0": 8.69,
+   "swap": false
+  },
+  {
+   "t": 9.27,
+   "text": "No cuesta notar",
+   "line": "No cuesta notar que estoy clavado",
+   "mode": "hold",
+   "img": 3,
+   "img_t0": 8.69,
+   "swap": false
+  },
+  {
+   "t": 9.55,
+   "text": "No cuesta notar que",
+   "line": "No cuesta notar que estoy clavado",
+   "mode": "hold",
+   "img": 3,
+   "img_t0": 8.69,
+   "swap": false
+  },
+  {
+   "t": 10.45,
+   "text": "No cuesta notar que estoy",
+   "line": "No cuesta notar que estoy clavado",
+   "mode": "hold",
+   "img": 3,
+   "img_t0": 8.69,
+   "swap": false
+  },
+  {
+   "t": 10.65,
+   "text": "No cuesta notar que estoy clav_",
+   "line": "No cuesta notar que estoy clavado",
+   "mode": "hold",
+   "img": 3,
+   "img_t0": 8.69,
+   "swap": false
+  },
+  {
+   "t": 11.05,
+   "text": "No cuesta notar que estoy clavado",
+   "line": "No cuesta notar que estoy clavado",
+   "mode": "hold",
+   "img": 3,
+   "img_t0": 8.69,
+   "swap": false
+  },
+  {
+   "t": 13.37,
+   "text": "Hipnoti_",
+   "line": "Hipnotizado por cómo se mueve",
+   "mode": "hold",
+   "img": 4,
+   "img_t0": 13.37,
+   "swap": true
+  },
+  {
+   "t": 14.05,
+   "text": "Hipnotizado",
+   "line": "Hipnotizado por cómo se mueve",
+   "mode": "hold",
+   "img": 4,
+   "img_t0": 13.37,
+   "swap": false
+  },
+  {
+   "t": 14.39,
+   "text": "Hipnotizado por",
+   "line": "Hipnotizado por cómo se mueve",
+   "mode": "hold",
+   "img": 4,
+   "img_t0": 13.37,
+   "swap": false
+  },
+  {
+   "t": 14.69,
+   "text": "Hipnotizado por cómo",
+   "line": "Hipnotizado por cómo se mueve",
+   "mode": "hold",
+   "img": 4,
+   "img_t0": 13.37,
+   "swap": false
+  },
+  {
+   "t": 14.97,
+   "text": "Hipnotizado por cómo se",
+   "line": "Hipnotizado por cómo se mueve",
+   "mode": "hold",
+   "img": 4,
+   "img_t0": 13.37,
+   "swap": false
+  },
+  {
+   "t": 15.61,
+   "text": "Hipnotizado por cómo se mueve",
+   "line": "Hipnotizado por cómo se mueve",
+   "mode": "hold",
+   "img": 4,
+   "img_t0": 13.37,
+   "swap": false
+  },
+  {
+   "t": 16.39,
+   "text": "Y",
+   "line": "Y empezó a bailar, romance sexual",
+   "mode": "flash",
+   "bg": "w",
+   "swap": true
+  },
+  {
+   "t": 16.77,
+   "text": "Y empezó",
+   "line": "Y empezó a bailar, romance sexual",
+   "mode": "flash",
+   "bg": "b",
+   "swap": true
+  },
+  {
+   "t": 17.19,
+   "text": "Y empezó a",
+   "line": "Y empezó a bailar, romance sexual",
+   "mode": "flash",
+   "bg": "w",
+   "swap": true
+  },
+  {
+   "t": 17.49,
+   "text": "Y empezó a bailar,",
+   "line": "Y empezó a bailar, romance sexual",
+   "mode": "flash",
+   "bg": "b",
+   "swap": true
+  },
+  {
+   "t": 18.55,
+   "text": "Y empezó a bailar, romance",
+   "line": "Y empezó a bailar, romance sexual",
+   "mode": "flash",
+   "bg": "w",
+   "swap": true
+  },
+  {
+   "t": 18.87,
+   "text": "Y empezó a bailar, romance sexual",
+   "line": "Y empezó a bailar, romance sexual",
+   "mode": "flash",
+   "bg": "b",
+   "swap": true
+  },
+  {
+   "t": 19.73,
+   "text": "Atrev_",
+   "line": "Atrevida, pero elegante",
+   "mode": "flash",
+   "bg": "w",
+   "swap": true
+  },
+  {
+   "t": 20.57,
+   "text": "Atrevida,",
+   "line": "Atrevida, pero elegante",
+   "mode": "flash",
+   "bg": "b",
+   "swap": true
+  },
+  {
+   "t": 20.85,
+   "text": "Atrevida, pero",
+   "line": "Atrevida, pero elegante",
+   "mode": "flash",
+   "bg": "w",
+   "swap": true
+  },
+  {
+   "t": 21.13,
+   "text": "Atrevida, pero elegante",
+   "line": "Atrevida, pero elegante",
+   "mode": "flash",
+   "bg": "b",
+   "swap": true
+  },
+  {
+   "t": 21.87,
+   "text": "Obra maestra,",
+   "line": "Obra maestra, tipo Mona Lisa",
+   "mode": "flash",
+   "bg": "w",
+   "swap": true
+  },
+  {
+   "t": 22.43,
+   "text": "Obra maestra, tipo Mona",
+   "line": "Obra maestra, tipo Mona Lisa",
+   "mode": "flash",
+   "bg": "b",
+   "swap": true
+  },
+  {
+   "t": 22.81,
+   "text": "Obra maestra, tipo Mona Lisa",
+   "line": "Obra maestra, tipo Mona Lisa",
+   "mode": "flash",
+   "bg": "w",
+   "swap": true
+  },
+  {
+   "t": 23.67,
+   "text": "¿De qué",
+   "line": "¿De qué país eres?",
+   "mode": "flash",
+   "bg": "b",
+   "swap": true
+  },
+  {
+   "t": 24.23,
+   "text": "¿De qué país eres?",
+   "line": "¿De qué país eres?",
+   "mode": "flash",
+   "bg": "w",
+   "swap": true
+  },
+  {
+   "t": 25.47,
+   "text": "¿Hab_",
+   "line": "¿Habrá más como tú?",
+   "mode": "flash",
+   "bg": "b",
+   "swap": true
+  },
+  {
+   "t": 26.01,
+   "text": "¿Habrá",
+   "line": "¿Habrá más como tú?",
+   "mode": "flash",
+   "bg": "w",
+   "swap": true
+  },
+  {
+   "t": 26.29,
+   "text": "¿Habrá más",
+   "line": "¿Habrá más como tú?",
+   "mode": "flash",
+   "bg": "b",
+   "swap": true
+  },
+  {
+   "t": 26.67,
+   "text": "¿Habrá más com-",
+   "line": "¿Habrá más como tú?",
+   "mode": "flash",
+   "bg": "w",
+   "swap": true
+  },
+  {
+   "t": 26.85,
+   "text": "¿Habrá más como",
+   "line": "¿Habrá más como tú?",
+   "mode": "flash",
+   "bg": "b",
+   "swap": true
+  },
+  {
+   "t": 27.09,
+   "text": "¿Habrá más como tú?",
+   "line": "¿Habrá más como tú?",
+   "mode": "flash",
+   "bg": "w",
+   "swap": true
+  },
+  {
+   "t": 27.31,
+   "text": "Tiene mi",
+   "line": "Tiene mi atención porque es segura",
+   "mode": "flash",
+   "bg": "b",
+   "swap": true
+  },
+  {
+   "t": 27.67,
+   "text": "Tiene mi atención",
+   "line": "Tiene mi atención porque es segura",
+   "mode": "flash",
+   "bg": "w",
+   "swap": true
+  },
+  {
+   "t": 28.11,
+   "text": "Tiene mi atención porque",
+   "line": "Tiene mi atención porque es segura",
+   "mode": "flash",
+   "bg": "b",
+   "swap": true
+  },
+  {
+   "t": 29.39,
+   "text": "Tiene mi atención porque es",
+   "line": "Tiene mi atención porque es segura",
+   "mode": "flash",
+   "bg": "w",
+   "swap": true
+  },
+  {
+   "t": 29.75,
+   "text": "Tiene mi atención porque es segura",
+   "line": "Tiene mi atención porque es segura",
+   "mode": "flash",
+   "bg": "b",
+   "swap": true
+  },
+  {
+   "t": 30.77,
+   "text": "Oh, no,",
+   "line": "Oh, no, no, oh, no, no, ella es segura",
+   "mode": "hold",
+   "img": 5,
+   "img_t0": 30.77,
+   "swap": true
+  },
+  {
+   "t": 31.35,
+   "text": "Oh, no, no,",
+   "line": "Oh, no, no, oh, no, no, ella es segura",
+   "mode": "hold",
+   "img": 5,
+   "img_t0": 30.77,
+   "swap": false
+  },
+  {
+   "t": 31.67,
+   "text": "Oh, no, no, oh,",
+   "line": "Oh, no, no, oh, no, no, ella es segura",
+   "mode": "hold",
+   "img": 5,
+   "img_t0": 30.77,
+   "swap": false
+  },
+  {
+   "t": 32.09,
+   "text": "Oh, no, no, oh, no,",
+   "line": "Oh, no, no, oh, no, no, ella es segura",
+   "mode": "hold",
+   "img": 5,
+   "img_t0": 30.77,
+   "swap": false
+  },
+  {
+   "t": 32.63,
+   "text": "Oh, no, no, oh, no, no,",
+   "line": "Oh, no, no, oh, no, no, ella es segura",
+   "mode": "hold",
+   "img": 5,
+   "img_t0": 30.77,
+   "swap": false
+  },
+  {
+   "t": 32.99,
+   "text": "Oh, no, no, oh, no, no, ella",
+   "line": "Oh, no, no, oh, no, no, ella es segura",
+   "mode": "hold",
+   "img": 5,
+   "img_t0": 30.77,
+   "swap": false
+  },
+  {
+   "t": 33.25,
+   "text": "Oh, no, no, oh, no, no, ella es",
+   "line": "Oh, no, no, oh, no, no, ella es segura",
+   "mode": "hold",
+   "img": 5,
+   "img_t0": 30.77,
+   "swap": false
+  },
+  {
+   "t": 33.75,
+   "text": "Oh, no, no, oh, no, no, ella es segura",
+   "line": "Oh, no, no, oh, no, no, ella es segura",
+   "mode": "hold",
+   "img": 5,
+   "img_t0": 30.77,
+   "swap": false
+  },
+  {
+   "t": 34.29,
+   "text": "Oh,",
+   "line": "Oh, no, no, oh, no, no, y yo me apunto",
+   "mode": "hold",
+   "img": 6,
+   "img_t0": 34.29,
+   "swap": true
+  },
+  {
+   "t": 34.87,
+   "text": "Oh, no,",
+   "line": "Oh, no, no, oh, no, no, y yo me apunto",
+   "mode": "hold",
+   "img": 6,
+   "img_t0": 34.29,
+   "swap": false
+  },
+  {
+   "t": 35.25,
+   "text": "Oh, no, no,",
+   "line": "Oh, no, no, oh, no, no, y yo me apunto",
+   "mode": "hold",
+   "img": 6,
+   "img_t0": 34.29,
+   "swap": false
+  },
+  {
+   "t": 35.95,
+   "text": "Oh, no, no, oh,",
+   "line": "Oh, no, no, oh, no, no, y yo me apunto",
+   "mode": "hold",
+   "img": 6,
+   "img_t0": 34.29,
+   "swap": false
+  },
+  {
+   "t": 36.25,
+   "text": "Oh, no, no, oh, no,",
+   "line": "Oh, no, no, oh, no, no, y yo me apunto",
+   "mode": "hold",
+   "img": 6,
+   "img_t0": 34.29,
+   "swap": false
+  },
+  {
+   "t": 36.57,
+   "text": "Oh, no, no, oh, no, no,",
+   "line": "Oh, no, no, oh, no, no, y yo me apunto",
+   "mode": "hold",
+   "img": 6,
+   "img_t0": 34.29,
+   "swap": false
+  },
+  {
+   "t": 36.79,
+   "text": "Oh, no, no, oh, no, no, y",
+   "line": "Oh, no, no, oh, no, no, y yo me apunto",
+   "mode": "hold",
+   "img": 6,
+   "img_t0": 34.29,
+   "swap": false
+  },
+  {
+   "t": 37.07,
+   "text": "Oh, no, no, oh, no, no, y yo",
+   "line": "Oh, no, no, oh, no, no, y yo me apunto",
+   "mode": "hold",
+   "img": 6,
+   "img_t0": 34.29,
+   "swap": false
+  },
+  {
+   "t": 37.33,
+   "text": "Oh, no, no, oh, no, no, y yo me",
+   "line": "Oh, no, no, oh, no, no, y yo me apunto",
+   "mode": "hold",
+   "img": 6,
+   "img_t0": 34.29,
+   "swap": false
+  },
+  {
+   "t": 37.47,
+   "text": "Oh, no, no, oh, no, no, y yo me apun_",
+   "line": "Oh, no, no, oh, no, no, y yo me apunto",
+   "mode": "hold",
+   "img": 6,
+   "img_t0": 34.29,
+   "swap": false
+  },
+  {
+   "t": 37.69,
+   "text": "Oh, no, no, oh, no, no, y yo me apunto",
+   "line": "Oh, no, no, oh, no, no, y yo me apunto",
+   "mode": "hold",
+   "img": 6,
+   "img_t0": 34.29,
+   "swap": false
+  },
+  {
+   "t": 38.17,
+   "text": "Oh, no,",
+   "line": "Oh, no, no, oh, no, no, ella es segura",
+   "mode": "hold",
+   "img": 7,
+   "img_t0": 38.17,
+   "swap": true
+  },
+  {
+   "t": 38.45,
+   "text": "Oh, no, no,",
+   "line": "Oh, no, no, oh, no, no, ella es segura",
+   "mode": "hold",
+   "img": 7,
+   "img_t0": 38.17,
+   "swap": false
+  },
+  {
+   "t": 38.81,
+   "text": "Oh, no, no, oh,",
+   "line": "Oh, no, no, oh, no, no, ella es segura",
+   "mode": "hold",
+   "img": 7,
+   "img_t0": 38.17,
+   "swap": false
+  },
+  {
+   "t": 39.49,
+   "text": "Oh, no, no, oh, no,",
+   "line": "Oh, no, no, oh, no, no, ella es segura",
+   "mode": "hold",
+   "img": 7,
+   "img_t0": 38.17,
+   "swap": false
+  },
+  {
+   "t": 39.83,
+   "text": "Oh, no, no, oh, no, no,",
+   "line": "Oh, no, no, oh, no, no, ella es segura",
+   "mode": "hold",
+   "img": 7,
+   "img_t0": 38.17,
+   "swap": false
+  },
+  {
+   "t": 40.15,
+   "text": "Oh, no, no, oh, no, no, ella",
+   "line": "Oh, no, no, oh, no, no, ella es segura",
+   "mode": "hold",
+   "img": 7,
+   "img_t0": 38.17,
+   "swap": false
+  },
+  {
+   "t": 40.37,
+   "text": "Oh, no, no, oh, no, no, ella es",
+   "line": "Oh, no, no, oh, no, no, ella es segura",
+   "mode": "hold",
+   "img": 7,
+   "img_t0": 38.17,
+   "swap": false
+  },
+  {
+   "t": 40.95,
+   "text": "Oh, no, no, oh, no, no, ella es segura",
+   "line": "Oh, no, no, oh, no, no, ella es segura",
+   "mode": "hold",
+   "img": 7,
+   "img_t0": 38.17,
+   "swap": false
+  },
+  {
+   "t": 41.45,
+   "text": "Se",
+   "line": "Se nota por cómo entra al lugar",
+   "mode": "hold",
+   "img": 8,
+   "img_t0": 41.45,
+   "swap": true
+  },
+  {
+   "t": 41.89,
+   "text": "Se nota",
+   "line": "Se nota por cómo entra al lugar",
+   "mode": "hold",
+   "img": 8,
+   "img_t0": 41.45,
+   "swap": false
+  },
+  {
+   "t": 42.19,
+   "text": "Se nota por",
+   "line": "Se nota por cómo entra al lugar",
+   "mode": "hold",
+   "img": 8,
+   "img_t0": 41.45,
+   "swap": false
+  },
+  {
+   "t": 42.53,
+   "text": "Se nota por cómo",
+   "line": "Se nota por cómo entra al lugar",
+   "mode": "hold",
+   "img": 8,
+   "img_t0": 41.45,
+   "swap": false
+  },
+  {
+   "t": 42.89,
+   "text": "Se nota por cómo entra",
+   "line": "Se nota por cómo entra al lugar",
+   "mode": "hold",
+   "img": 8,
+   "img_t0": 41.45,
+   "swap": false
+  },
+  {
+   "t": 43.19,
+   "text": "Se nota por cómo entra al",
+   "line": "Se nota por cómo entra al lugar",
+   "mode": "hold",
+   "img": 8,
+   "img_t0": 41.45,
+   "swap": false
+  },
+  {
+   "t": 43.41,
+   "text": "Se nota por cómo entra al lugar",
+   "line": "Se nota por cómo entra al lugar",
+   "mode": "hold",
+   "img": 8,
+   "img_t0": 41.45,
+   "swap": false
+  },
+  {
+   "t": 44.53,
+   "text": "Dijo que",
+   "line": "Dijo que era su primera vez",
+   "mode": "flash",
+   "bg": "w",
+   "swap": true
+  },
+  {
+   "t": 44.89,
+   "text": "Dijo que era su",
+   "line": "Dijo que era su primera vez",
+   "mode": "flash",
+   "bg": "b",
+   "swap": true
+  },
+  {
+   "t": 45.25,
+   "text": "Dijo que era su primera",
+   "line": "Dijo que era su primera vez",
+   "mode": "flash",
+   "bg": "w",
+   "swap": true
+  },
+  {
+   "t": 45.71,
+   "text": "Dijo que era su primera vez",
+   "line": "Dijo que era su primera vez",
+   "mode": "flash",
+   "bg": "b",
+   "swap": true
+  },
+  {
+   "t": 46.87,
+   "text": "Cre-",
+   "line": "Creo que mintió",
+   "mode": "flash",
+   "bg": "w",
+   "swap": true
+  },
+  {
+   "t": 47.23,
+   "text": "Creo",
+   "line": "Creo que mintió",
+   "mode": "flash",
+   "bg": "b",
+   "swap": true
+  },
+  {
+   "t": 47.59,
+   "text": "Creo que",
+   "line": "Creo que mintió",
+   "mode": "flash",
+   "bg": "w",
+   "swap": true
+  },
+  {
+   "t": 47.77,
+   "text": "Creo que mint_",
+   "line": "Creo que mintió",
+   "mode": "flash",
+   "bg": "b",
+   "swap": true
+  },
+  {
+   "t": 48.19,
+   "text": "Creo que mintió",
+   "line": "Creo que mintió",
+   "mode": "flash",
+   "bg": "w",
+   "swap": true
+  },
+  {
+   "t": 48.53,
+   "text": "Se siente",
+   "line": "Se siente tan bien, carajo",
+   "mode": "flash",
+   "bg": "b",
+   "swap": true
+  },
+  {
+   "t": 48.93,
+   "text": "Se siente tan bien,",
+   "line": "Se siente tan bien, carajo",
+   "mode": "flash",
+   "bg": "w",
+   "swap": true
+  },
+  {
+   "t": 49.21,
+   "text": "Se siente tan bien, carajo",
+   "line": "Se siente tan bien, carajo",
+   "mode": "flash",
+   "bg": "b",
+   "swap": true
+  },
+  {
+   "t": 50.59,
+   "text": "Y",
+   "line": "Y no sé por qué",
+   "mode": "flash",
+   "bg": "w",
+   "swap": true
+  },
+  {
+   "t": 50.95,
+   "text": "Y no",
+   "line": "Y no sé por qué",
+   "mode": "flash",
+   "bg": "b",
+   "swap": true
+  },
+  {
+   "t": 51.13,
+   "text": "Y no sé",
+   "line": "Y no sé por qué",
+   "mode": "flash",
+   "bg": "w",
+   "swap": true
+  },
+  {
+   "t": 51.37,
+   "text": "Y no sé por",
+   "line": "Y no sé por qué",
+   "mode": "flash",
+   "bg": "b",
+   "swap": true
+  },
+  {
+   "t": 51.55,
+   "text": "Y no sé por qué",
+   "line": "Y no sé por qué",
+   "mode": "flash",
+   "bg": "w",
+   "swap": true
+  },
+  {
+   "t": 52.09,
+   "text": "Estoy",
+   "line": "Estoy enganchado",
+   "mode": "flash",
+   "bg": "b",
+   "swap": true
+  },
+  {
+   "t": 52.39,
+   "text": "Estoy enganchado",
+   "line": "Estoy enganchado",
+   "mode": "flash",
+   "bg": "w",
+   "swap": true
+  },
+  {
+   "t": 54.51,
+   "text": "Como",
+   "line": "Como un adicto",
+   "mode": "flash",
+   "bg": "b",
+   "swap": true
+  },
+  {
+   "t": 54.87,
+   "text": "Como un",
+   "line": "Como un adicto",
+   "mode": "flash",
+   "bg": "w",
+   "swap": true
+  },
+  {
+   "t": 55.09,
+   "text": "Como un adic_",
+   "line": "Como un adicto",
+   "mode": "flash",
+   "bg": "b",
+   "swap": true
+  },
+  {
+   "t": 55.25,
+   "text": "Como un adicto",
+   "line": "Como un adicto",
+   "mode": "flash",
+   "bg": "w",
+   "swap": true
+  },
+  {
+   "t": 55.61,
+   "text": "Me",
+   "line": "Me tiene loco",
+   "mode": "flash",
+   "bg": "b",
+   "swap": true
+  },
+  {
+   "t": 55.77,
+   "text": "Me tiene",
+   "line": "Me tiene loco",
+   "mode": "flash",
+   "bg": "w",
+   "swap": true
+  },
+  {
+   "t": 56.11,
+   "text": "Me tiene loco",
+   "line": "Me tiene loco",
+   "mode": "flash",
+   "bg": "b",
+   "swap": true
+  },
+  {
+   "t": 57.81,
+   "text": "Pero aun",
+   "line": "Pero aun así, tengo que tenerla",
+   "mode": "flash",
+   "bg": "w",
+   "swap": true
+  },
+  {
+   "t": 58.17,
+   "text": "Pero aun así,",
+   "line": "Pero aun así, tengo que tenerla",
+   "mode": "flash",
+   "bg": "b",
+   "swap": true
+  },
+  {
+   "t": 58.37,
+   "text": "Pero aun así, tengo",
+   "line": "Pero aun así, tengo que tenerla",
+   "mode": "flash",
+   "bg": "w",
+   "swap": true
+  },
+  {
+   "t": 58.57,
+   "text": "Pero aun así, tengo que",
+   "line": "Pero aun así, tengo que tenerla",
+   "mode": "flash",
+   "bg": "b",
+   "swap": true
+  },
+  {
+   "t": 58.73,
+   "text": "Pero aun así, tengo que tenerla",
+   "line": "Pero aun así, tengo que tenerla",
+   "mode": "flash",
+   "bg": "w",
+   "swap": true
+  }
+ ],
+ "fade_out": 0.7
+}
