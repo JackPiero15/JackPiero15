@@ -1,0 +1,389 @@
+[
+ {
+  "src_t0": 35.58,
+  "t0": 0.28,
+  "en": "So tell me what got in the way",
+  "es": "Entonces dime qué se interpuso",
+  "mode": "hold",
+  "conf": "alta",
+  "steps": [
+   "Enton-",
+   "Entonces",
+   "Entonces dime",
+   "Entonces dime qué",
+   "Entonces dime qué se",
+   "Entonces dime qué se inter_",
+   "Entonces dime qué se interpuso"
+  ]
+ },
+ {
+  "src_t0": 37.86,
+  "t0": 2.56,
+  "en": "And how I thought it was good that it changed",
+  "es": "y cómo pensé que era bueno que cambiara",
+  "mode": "hold",
+  "conf": "alta",
+  "steps": [
+   "y",
+   "y cómo",
+   "y cómo pensé",
+   "y cómo pensé que",
+   "y cómo pensé que era",
+   "y cómo pensé que era bueno",
+   "y cómo pensé que era bueno que",
+   "y cómo pensé que era bueno que cambi_",
+   "y cómo pensé que era bueno que cambiara"
+  ]
+ },
+ {
+  "src_t0": 40.32,
+  "t0": 5.02,
+  "en": "And I'm sayin' I'm sorry again",
+  "es": "Y te pido perdón otra vez",
+  "mode": "hold",
+  "conf": "alta",
+  "steps": [
+   "Y te",
+   "Y te pido",
+   "Y te pido perdón",
+   "Y te pido perdón otra",
+   "Y te pido perdón otra vez"
+  ]
+ },
+ {
+  "src_t0": 42.84,
+  "t0": 7.54,
+  "en": "Oh, I could never get out of my way",
+  "es": "Ay, nunca supe quitarme de mi camino",
+  "mode": "hold",
+  "conf": "alta: Whisper 'can never', letra 'could never'",
+  "steps": [
+   "Ay,",
+   "Ay, nunca",
+   "Ay, nunca supe",
+   "Ay, nunca supe quita_",
+   "Ay, nunca supe quitarme",
+   "Ay, nunca supe quitarme de",
+   "Ay, nunca supe quitarme de mi",
+   "Ay, nunca supe quitarme de mi camino"
+  ]
+ },
+ {
+  "src_t0": 45.54,
+  "t0": 10.24,
+  "en": "Hit the store and your wardrobe's replaced",
+  "es": "Vamos de compras y renuevo tu clóset",
+  "mode": "hold",
+  "conf": "media: Whisper no lo entiende; letra del usuario",
+  "steps": [
+   "Vamos",
+   "Vamos de",
+   "Vamos de compras",
+   "Vamos de compras y",
+   "Vamos de compras y renuevo",
+   "Vamos de compras y renuevo tu",
+   "Vamos de compras y renuevo tu clóset"
+  ]
+ },
+ {
+  "src_t0": 48.04,
+  "t0": 12.74,
+  "en": "And still all that you do is complain",
+  "es": "Y aun así solo sabes quejarte",
+  "mode": "hold",
+  "conf": "media: Whisper 'the lie that you do'; letra del usuario",
+  "steps": [
+   "Y",
+   "Y aun",
+   "Y aun así",
+   "Y aun así solo",
+   "Y aun así solo sabes",
+   "Y aun así solo sabes quejarte"
+  ]
+ },
+ {
+  "src_t0": 50.32,
+  "t0": 15.02,
+  "en": "You keep on throwin' it back in my face",
+  "es": "Me lo sigues echando en cara",
+  "mode": "hold",
+  "conf": "alta",
+  "steps": [
+   "Me",
+   "Me lo",
+   "Me lo sigu-",
+   "Me lo sigues",
+   "Me lo sigues echa_",
+   "Me lo sigues echando",
+   "Me lo sigues echando en",
+   "Me lo sigues echando en cara"
+  ]
+ },
+ {
+  "src_t0": 52.92,
+  "t0": 17.62,
+  "en": "And now you're tellin' me I need some space",
+  "es": "Y ahora me dices que necesito espacio",
+  "mode": "hold",
+  "conf": "alta",
+  "steps": [
+   "Y",
+   "Y ahora",
+   "Y ahora me",
+   "Y ahora me dices",
+   "Y ahora me dices que",
+   "Y ahora me dices que necesito",
+   "Y ahora me dices que necesito espacio"
+  ]
+ },
+ {
+  "src_t0": 75.78,
+  "t0": 20.28,
+  "en": "If we had the chance and the time to spend",
+  "es": "Si tuviéramos la oportunidad y el tiempo",
+  "mode": "hold",
+  "conf": "alta",
+  "steps": [
+   "Si",
+   "Si tuviér-",
+   "Si tuviéramos",
+   "Si tuviéramos la",
+   "Si tuviéramos la oportun_",
+   "Si tuviéramos la oportunidad",
+   "Si tuviéramos la oportunidad y",
+   "Si tuviéramos la oportunidad y el",
+   "Si tuviéramos la oportunidad y el tiem_",
+   "Si tuviéramos la oportunidad y el tiempo"
+  ]
+ },
+ {
+  "src_t0": 78.42,
+  "t0": 22.92,
+  "en": "Would you do it again? Would you do it again?",
+  "es": "¿Lo harías otra vez? ¿Lo harías otra vez?",
+  "mode": "hold",
+  "conf": "alta",
+  "steps": [
+   "¿Lo",
+   "¿Lo harías",
+   "¿Lo harías otra",
+   "¿Lo harías otra vez?",
+   "¿Lo",
+   "¿Lo harías",
+   "¿Lo harías otra",
+   "¿Lo harías otra vez?"
+  ]
+ },
+ {
+  "src_t0": 81.1,
+  "t0": 25.6,
+  "en": "Was it too much? Was it too much?",
+  "es": "¿Fue demasiado? ¿Fue demasiado?",
+  "mode": "flash",
+  "conf": "alta",
+  "steps": [
+   "¿Fue",
+   "¿Fue demasi_",
+   "¿Fue demasiado?",
+   "¿Fue",
+   "¿Fue demasi-",
+   "¿Fue demasiado?"
+  ]
+ },
+ {
+  "src_t0": 85.8,
+  "t0": 30.3,
+  "en": "Now you're callin' your friends 'cause I'm gone again",
+  "es": "Ahora llamas a tus amigas porque me fui otra vez",
+  "mode": "hold",
+  "conf": "alta",
+  "steps": [
+   "Ahora",
+   "Ahora llamas",
+   "Ahora llamas a tus",
+   "Ahora llamas a tus amigas",
+   "Ahora llamas a tus amigas porque",
+   "Ahora llamas a tus amigas porque me fui",
+   "Ahora llamas a tus amigas porque me fui otra",
+   "Ahora llamas a tus amigas porque me fui otra vez"
+  ]
+ },
+ {
+  "src_t0": 88.52,
+  "t0": 33.02,
+  "en": "When I'm back around, would you do it again?",
+  "es": "Cuando vuelva, ¿lo harías otra vez?",
+  "mode": "hold",
+  "conf": "alta",
+  "steps": [
+   "Cuando",
+   "Cuando vuel_",
+   "Cuando vuelva,",
+   "Cuando vuelva, ¿lo",
+   "Cuando vuelva, ¿lo harías",
+   "Cuando vuelva, ¿lo harías otra",
+   "Cuando vuelva, ¿lo harías otra vez?"
+  ]
+ },
+ {
+  "src_t0": 91.26,
+  "t0": 35.76,
+  "en": "Was it too much? Was it too much? Was it too much?",
+  "es": "¿Fue demasiado? ¿Fue demasiado? ¿Fue demasiado?",
+  "mode": "flash",
+  "conf": "alta",
+  "steps": [
+   "¿Fue",
+   "¿Fue demasi_",
+   "¿Fue demasiado?",
+   "¿Fue",
+   "¿Fue demasi-",
+   "¿Fue demasiado?",
+   "¿Fue",
+   "¿Fue demasi_",
+   "¿Fue demasiado?"
+  ]
+ },
+ {
+  "src_t0": 97.62,
+  "t0": 42.12,
+  "en": "Am I doin' too much?",
+  "es": "¿Me estoy pasando?",
+  "mode": "flash",
+  "conf": "alta",
+  "steps": [
+   "¿Me",
+   "¿Me estoy",
+   "¿Me estoy pasan_",
+   "¿Me estoy pasando?"
+  ]
+ },
+ {
+  "src_t0": 98.86,
+  "t0": 43.36,
+  "en": "Do you understand my slang and get my sense of humor?",
+  "es": "¿Entiendes mi jerga y mi sentido del humor?",
+  "mode": "flash",
+  "conf": "alta",
+  "steps": [
+   "¿Entiendes",
+   "¿Entiendes mi",
+   "¿Entiendes mi jerga",
+   "¿Entiendes mi jerga y mi",
+   "¿Entiendes mi jerga y mi sentido",
+   "¿Entiendes mi jerga y mi sentido del",
+   "¿Entiendes mi jerga y mi sentido del humor?"
+  ]
+ },
+ {
+  "src_t0": 101.3,
+  "t0": 45.8,
+  "en": "When your girlfriends tell you I been fuckin' 'round",
+  "es": "Cuando tus amigas te digan que ando cogiendo por ahí",
+  "mode": "flash",
+  "conf": "alta",
+  "steps": [
+   "Cuando",
+   "Cuando tus",
+   "Cuando tus amigas",
+   "Cuando tus amigas te digan",
+   "Cuando tus amigas te digan que ando",
+   "Cuando tus amigas te digan que ando cogiendo",
+   "Cuando tus amigas te digan que ando cogiendo por ahí"
+  ]
+ },
+ {
+  "src_t0": 103.06,
+  "t0": 47.56,
+  "en": "Would you believe me if I told you that they lyin' and that's just a rumor?",
+  "es": "¿Me creerías si te digo que mienten, que es puro chisme?",
+  "mode": "flash",
+  "conf": "alta",
+  "steps": [
+   "¿Me",
+   "¿Me creerías",
+   "¿Me creerías si te",
+   "¿Me creerías si te digo",
+   "¿Me creerías si te digo que",
+   "¿Me creerías si te digo que mienten,",
+   "¿Me creerías si te digo que mienten, que",
+   "¿Me creerías si te digo que mienten, que es",
+   "¿Me creerías si te digo que mienten, que es puro",
+   "¿Me creerías si te digo que mienten, que es puro chisme?"
+  ]
+ },
+ {
+  "src_t0": 106.34,
+  "t0": 50.84,
+  "en": "Send you my personal driver, man, this ain't just a Uber",
+  "es": "Te mando a mi chofer personal, no es cualquier Uber",
+  "mode": "hold",
+  "conf": "alta",
+  "steps": [
+   "Te mando",
+   "Te mando a mi chofer",
+   "Te mando a mi chofer personal,",
+   "Te mando a mi chofer personal, no es",
+   "Te mando a mi chofer personal, no es cualquier",
+   "Te mando a mi chofer personal, no es cualquier Uber"
+  ]
+ },
+ {
+  "src_t0": 108.56,
+  "t0": 53.06,
+  "en": "You know it's serious when you stay at mine and bring your toothbrush",
+  "es": "Es en serio si te quedas en mi casa y traes tu cepillo de dientes",
+  "mode": "flash",
+  "conf": "alta",
+  "steps": [
+   "Es en",
+   "Es en serio",
+   "Es en serio si te",
+   "Es en serio si te quedas",
+   "Es en serio si te quedas en mi",
+   "Es en serio si te quedas en mi casa y",
+   "Es en serio si te quedas en mi casa y traes tu",
+   "Es en serio si te quedas en mi casa y traes tu cepillo de",
+   "Es en serio si te quedas en mi casa y traes tu cepillo de dientes"
+  ]
+ },
+ {
+  "src_t0": 111.18,
+  "t0": 55.68,
+  "en": "Extra panties in your bag and some makeup removers",
+  "es": "Calzones extra en tu bolsa y desmaquillante",
+  "mode": "flash",
+  "conf": "alta",
+  "steps": [
+   "Calzones",
+   "Calzones extra",
+   "Calzones extra en",
+   "Calzones extra en tu",
+   "Calzones extra en tu bolsa",
+   "Calzones extra en tu bolsa y",
+   "Calzones extra en tu bolsa y desmaquillante"
+  ]
+ },
+ {
+  "src_t0": 113.6,
+  "t0": 58.1,
+  "en": "You know I'm hardly on my own 'cause I stay with a shooter",
+  "es": "Casi nunca ando solo, siempre ando con alguien armado",
+  "mode": "hold",
+  "conf": "alta: Whisper 'shooters'",
+  "steps": [
+   "Casi",
+   "Casi nunca",
+   "Casi nunca ando",
+   "Casi nunca ando solo,",
+   "Casi nunca ando solo, siem_",
+   "Casi nunca ando solo, siempre",
+   "Casi nunca ando solo, siempre ando",
+   "Casi nunca ando solo, siempre ando con",
+   "Casi nunca ando solo, siempre ando con algu-",
+   "Casi nunca ando solo, siempre ando con alguien",
+   "Casi nunca ando solo, siempre ando con alguien arma_",
+   "Casi nunca ando solo, siempre ando con alguien armado"
+  ]
+ }
+]
