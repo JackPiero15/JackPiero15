@@ -1,0 +1,16 @@
+{
+  "preset": "luna",
+  "size": [1080, 1336],
+  "fps": 60,
+  "duration": 30.0,
+  "background": "assets/fondo.jpg",
+  "background_focus": [0.5, 0.5],
+  "character": {"image": "assets/personaje.png", "height": 0.42, "center_x": 0.47, "bottom_y": 1.0},
+  "credit": "Canción - Artista",
+  "audio": {"file": "assets/cancion.mp3", "start": 0.0, "fade_in": 1.0, "fade_out": 2.0},
+  "lyrics": [
+    {"start": 6.0,  "text": "Primera\nfrase\naquí"},
+    {"start": 11.0, "text": "Segunda\nfrase"},
+    {"start": 14.0, "text": "Tercera\nfrase\naquí", "hold_to_end": true}
+  ]
+}
