@@ -1,0 +1,656 @@
+{
+ "id": "baycity",
+ "rgb": true,
+ "duration": 59.98,
+ "font": "fonts/RobotoCondensed-Variable.ttf",
+ "font_size": 84,
+ "font_weight": 400,
+ "text_y": 960,
+ "max_text_w": 860,
+ "images": [
+  {
+   "file": "media/rel/img_00.jpg",
+   "color": true,
+   "dim": 0.55,
+   "crop": [
+    0.03,
+    0.05,
+    0.97,
+    0.95
+   ]
+  },
+  {
+   "file": "media/rel/img_01.jpg",
+   "color": true,
+   "dim": 0.55,
+   "crop": [
+    0.36,
+    0.06,
+    0.98,
+    0.8
+   ]
+  },
+  {
+   "file": "media/rel/img_02.jpg",
+   "color": true,
+   "dim": 0.55
+  },
+  {
+   "file": "media/rel/img_03.jpg",
+   "color": true,
+   "dim": 0.55
+  },
+  {
+   "file": "media/rel/img_04.jpg",
+   "color": true,
+   "dim": 0.55
+  },
+  {
+   "file": "media/rel/img_05.jpg",
+   "color": true,
+   "dim": 0.55
+  },
+  {
+   "file": "media/rel/img_06.jpg",
+   "color": true,
+   "dim": 0.55,
+   "fx": 0.33
+  }
+ ],
+ "events": [
+  {
+   "t": 0.0,
+   "text": "Como",
+   "line": "Como el cielo abraza al mar",
+   "mode": "hold",
+   "img": 0,
+   "img_t0": 2.01,
+   "swap": true
+  },
+  {
+   "t": 2.89,
+   "text": "Como el",
+   "line": "Como el cielo abraza al mar",
+   "mode": "hold",
+   "img": 0,
+   "img_t0": 2.01,
+   "swap": false
+  },
+  {
+   "t": 3.33,
+   "text": "Como el cie-",
+   "line": "Como el cielo abraza al mar",
+   "mode": "hold",
+   "img": 0,
+   "img_t0": 2.01,
+   "swap": false
+  },
+  {
+   "t": 3.69,
+   "text": "Como el cielo",
+   "line": "Como el cielo abraza al mar",
+   "mode": "hold",
+   "img": 0,
+   "img_t0": 2.01,
+   "swap": false
+  },
+  {
+   "t": 4.57,
+   "text": "Como el cielo abra_",
+   "line": "Como el cielo abraza al mar",
+   "mode": "hold",
+   "img": 0,
+   "img_t0": 2.01,
+   "swap": false
+  },
+  {
+   "t": 4.79,
+   "text": "Como el cielo abraza",
+   "line": "Como el cielo abraza al mar",
+   "mode": "hold",
+   "img": 0,
+   "img_t0": 2.01,
+   "swap": false
+  },
+  {
+   "t": 5.03,
+   "text": "Como el cielo abraza al",
+   "line": "Como el cielo abraza al mar",
+   "mode": "hold",
+   "img": 0,
+   "img_t0": 2.01,
+   "swap": false
+  },
+  {
+   "t": 5.73,
+   "text": "Como el cielo abraza al mar",
+   "line": "Como el cielo abraza al mar",
+   "mode": "hold",
+   "img": 0,
+   "img_t0": 2.01,
+   "swap": false
+  },
+  {
+   "t": 6.95,
+   "text": "el",
+   "line": "el milagro de habernos amado",
+   "mode": "hold",
+   "img": 1,
+   "img_t0": 6.95,
+   "swap": true
+  },
+  {
+   "t": 7.23,
+   "text": "el mila-",
+   "line": "el milagro de habernos amado",
+   "mode": "hold",
+   "img": 1,
+   "img_t0": 6.95,
+   "swap": false
+  },
+  {
+   "t": 7.67,
+   "text": "el milagro",
+   "line": "el milagro de habernos amado",
+   "mode": "hold",
+   "img": 1,
+   "img_t0": 6.95,
+   "swap": false
+  },
+  {
+   "t": 7.85,
+   "text": "el milagro de",
+   "line": "el milagro de habernos amado",
+   "mode": "hold",
+   "img": 1,
+   "img_t0": 6.95,
+   "swap": false
+  },
+  {
+   "t": 8.05,
+   "text": "el milagro de haber_",
+   "line": "el milagro de habernos amado",
+   "mode": "hold",
+   "img": 1,
+   "img_t0": 6.95,
+   "swap": false
+  },
+  {
+   "t": 8.31,
+   "text": "el milagro de habernos",
+   "line": "el milagro de habernos amado",
+   "mode": "hold",
+   "img": 1,
+   "img_t0": 6.95,
+   "swap": false
+  },
+  {
+   "t": 8.93,
+   "text": "el milagro de habernos ama_",
+   "line": "el milagro de habernos amado",
+   "mode": "hold",
+   "img": 1,
+   "img_t0": 6.95,
+   "swap": false
+  },
+  {
+   "t": 9.81,
+   "text": "el milagro de habernos amado",
+   "line": "el milagro de habernos amado",
+   "mode": "hold",
+   "img": 1,
+   "img_t0": 6.95,
+   "swap": false
+  },
+  {
+   "t": 10.83,
+   "text": "Una",
+   "line": "Una vez más",
+   "mode": "flash",
+   "bg": "w",
+   "swap": true
+  },
+  {
+   "t": 11.17,
+   "text": "Una vez",
+   "line": "Una vez más",
+   "mode": "flash",
+   "bg": "b",
+   "swap": true
+  },
+  {
+   "t": 11.69,
+   "text": "Una vez más",
+   "line": "Una vez más",
+   "mode": "flash",
+   "bg": "w",
+   "swap": true
+  },
+  {
+   "t": 13.09,
+   "text": "solo",
+   "line": "solo una vez más",
+   "mode": "flash",
+   "bg": "b",
+   "swap": true
+  },
+  {
+   "t": 13.83,
+   "text": "solo una vez",
+   "line": "solo una vez más",
+   "mode": "flash",
+   "bg": "w",
+   "swap": true
+  },
+  {
+   "t": 14.11,
+   "text": "solo una vez más",
+   "line": "solo una vez más",
+   "mode": "flash",
+   "bg": "w",
+   "swap": false
+  },
+  {
+   "t": 15.23,
+   "text": "aunque",
+   "line": "aunque sea una ilusión",
+   "mode": "hold",
+   "img": 2,
+   "img_t0": 15.23,
+   "swap": true
+  },
+  {
+   "t": 15.89,
+   "text": "aunque sea una",
+   "line": "aunque sea una ilusión",
+   "mode": "hold",
+   "img": 2,
+   "img_t0": 15.23,
+   "swap": false
+  },
+  {
+   "t": 16.61,
+   "text": "aunque sea una ilusión",
+   "line": "aunque sea una ilusión",
+   "mode": "hold",
+   "img": 2,
+   "img_t0": 15.23,
+   "swap": false
+  },
+  {
+   "t": 23.79,
+   "text": "Ah,",
+   "line": "Ah, voy tras de ti",
+   "mode": "flash",
+   "bg": "b",
+   "swap": true
+  },
+  {
+   "t": 24.47,
+   "text": "Ah, voy",
+   "line": "Ah, voy tras de ti",
+   "mode": "flash",
+   "bg": "w",
+   "swap": true
+  },
+  {
+   "t": 24.69,
+   "text": "Ah, voy tras",
+   "line": "Ah, voy tras de ti",
+   "mode": "flash",
+   "bg": "w",
+   "swap": false
+  },
+  {
+   "t": 25.31,
+   "text": "Ah, voy tras de",
+   "line": "Ah, voy tras de ti",
+   "mode": "flash",
+   "bg": "b",
+   "swap": true
+  },
+  {
+   "t": 25.75,
+   "text": "Ah, voy tras de ti",
+   "line": "Ah, voy tras de ti",
+   "mode": "flash",
+   "bg": "w",
+   "swap": true
+  },
+  {
+   "t": 26.65,
+   "text": "Bay",
+   "line": "Bay City al atardecer",
+   "mode": "hold",
+   "img": 3,
+   "img_t0": 26.65,
+   "swap": true
+  },
+  {
+   "t": 26.91,
+   "text": "Bay City",
+   "line": "Bay City al atardecer",
+   "mode": "hold",
+   "img": 3,
+   "img_t0": 26.65,
+   "swap": false
+  },
+  {
+   "t": 27.11,
+   "text": "Bay City al",
+   "line": "Bay City al atardecer",
+   "mode": "hold",
+   "img": 3,
+   "img_t0": 26.65,
+   "swap": false
+  },
+  {
+   "t": 27.45,
+   "text": "Bay City al atard_",
+   "line": "Bay City al atardecer",
+   "mode": "hold",
+   "img": 3,
+   "img_t0": 26.65,
+   "swap": false
+  },
+  {
+   "t": 27.65,
+   "text": "Bay City al atardecer",
+   "line": "Bay City al atardecer",
+   "mode": "hold",
+   "img": 3,
+   "img_t0": 26.65,
+   "swap": false
+  },
+  {
+   "t": 31.75,
+   "text": "Ah,",
+   "line": "Ah, si nos volvemos a encontrar",
+   "mode": "flash",
+   "bg": "b",
+   "swap": true
+  },
+  {
+   "t": 33.01,
+   "text": "Ah, si",
+   "line": "Ah, si nos volvemos a encontrar",
+   "mode": "flash",
+   "bg": "w",
+   "swap": true
+  },
+  {
+   "t": 33.35,
+   "text": "Ah, si nos",
+   "line": "Ah, si nos volvemos a encontrar",
+   "mode": "flash",
+   "bg": "b",
+   "swap": true
+  },
+  {
+   "t": 33.81,
+   "text": "Ah, si nos volvemos",
+   "line": "Ah, si nos volvemos a encontrar",
+   "mode": "flash",
+   "bg": "w",
+   "swap": true
+  },
+  {
+   "t": 34.17,
+   "text": "Ah, si nos volvemos a",
+   "line": "Ah, si nos volvemos a encontrar",
+   "mode": "flash",
+   "bg": "b",
+   "swap": true
+  },
+  {
+   "t": 34.39,
+   "text": "Ah, si nos volvemos a encontrar",
+   "line": "Ah, si nos volvemos a encontrar",
+   "mode": "flash",
+   "bg": "b",
+   "swap": false
+  },
+  {
+   "t": 35.29,
+   "text": "abráz_",
+   "line": "abrázame sin decir nada",
+   "mode": "hold",
+   "img": 4,
+   "img_t0": 35.29,
+   "swap": true
+  },
+  {
+   "t": 35.63,
+   "text": "abrázame",
+   "line": "abrázame sin decir nada",
+   "mode": "hold",
+   "img": 4,
+   "img_t0": 35.29,
+   "swap": false
+  },
+  {
+   "t": 35.91,
+   "text": "abrázame sin",
+   "line": "abrázame sin decir nada",
+   "mode": "hold",
+   "img": 4,
+   "img_t0": 35.29,
+   "swap": false
+  },
+  {
+   "t": 36.27,
+   "text": "abrázame sin dec-",
+   "line": "abrázame sin decir nada",
+   "mode": "hold",
+   "img": 4,
+   "img_t0": 35.29,
+   "swap": false
+  },
+  {
+   "t": 36.61,
+   "text": "abrázame sin decir",
+   "line": "abrázame sin decir nada",
+   "mode": "hold",
+   "img": 4,
+   "img_t0": 35.29,
+   "swap": false
+  },
+  {
+   "t": 37.07,
+   "text": "abrázame sin decir nada",
+   "line": "abrázame sin decir nada",
+   "mode": "hold",
+   "img": 4,
+   "img_t0": 35.29,
+   "swap": false
+  },
+  {
+   "t": 40.17,
+   "text": "Ah,",
+   "line": "Ah, voy tras de ti",
+   "mode": "flash",
+   "bg": "w",
+   "swap": true
+  },
+  {
+   "t": 40.85,
+   "text": "Ah, voy",
+   "line": "Ah, voy tras de ti",
+   "mode": "flash",
+   "bg": "b",
+   "swap": true
+  },
+  {
+   "t": 41.39,
+   "text": "Ah, voy tras",
+   "line": "Ah, voy tras de ti",
+   "mode": "flash",
+   "bg": "w",
+   "swap": true
+  },
+  {
+   "t": 41.95,
+   "text": "Ah, voy tras de",
+   "line": "Ah, voy tras de ti",
+   "mode": "flash",
+   "bg": "b",
+   "swap": true
+  },
+  {
+   "t": 42.59,
+   "text": "Ah, voy tras de ti",
+   "line": "Ah, voy tras de ti",
+   "mode": "flash",
+   "bg": "w",
+   "swap": true
+  },
+  {
+   "t": 43.27,
+   "text": "Bay",
+   "line": "Bay City al atardecer",
+   "mode": "hold",
+   "img": 5,
+   "img_t0": 43.27,
+   "swap": true
+  },
+  {
+   "t": 43.61,
+   "text": "Bay City",
+   "line": "Bay City al atardecer",
+   "mode": "hold",
+   "img": 5,
+   "img_t0": 43.27,
+   "swap": false
+  },
+  {
+   "t": 44.15,
+   "text": "Bay City al",
+   "line": "Bay City al atardecer",
+   "mode": "hold",
+   "img": 5,
+   "img_t0": 43.27,
+   "swap": false
+  },
+  {
+   "t": 44.33,
+   "text": "Bay City al atard_",
+   "line": "Bay City al atardecer",
+   "mode": "hold",
+   "img": 5,
+   "img_t0": 43.27,
+   "swap": false
+  },
+  {
+   "t": 44.57,
+   "text": "Bay City al atardecer",
+   "line": "Bay City al atardecer",
+   "mode": "hold",
+   "img": 5,
+   "img_t0": 43.27,
+   "swap": false
+  },
+  {
+   "t": 48.97,
+   "text": "Ah,",
+   "line": "Ah, si nos volvemos a encontrar",
+   "mode": "flash",
+   "bg": "b",
+   "swap": true
+  },
+  {
+   "t": 49.73,
+   "text": "Ah, si",
+   "line": "Ah, si nos volvemos a encontrar",
+   "mode": "flash",
+   "bg": "w",
+   "swap": true
+  },
+  {
+   "t": 49.97,
+   "text": "Ah, si nos",
+   "line": "Ah, si nos volvemos a encontrar",
+   "mode": "flash",
+   "bg": "w",
+   "swap": false
+  },
+  {
+   "t": 50.51,
+   "text": "Ah, si nos volvemos",
+   "line": "Ah, si nos volvemos a encontrar",
+   "mode": "flash",
+   "bg": "b",
+   "swap": true
+  },
+  {
+   "t": 50.85,
+   "text": "Ah, si nos volvemos a",
+   "line": "Ah, si nos volvemos a encontrar",
+   "mode": "flash",
+   "bg": "w",
+   "swap": true
+  },
+  {
+   "t": 51.15,
+   "text": "Ah, si nos volvemos a encontrar",
+   "line": "Ah, si nos volvemos a encontrar",
+   "mode": "flash",
+   "bg": "b",
+   "swap": true
+  },
+  {
+   "t": 51.93,
+   "text": "abráz_",
+   "line": "abrázame sin decir nada",
+   "mode": "hold",
+   "img": 6,
+   "img_t0": 51.93,
+   "swap": true
+  },
+  {
+   "t": 52.19,
+   "text": "abrázame",
+   "line": "abrázame sin decir nada",
+   "mode": "hold",
+   "img": 6,
+   "img_t0": 51.93,
+   "swap": false
+  },
+  {
+   "t": 52.57,
+   "text": "abrázame sin",
+   "line": "abrázame sin decir nada",
+   "mode": "hold",
+   "img": 6,
+   "img_t0": 51.93,
+   "swap": false
+  },
+  {
+   "t": 52.97,
+   "text": "abrázame sin dec-",
+   "line": "abrázame sin decir nada",
+   "mode": "hold",
+   "img": 6,
+   "img_t0": 51.93,
+   "swap": false
+  },
+  {
+   "t": 53.27,
+   "text": "abrázame sin decir",
+   "line": "abrázame sin decir nada",
+   "mode": "hold",
+   "img": 6,
+   "img_t0": 51.93,
+   "swap": false
+  },
+  {
+   "t": 53.87,
+   "text": "abrázame sin decir nada",
+   "line": "abrázame sin decir nada",
+   "mode": "hold",
+   "img": 6,
+   "img_t0": 51.93,
+   "swap": false
+  }
+ ],
+ "fade_out": 0.6
+}

@@ -1,0 +1,6 @@
+0 media/rel/img_00.jpg
+1 media/rel/img_01.jpg
+2 media/rel/img_02.jpg
+3 media/rel/img_03.jpg
+4 media/rel/img_04.jpg
+5 media/rel/img_05.jpg

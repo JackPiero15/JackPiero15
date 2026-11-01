@@ -1,0 +1,1001 @@
+{
+ "id": "koko",
+ "duration": 61.6,
+ "font": "fonts/RobotoCondensed-Variable.ttf",
+ "font_size": 84,
+ "font_weight": 400,
+ "text_y": 960,
+ "max_text_w": 860,
+ "images": [
+  {
+   "file": "media/rel/img_00.jpg",
+   "k": 5.0,
+   "dim": 0.46,
+   "xerox": true,
+   "tint": [
+    40,
+    110,
+    210
+   ]
+  },
+  {
+   "file": "media/rel/img_01.jpg",
+   "k": 5.0,
+   "dim": 0.46,
+   "xerox": true,
+   "tint": [
+    60,
+    170,
+    200
+   ]
+  },
+  {
+   "file": "media/rel/img_02.jpg",
+   "k": 5.0,
+   "dim": 0.46,
+   "xerox": true,
+   "tint": [
+    120,
+    70,
+    200
+   ]
+  },
+  {
+   "file": "media/rel/img_03.jpg",
+   "k": 5.0,
+   "dim": 0.46,
+   "xerox": true,
+   "tint": [
+    40,
+    110,
+    210
+   ]
+  },
+  {
+   "file": "media/rel/img_04.jpg",
+   "k": 5.0,
+   "dim": 0.46,
+   "xerox": true,
+   "tint": [
+    60,
+    170,
+    200
+   ]
+  },
+  {
+   "file": "media/rel/img_05.jpg",
+   "k": 5.0,
+   "dim": 0.46,
+   "xerox": true,
+   "tint": [
+    40,
+    110,
+    210
+   ]
+  },
+  {
+   "file": "media/rel/img_06.jpg",
+   "k": 5.0,
+   "dim": 0.46,
+   "xerox": true,
+   "tint": [
+    120,
+    70,
+    200
+   ]
+  },
+  {
+   "file": "media/rel/img_07.jpg",
+   "k": 5.0,
+   "dim": 0.46,
+   "xerox": true,
+   "tint": [
+    60,
+    170,
+    200
+   ]
+  },
+  {
+   "file": "media/rel/img_08.jpg",
+   "k": 5.0,
+   "dim": 0.46,
+   "xerox": true,
+   "tint": [
+    40,
+    110,
+    210
+   ]
+  }
+ ],
+ "events": [
+  {
+   "t": 0.0,
+   "text": "En",
+   "line": "En un mundo donde ni respirar bien puedo",
+   "mode": "hold",
+   "img": 0,
+   "img_t0": 0.64,
+   "swap": true
+  },
+  {
+   "t": 1.52,
+   "text": "En un",
+   "line": "En un mundo donde ni respirar bien puedo",
+   "mode": "hold",
+   "img": 0,
+   "img_t0": 0.64,
+   "swap": false
+  },
+  {
+   "t": 1.7,
+   "text": "En un mun-",
+   "line": "En un mundo donde ni respirar bien puedo",
+   "mode": "hold",
+   "img": 0,
+   "img_t0": 0.64,
+   "swap": false
+  },
+  {
+   "t": 2.02,
+   "text": "En un mundo",
+   "line": "En un mundo donde ni respirar bien puedo",
+   "mode": "hold",
+   "img": 0,
+   "img_t0": 0.64,
+   "swap": false
+  },
+  {
+   "t": 2.36,
+   "text": "En un mundo donde",
+   "line": "En un mundo donde ni respirar bien puedo",
+   "mode": "hold",
+   "img": 0,
+   "img_t0": 0.64,
+   "swap": false
+  },
+  {
+   "t": 2.64,
+   "text": "En un mundo donde ni",
+   "line": "En un mundo donde ni respirar bien puedo",
+   "mode": "hold",
+   "img": 0,
+   "img_t0": 0.64,
+   "swap": false
+  },
+  {
+   "t": 2.98,
+   "text": "En un mundo donde ni respi_",
+   "line": "En un mundo donde ni respirar bien puedo",
+   "mode": "hold",
+   "img": 0,
+   "img_t0": 0.64,
+   "swap": false
+  },
+  {
+   "t": 3.72,
+   "text": "En un mundo donde ni respirar",
+   "line": "En un mundo donde ni respirar bien puedo",
+   "mode": "hold",
+   "img": 0,
+   "img_t0": 0.64,
+   "swap": false
+  },
+  {
+   "t": 4.1,
+   "text": "En un mundo donde ni respirar bien",
+   "line": "En un mundo donde ni respirar bien puedo",
+   "mode": "hold",
+   "img": 0,
+   "img_t0": 0.64,
+   "swap": false
+  },
+  {
+   "t": 5.08,
+   "text": "En un mundo donde ni respirar bien puedo",
+   "line": "En un mundo donde ni respirar bien puedo",
+   "mode": "hold",
+   "img": 0,
+   "img_t0": 0.64,
+   "swap": false
+  },
+  {
+   "t": 6.76,
+   "text": "si",
+   "line": "si abrazo la fuerza que me diste",
+   "mode": "hold",
+   "img": 1,
+   "img_t0": 6.76,
+   "swap": true
+  },
+  {
+   "t": 7.08,
+   "text": "si abra_",
+   "line": "si abrazo la fuerza que me diste",
+   "mode": "hold",
+   "img": 1,
+   "img_t0": 6.76,
+   "swap": false
+  },
+  {
+   "t": 7.42,
+   "text": "si abrazo",
+   "line": "si abrazo la fuerza que me diste",
+   "mode": "hold",
+   "img": 1,
+   "img_t0": 6.76,
+   "swap": false
+  },
+  {
+   "t": 7.78,
+   "text": "si abrazo la",
+   "line": "si abrazo la fuerza que me diste",
+   "mode": "hold",
+   "img": 1,
+   "img_t0": 6.76,
+   "swap": false
+  },
+  {
+   "t": 8.08,
+   "text": "si abrazo la fuerza",
+   "line": "si abrazo la fuerza que me diste",
+   "mode": "hold",
+   "img": 1,
+   "img_t0": 6.76,
+   "swap": false
+  },
+  {
+   "t": 8.64,
+   "text": "si abrazo la fuerza que",
+   "line": "si abrazo la fuerza que me diste",
+   "mode": "hold",
+   "img": 1,
+   "img_t0": 6.76,
+   "swap": false
+  },
+  {
+   "t": 8.9,
+   "text": "si abrazo la fuerza que me",
+   "line": "si abrazo la fuerza que me diste",
+   "mode": "hold",
+   "img": 1,
+   "img_t0": 6.76,
+   "swap": false
+  },
+  {
+   "t": 9.52,
+   "text": "si abrazo la fuerza que me diste",
+   "line": "si abrazo la fuerza que me diste",
+   "mode": "hold",
+   "img": 1,
+   "img_t0": 6.76,
+   "swap": false
+  },
+  {
+   "t": 10.06,
+   "text": "has_",
+   "line": "hasta el mal final que ya veía",
+   "mode": "hold",
+   "img": 2,
+   "img_t0": 10.06,
+   "swap": true
+  },
+  {
+   "t": 10.52,
+   "text": "hasta",
+   "line": "hasta el mal final que ya veía",
+   "mode": "hold",
+   "img": 2,
+   "img_t0": 10.06,
+   "swap": false
+  },
+  {
+   "t": 10.96,
+   "text": "hasta el",
+   "line": "hasta el mal final que ya veía",
+   "mode": "hold",
+   "img": 2,
+   "img_t0": 10.06,
+   "swap": false
+  },
+  {
+   "t": 11.24,
+   "text": "hasta el mal",
+   "line": "hasta el mal final que ya veía",
+   "mode": "hold",
+   "img": 2,
+   "img_t0": 10.06,
+   "swap": false
+  },
+  {
+   "t": 11.74,
+   "text": "hasta el mal fin-",
+   "line": "hasta el mal final que ya veía",
+   "mode": "hold",
+   "img": 2,
+   "img_t0": 10.06,
+   "swap": false
+  },
+  {
+   "t": 12.34,
+   "text": "hasta el mal final",
+   "line": "hasta el mal final que ya veía",
+   "mode": "hold",
+   "img": 2,
+   "img_t0": 10.06,
+   "swap": false
+  },
+  {
+   "t": 12.86,
+   "text": "hasta el mal final que",
+   "line": "hasta el mal final que ya veía",
+   "mode": "hold",
+   "img": 2,
+   "img_t0": 10.06,
+   "swap": false
+  },
+  {
+   "t": 13.3,
+   "text": "hasta el mal final que ya",
+   "line": "hasta el mal final que ya veía",
+   "mode": "hold",
+   "img": 2,
+   "img_t0": 10.06,
+   "swap": false
+  },
+  {
+   "t": 13.84,
+   "text": "hasta el mal final que ya veía",
+   "line": "hasta el mal final que ya veía",
+   "mode": "hold",
+   "img": 2,
+   "img_t0": 10.06,
+   "swap": false
+  },
+  {
+   "t": 15.8,
+   "text": "lo",
+   "line": "lo convierto en un dulce sueño",
+   "mode": "hold",
+   "img": 3,
+   "img_t0": 15.8,
+   "swap": true
+  },
+  {
+   "t": 16.16,
+   "text": "lo convi_",
+   "line": "lo convierto en un dulce sueño",
+   "mode": "hold",
+   "img": 3,
+   "img_t0": 15.8,
+   "swap": false
+  },
+  {
+   "t": 16.34,
+   "text": "lo convierto",
+   "line": "lo convierto en un dulce sueño",
+   "mode": "hold",
+   "img": 3,
+   "img_t0": 15.8,
+   "swap": false
+  },
+  {
+   "t": 16.92,
+   "text": "lo convierto en",
+   "line": "lo convierto en un dulce sueño",
+   "mode": "hold",
+   "img": 3,
+   "img_t0": 15.8,
+   "swap": false
+  },
+  {
+   "t": 17.12,
+   "text": "lo convierto en un",
+   "line": "lo convierto en un dulce sueño",
+   "mode": "hold",
+   "img": 3,
+   "img_t0": 15.8,
+   "swap": false
+  },
+  {
+   "t": 17.52,
+   "text": "lo convierto en un dul-",
+   "line": "lo convierto en un dulce sueño",
+   "mode": "hold",
+   "img": 3,
+   "img_t0": 15.8,
+   "swap": false
+  },
+  {
+   "t": 18.24,
+   "text": "lo convierto en un dulce",
+   "line": "lo convierto en un dulce sueño",
+   "mode": "hold",
+   "img": 3,
+   "img_t0": 15.8,
+   "swap": false
+  },
+  {
+   "t": 18.62,
+   "text": "lo convierto en un dulce sueño",
+   "line": "lo convierto en un dulce sueño",
+   "mode": "hold",
+   "img": 3,
+   "img_t0": 15.8,
+   "swap": false
+  },
+  {
+   "t": 20.98,
+   "text": "Oh,",
+   "line": "Oh, si miro atrás",
+   "mode": "flash",
+   "bg": "w",
+   "swap": true
+  },
+  {
+   "t": 21.94,
+   "text": "Oh, si",
+   "line": "Oh, si miro atrás",
+   "mode": "flash",
+   "bg": "b",
+   "swap": true
+  },
+  {
+   "t": 22.22,
+   "text": "Oh, si miro",
+   "line": "Oh, si miro atrás",
+   "mode": "flash",
+   "bg": "b",
+   "swap": false
+  },
+  {
+   "t": 22.64,
+   "text": "Oh, si miro atr_",
+   "line": "Oh, si miro atrás",
+   "mode": "flash",
+   "bg": "w",
+   "swap": true
+  },
+  {
+   "t": 23.38,
+   "text": "Oh, si miro atrás",
+   "line": "Oh, si miro atrás",
+   "mode": "flash",
+   "bg": "b",
+   "swap": true
+  },
+  {
+   "t": 24.56,
+   "text": "siem-",
+   "line": "siempre estabas tú sonriendo",
+   "mode": "flash",
+   "bg": "w",
+   "swap": true
+  },
+  {
+   "t": 24.94,
+   "text": "siempre",
+   "line": "siempre estabas tú sonriendo",
+   "mode": "flash",
+   "bg": "b",
+   "swap": true
+  },
+  {
+   "t": 25.26,
+   "text": "siempre esta_",
+   "line": "siempre estabas tú sonriendo",
+   "mode": "flash",
+   "bg": "w",
+   "swap": true
+  },
+  {
+   "t": 25.76,
+   "text": "siempre estabas",
+   "line": "siempre estabas tú sonriendo",
+   "mode": "flash",
+   "bg": "b",
+   "swap": true
+  },
+  {
+   "t": 26.28,
+   "text": "siempre estabas tú",
+   "line": "siempre estabas tú sonriendo",
+   "mode": "flash",
+   "bg": "w",
+   "swap": true
+  },
+  {
+   "t": 26.94,
+   "text": "siempre estabas tú sonri_",
+   "line": "siempre estabas tú sonriendo",
+   "mode": "flash",
+   "bg": "b",
+   "swap": true
+  },
+  {
+   "t": 27.3,
+   "text": "siempre estabas tú sonriendo",
+   "line": "siempre estabas tú sonriendo",
+   "mode": "flash",
+   "bg": "w",
+   "swap": true
+  },
+  {
+   "t": 28.98,
+   "text": "En",
+   "line": "En los recuerdos, un 'nos vemos'",
+   "mode": "flash",
+   "bg": "b",
+   "swap": true
+  },
+  {
+   "t": 29.9,
+   "text": "En los",
+   "line": "En los recuerdos, un 'nos vemos'",
+   "mode": "flash",
+   "bg": "w",
+   "swap": true
+  },
+  {
+   "t": 30.36,
+   "text": "En los recuer_",
+   "line": "En los recuerdos, un 'nos vemos'",
+   "mode": "flash",
+   "bg": "b",
+   "swap": true
+  },
+  {
+   "t": 30.88,
+   "text": "En los recuerdos,",
+   "line": "En los recuerdos, un 'nos vemos'",
+   "mode": "flash",
+   "bg": "w",
+   "swap": true
+  },
+  {
+   "t": 31.12,
+   "text": "En los recuerdos, un",
+   "line": "En los recuerdos, un 'nos vemos'",
+   "mode": "flash",
+   "bg": "w",
+   "swap": false
+  },
+  {
+   "t": 31.78,
+   "text": "En los recuerdos, un 'nos",
+   "line": "En los recuerdos, un 'nos vemos'",
+   "mode": "flash",
+   "bg": "b",
+   "swap": true
+  },
+  {
+   "t": 32.28,
+   "text": "En los recuerdos, un 'nos vemo-",
+   "line": "En los recuerdos, un 'nos vemos'",
+   "mode": "flash",
+   "bg": "w",
+   "swap": true
+  },
+  {
+   "t": 32.68,
+   "text": "En los recuerdos, un 'nos vemos'",
+   "line": "En los recuerdos, un 'nos vemos'",
+   "mode": "flash",
+   "bg": "b",
+   "swap": true
+  },
+  {
+   "t": 33.34,
+   "text": "aun así",
+   "line": "aun así está bien",
+   "mode": "flash",
+   "bg": "w",
+   "swap": true
+  },
+  {
+   "t": 33.94,
+   "text": "aun así está",
+   "line": "aun así está bien",
+   "mode": "flash",
+   "bg": "b",
+   "swap": true
+  },
+  {
+   "t": 35.14,
+   "text": "aun así está bien",
+   "line": "aun así está bien",
+   "mode": "flash",
+   "bg": "w",
+   "swap": true
+  },
+  {
+   "t": 36.16,
+   "text": "Solo",
+   "line": "Solo ámame ahora mismo",
+   "mode": "hold",
+   "img": 4,
+   "img_t0": 36.16,
+   "swap": true
+  },
+  {
+   "t": 36.44,
+   "text": "Solo áma_",
+   "line": "Solo ámame ahora mismo",
+   "mode": "hold",
+   "img": 4,
+   "img_t0": 36.16,
+   "swap": false
+  },
+  {
+   "t": 37.26,
+   "text": "Solo ámame",
+   "line": "Solo ámame ahora mismo",
+   "mode": "hold",
+   "img": 4,
+   "img_t0": 36.16,
+   "swap": false
+  },
+  {
+   "t": 38.0,
+   "text": "Solo ámame aho-",
+   "line": "Solo ámame ahora mismo",
+   "mode": "hold",
+   "img": 4,
+   "img_t0": 36.16,
+   "swap": false
+  },
+  {
+   "t": 38.3,
+   "text": "Solo ámame ahora",
+   "line": "Solo ámame ahora mismo",
+   "mode": "hold",
+   "img": 4,
+   "img_t0": 36.16,
+   "swap": false
+  },
+  {
+   "t": 38.64,
+   "text": "Solo ámame ahora mis_",
+   "line": "Solo ámame ahora mismo",
+   "mode": "hold",
+   "img": 4,
+   "img_t0": 36.16,
+   "swap": false
+  },
+  {
+   "t": 38.98,
+   "text": "Solo ámame ahora mismo",
+   "line": "Solo ámame ahora mismo",
+   "mode": "hold",
+   "img": 4,
+   "img_t0": 36.16,
+   "swap": false
+  },
+  {
+   "t": 39.62,
+   "text": "en",
+   "line": "en un mundo en blanco",
+   "mode": "flash",
+   "bg": "b",
+   "swap": true
+  },
+  {
+   "t": 40.36,
+   "text": "en un",
+   "line": "en un mundo en blanco",
+   "mode": "flash",
+   "bg": "w",
+   "swap": true
+  },
+  {
+   "t": 40.54,
+   "text": "en un mundo",
+   "line": "en un mundo en blanco",
+   "mode": "flash",
+   "bg": "w",
+   "swap": false
+  },
+  {
+   "t": 40.82,
+   "text": "en un mundo en",
+   "line": "en un mundo en blanco",
+   "mode": "flash",
+   "bg": "b",
+   "swap": true
+  },
+  {
+   "t": 41.4,
+   "text": "en un mundo en blanco",
+   "line": "en un mundo en blanco",
+   "mode": "flash",
+   "bg": "w",
+   "swap": true
+  },
+  {
+   "t": 41.78,
+   "text": "Aunque",
+   "line": "Aunque nos volvamos a conocer",
+   "mode": "hold",
+   "img": 5,
+   "img_t0": 41.78,
+   "swap": true
+  },
+  {
+   "t": 42.58,
+   "text": "Aunque nos",
+   "line": "Aunque nos volvamos a conocer",
+   "mode": "hold",
+   "img": 5,
+   "img_t0": 41.78,
+   "swap": false
+  },
+  {
+   "t": 42.96,
+   "text": "Aunque nos volva_",
+   "line": "Aunque nos volvamos a conocer",
+   "mode": "hold",
+   "img": 5,
+   "img_t0": 41.78,
+   "swap": false
+  },
+  {
+   "t": 43.3,
+   "text": "Aunque nos volvamos",
+   "line": "Aunque nos volvamos a conocer",
+   "mode": "hold",
+   "img": 5,
+   "img_t0": 41.78,
+   "swap": false
+  },
+  {
+   "t": 43.68,
+   "text": "Aunque nos volvamos a",
+   "line": "Aunque nos volvamos a conocer",
+   "mode": "hold",
+   "img": 5,
+   "img_t0": 41.78,
+   "swap": false
+  },
+  {
+   "t": 44.02,
+   "text": "Aunque nos volvamos a conocer",
+   "line": "Aunque nos volvamos a conocer",
+   "mode": "hold",
+   "img": 5,
+   "img_t0": 41.78,
+   "swap": false
+  },
+  {
+   "t": 44.32,
+   "text": "'mi",
+   "line": "'mi héroe'",
+   "mode": "hold",
+   "img": 6,
+   "img_t0": 44.32,
+   "swap": true
+  },
+  {
+   "t": 44.84,
+   "text": "'mi héro_",
+   "line": "'mi héroe'",
+   "mode": "hold",
+   "img": 6,
+   "img_t0": 44.32,
+   "swap": false
+  },
+  {
+   "t": 45.4,
+   "text": "'mi héroe'",
+   "line": "'mi héroe'",
+   "mode": "hold",
+   "img": 6,
+   "img_t0": 44.32,
+   "swap": false
+  },
+  {
+   "t": 46.52,
+   "text": "este",
+   "line": "este deseo sincero",
+   "mode": "flash",
+   "bg": "b",
+   "swap": true
+  },
+  {
+   "t": 47.12,
+   "text": "este des-",
+   "line": "este deseo sincero",
+   "mode": "flash",
+   "bg": "w",
+   "swap": true
+  },
+  {
+   "t": 47.3,
+   "text": "este deseo",
+   "line": "este deseo sincero",
+   "mode": "flash",
+   "bg": "w",
+   "swap": false
+  },
+  {
+   "t": 47.58,
+   "text": "este deseo sinc_",
+   "line": "este deseo sincero",
+   "mode": "flash",
+   "bg": "b",
+   "swap": true
+  },
+  {
+   "t": 48.12,
+   "text": "este deseo sincero",
+   "line": "este deseo sincero",
+   "mode": "flash",
+   "bg": "w",
+   "swap": true
+  },
+  {
+   "t": 48.52,
+   "text": "cruza",
+   "line": "cruza el tiempo que volvió a girar",
+   "mode": "flash",
+   "bg": "b",
+   "swap": true
+  },
+  {
+   "t": 48.94,
+   "text": "cruza el",
+   "line": "cruza el tiempo que volvió a girar",
+   "mode": "flash",
+   "bg": "w",
+   "swap": true
+  },
+  {
+   "t": 49.3,
+   "text": "cruza el tiempo",
+   "line": "cruza el tiempo que volvió a girar",
+   "mode": "flash",
+   "bg": "b",
+   "swap": true
+  },
+  {
+   "t": 49.72,
+   "text": "cruza el tiempo que",
+   "line": "cruza el tiempo que volvió a girar",
+   "mode": "flash",
+   "bg": "w",
+   "swap": true
+  },
+  {
+   "t": 50.0,
+   "text": "cruza el tiempo que volvió",
+   "line": "cruza el tiempo que volvió a girar",
+   "mode": "flash",
+   "bg": "b",
+   "swap": true
+  },
+  {
+   "t": 50.3,
+   "text": "cruza el tiempo que volvió a girar",
+   "line": "cruza el tiempo que volvió a girar",
+   "mode": "flash",
+   "bg": "w",
+   "swap": true
+  },
+  {
+   "t": 50.76,
+   "text": "para",
+   "line": "para poder encontrarte otra vez",
+   "mode": "hold",
+   "img": 7,
+   "img_t0": 50.76,
+   "swap": true
+  },
+  {
+   "t": 51.34,
+   "text": "para pod-",
+   "line": "para poder encontrarte otra vez",
+   "mode": "hold",
+   "img": 7,
+   "img_t0": 50.76,
+   "swap": false
+  },
+  {
+   "t": 51.8,
+   "text": "para poder",
+   "line": "para poder encontrarte otra vez",
+   "mode": "hold",
+   "img": 7,
+   "img_t0": 50.76,
+   "swap": false
+  },
+  {
+   "t": 52.34,
+   "text": "para poder encontr_",
+   "line": "para poder encontrarte otra vez",
+   "mode": "hold",
+   "img": 7,
+   "img_t0": 50.76,
+   "swap": false
+  },
+  {
+   "t": 52.88,
+   "text": "para poder encontrarte",
+   "line": "para poder encontrarte otra vez",
+   "mode": "hold",
+   "img": 7,
+   "img_t0": 50.76,
+   "swap": false
+  },
+  {
+   "t": 53.36,
+   "text": "para poder encontrarte otra",
+   "line": "para poder encontrarte otra vez",
+   "mode": "hold",
+   "img": 7,
+   "img_t0": 50.76,
+   "swap": false
+  },
+  {
+   "t": 53.64,
+   "text": "para poder encontrarte otra vez",
+   "line": "para poder encontrarte otra vez",
+   "mode": "hold",
+   "img": 7,
+   "img_t0": 50.76,
+   "swap": false
+  },
+  {
+   "t": 55.54,
+   "text": "Siem-",
+   "line": "Siempre aquí, respirando",
+   "mode": "hold",
+   "img": 8,
+   "img_t0": 55.54,
+   "swap": true
+  },
+  {
+   "t": 56.44,
+   "text": "Siempre",
+   "line": "Siempre aquí, respirando",
+   "mode": "hold",
+   "img": 8,
+   "img_t0": 55.54,
+   "swap": false
+  },
+  {
+   "t": 58.42,
+   "text": "Siempre aqu_",
+   "line": "Siempre aquí, respirando",
+   "mode": "hold",
+   "img": 8,
+   "img_t0": 55.54,
+   "swap": false
+  },
+  {
+   "t": 59.12,
+   "text": "Siempre aquí,",
+   "line": "Siempre aquí, respirando",
+   "mode": "hold",
+   "img": 8,
+   "img_t0": 55.54,
+   "swap": false
+  },
+  {
+   "t": 59.88,
+   "text": "Siempre aquí, respir_",
+   "line": "Siempre aquí, respirando",
+   "mode": "hold",
+   "img": 8,
+   "img_t0": 55.54,
+   "swap": false
+  },
+  {
+   "t": 60.28,
+   "text": "Siempre aquí, respirando",
+   "line": "Siempre aquí, respirando",
+   "mode": "hold",
+   "img": 8,
+   "img_t0": 55.54,
+   "swap": false
+  }
+ ],
+ "fade_out": 0.6
+}

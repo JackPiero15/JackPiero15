@@ -1,0 +1,529 @@
+{
+ "id": "purple",
+ "duration": 60.0,
+ "font": "fonts/RobotoCondensed-Variable.ttf",
+ "font_size": 84,
+ "font_weight": 400,
+ "text_y": 960,
+ "max_text_w": 860,
+ "images": [
+  {
+   "file": "media/rel/img_00.jpg",
+   "k": 3.6,
+   "dim": 0.5,
+   "tint": [
+    125,
+    70,
+    205
+   ]
+  },
+  {
+   "file": "media/rel/img_01.jpg",
+   "k": 3.6,
+   "dim": 0.5,
+   "tint": [
+    205,
+    90,
+    175
+   ]
+  },
+  {
+   "file": "media/rel/img_02.jpg",
+   "k": 3.6,
+   "dim": 0.5,
+   "tint": [
+    70,
+    95,
+    210
+   ]
+  },
+  {
+   "file": "media/rel/img_03.jpg",
+   "k": 3.6,
+   "dim": 0.5,
+   "tint": [
+    125,
+    70,
+    205
+   ]
+  },
+  {
+   "file": "media/rel/img_04.jpg",
+   "k": 3.6,
+   "dim": 0.5,
+   "tint": [
+    205,
+    90,
+    175
+   ]
+  },
+  {
+   "file": "media/rel/img_05.jpg",
+   "k": 3.6,
+   "dim": 0.5,
+   "tint": [
+    70,
+    95,
+    210
+   ]
+  }
+ ],
+ "events": [
+  {
+   "t": 0.0,
+   "text": "Solo",
+   "line": "Solo quería verte reír bajo la lluvia púrpura",
+   "mode": "hold",
+   "img": 0,
+   "img_t0": 0.0,
+   "swap": true
+  },
+  {
+   "t": 0.13,
+   "text": "Solo quería",
+   "line": "Solo quería verte reír bajo la lluvia púrpura",
+   "mode": "hold",
+   "img": 0,
+   "img_t0": 0.0,
+   "swap": false
+  },
+  {
+   "t": 0.53,
+   "text": "Solo quería verte",
+   "line": "Solo quería verte reír bajo la lluvia púrpura",
+   "mode": "hold",
+   "img": 0,
+   "img_t0": 0.0,
+   "swap": false
+  },
+  {
+   "t": 1.33,
+   "text": "Solo quería verte reír",
+   "line": "Solo quería verte reír bajo la lluvia púrpura",
+   "mode": "hold",
+   "img": 0,
+   "img_t0": 0.0,
+   "swap": false
+  },
+  {
+   "t": 1.99,
+   "text": "Solo quería verte reír bajo",
+   "line": "Solo quería verte reír bajo la lluvia púrpura",
+   "mode": "hold",
+   "img": 0,
+   "img_t0": 0.0,
+   "swap": false
+  },
+  {
+   "t": 2.75,
+   "text": "Solo quería verte reír bajo la",
+   "line": "Solo quería verte reír bajo la lluvia púrpura",
+   "mode": "hold",
+   "img": 0,
+   "img_t0": 0.0,
+   "swap": false
+  },
+  {
+   "t": 3.61,
+   "text": "Solo quería verte reír bajo la lluvia",
+   "line": "Solo quería verte reír bajo la lluvia púrpura",
+   "mode": "hold",
+   "img": 0,
+   "img_t0": 0.0,
+   "swap": false
+  },
+  {
+   "t": 4.23,
+   "text": "Solo quería verte reír bajo la lluvia púrp_",
+   "line": "Solo quería verte reír bajo la lluvia púrpura",
+   "mode": "hold",
+   "img": 0,
+   "img_t0": 0.0,
+   "swap": false
+  },
+  {
+   "t": 4.95,
+   "text": "Solo quería verte reír bajo la lluvia púrpura",
+   "line": "Solo quería verte reír bajo la lluvia púrpura",
+   "mode": "hold",
+   "img": 0,
+   "img_t0": 0.0,
+   "swap": false
+  },
+  {
+   "t": 5.57,
+   "text": "Lluvia",
+   "line": "Lluvia púrpura, lluvia púrpura",
+   "mode": "hold",
+   "img": 1,
+   "img_t0": 5.57,
+   "swap": true
+  },
+  {
+   "t": 6.79,
+   "text": "Lluvia púrpura,",
+   "line": "Lluvia púrpura, lluvia púrpura",
+   "mode": "hold",
+   "img": 1,
+   "img_t0": 5.57,
+   "swap": false
+  },
+  {
+   "t": 7.97,
+   "text": "Lluvia púrpura, lluvia",
+   "line": "Lluvia púrpura, lluvia púrpura",
+   "mode": "hold",
+   "img": 1,
+   "img_t0": 5.57,
+   "swap": false
+  },
+  {
+   "t": 8.93,
+   "text": "Lluvia púrpura, lluvia púrpura",
+   "line": "Lluvia púrpura, lluvia púrpura",
+   "mode": "hold",
+   "img": 1,
+   "img_t0": 5.57,
+   "swap": false
+  },
+  {
+   "t": 14.07,
+   "text": "Lluvia",
+   "line": "Lluvia púrpura, lluvia púrpura",
+   "mode": "flash",
+   "bg": "w",
+   "swap": true
+  },
+  {
+   "t": 15.47,
+   "text": "Lluvia púrpura,",
+   "line": "Lluvia púrpura, lluvia púrpura",
+   "mode": "flash",
+   "bg": "b",
+   "swap": true
+  },
+  {
+   "t": 16.37,
+   "text": "Lluvia púrpura, lluvia",
+   "line": "Lluvia púrpura, lluvia púrpura",
+   "mode": "flash",
+   "bg": "w",
+   "swap": true
+  },
+  {
+   "t": 17.37,
+   "text": "Lluvia púrpura, lluvia púrpura",
+   "line": "Lluvia púrpura, lluvia púrpura",
+   "mode": "flash",
+   "bg": "b",
+   "swap": true
+  },
+  {
+   "t": 22.27,
+   "text": "Lluvia",
+   "line": "Lluvia púrpura, lluvia púrpura",
+   "mode": "hold",
+   "img": 2,
+   "img_t0": 22.27,
+   "swap": true
+  },
+  {
+   "t": 23.67,
+   "text": "Lluvia púrpura,",
+   "line": "Lluvia púrpura, lluvia púrpura",
+   "mode": "hold",
+   "img": 2,
+   "img_t0": 22.27,
+   "swap": false
+  },
+  {
+   "t": 25.15,
+   "text": "Lluvia púrpura, lluvia",
+   "line": "Lluvia púrpura, lluvia púrpura",
+   "mode": "hold",
+   "img": 2,
+   "img_t0": 22.27,
+   "swap": false
+  },
+  {
+   "t": 25.83,
+   "text": "Lluvia púrpura, lluvia púrpura",
+   "line": "Lluvia púrpura, lluvia púrpura",
+   "mode": "hold",
+   "img": 2,
+   "img_t0": 22.27,
+   "swap": false
+  },
+  {
+   "t": 33.63,
+   "text": "Solo",
+   "line": "Solo quería verte bañarte bajo la lluvia púrpura",
+   "mode": "hold",
+   "img": 3,
+   "img_t0": 33.63,
+   "swap": true
+  },
+  {
+   "t": 34.59,
+   "text": "Solo quer_",
+   "line": "Solo quería verte bañarte bajo la lluvia púrpura",
+   "mode": "hold",
+   "img": 3,
+   "img_t0": 33.63,
+   "swap": false
+  },
+  {
+   "t": 35.09,
+   "text": "Solo quería",
+   "line": "Solo quería verte bañarte bajo la lluvia púrpura",
+   "mode": "hold",
+   "img": 3,
+   "img_t0": 33.63,
+   "swap": false
+  },
+  {
+   "t": 35.85,
+   "text": "Solo quería verte",
+   "line": "Solo quería verte bañarte bajo la lluvia púrpura",
+   "mode": "hold",
+   "img": 3,
+   "img_t0": 33.63,
+   "swap": false
+  },
+  {
+   "t": 36.37,
+   "text": "Solo quería verte baña_",
+   "line": "Solo quería verte bañarte bajo la lluvia púrpura",
+   "mode": "hold",
+   "img": 3,
+   "img_t0": 33.63,
+   "swap": false
+  },
+  {
+   "t": 36.99,
+   "text": "Solo quería verte bañarte",
+   "line": "Solo quería verte bañarte bajo la lluvia púrpura",
+   "mode": "hold",
+   "img": 3,
+   "img_t0": 33.63,
+   "swap": false
+  },
+  {
+   "t": 37.71,
+   "text": "Solo quería verte bañarte bajo",
+   "line": "Solo quería verte bañarte bajo la lluvia púrpura",
+   "mode": "hold",
+   "img": 3,
+   "img_t0": 33.63,
+   "swap": false
+  },
+  {
+   "t": 38.47,
+   "text": "Solo quería verte bañarte bajo la",
+   "line": "Solo quería verte bañarte bajo la lluvia púrpura",
+   "mode": "hold",
+   "img": 3,
+   "img_t0": 33.63,
+   "swap": false
+  },
+  {
+   "t": 39.13,
+   "text": "Solo quería verte bañarte bajo la lluvia",
+   "line": "Solo quería verte bañarte bajo la lluvia púrpura",
+   "mode": "hold",
+   "img": 3,
+   "img_t0": 33.63,
+   "swap": false
+  },
+  {
+   "t": 39.79,
+   "text": "Solo quería verte bañarte bajo la lluvia púrp-",
+   "line": "Solo quería verte bañarte bajo la lluvia púrpura",
+   "mode": "hold",
+   "img": 3,
+   "img_t0": 33.63,
+   "swap": false
+  },
+  {
+   "t": 40.49,
+   "text": "Solo quería verte bañarte bajo la lluvia púrpura",
+   "line": "Solo quería verte bañarte bajo la lluvia púrpura",
+   "mode": "hold",
+   "img": 3,
+   "img_t0": 33.63,
+   "swap": false
+  },
+  {
+   "t": 41.23,
+   "text": "Nunca",
+   "line": "Nunca quise ser tu amante de fin de semana",
+   "mode": "hold",
+   "img": 4,
+   "img_t0": 41.23,
+   "swap": true
+  },
+  {
+   "t": 41.63,
+   "text": "Nunca quise",
+   "line": "Nunca quise ser tu amante de fin de semana",
+   "mode": "hold",
+   "img": 4,
+   "img_t0": 41.23,
+   "swap": false
+  },
+  {
+   "t": 41.95,
+   "text": "Nunca quise ser",
+   "line": "Nunca quise ser tu amante de fin de semana",
+   "mode": "hold",
+   "img": 4,
+   "img_t0": 41.23,
+   "swap": false
+  },
+  {
+   "t": 42.15,
+   "text": "Nunca quise ser tu",
+   "line": "Nunca quise ser tu amante de fin de semana",
+   "mode": "hold",
+   "img": 4,
+   "img_t0": 41.23,
+   "swap": false
+  },
+  {
+   "t": 42.35,
+   "text": "Nunca quise ser tu aman_",
+   "line": "Nunca quise ser tu amante de fin de semana",
+   "mode": "hold",
+   "img": 4,
+   "img_t0": 41.23,
+   "swap": false
+  },
+  {
+   "t": 42.83,
+   "text": "Nunca quise ser tu amante",
+   "line": "Nunca quise ser tu amante de fin de semana",
+   "mode": "hold",
+   "img": 4,
+   "img_t0": 41.23,
+   "swap": false
+  },
+  {
+   "t": 43.39,
+   "text": "Nunca quise ser tu amante de",
+   "line": "Nunca quise ser tu amante de fin de semana",
+   "mode": "hold",
+   "img": 4,
+   "img_t0": 41.23,
+   "swap": false
+  },
+  {
+   "t": 43.65,
+   "text": "Nunca quise ser tu amante de fin",
+   "line": "Nunca quise ser tu amante de fin de semana",
+   "mode": "hold",
+   "img": 4,
+   "img_t0": 41.23,
+   "swap": false
+  },
+  {
+   "t": 44.01,
+   "text": "Nunca quise ser tu amante de fin de",
+   "line": "Nunca quise ser tu amante de fin de semana",
+   "mode": "hold",
+   "img": 4,
+   "img_t0": 41.23,
+   "swap": false
+  },
+  {
+   "t": 44.49,
+   "text": "Nunca quise ser tu amante de fin de sema-",
+   "line": "Nunca quise ser tu amante de fin de semana",
+   "mode": "hold",
+   "img": 4,
+   "img_t0": 41.23,
+   "swap": false
+  },
+  {
+   "t": 44.87,
+   "text": "Nunca quise ser tu amante de fin de semana",
+   "line": "Nunca quise ser tu amante de fin de semana",
+   "mode": "hold",
+   "img": 4,
+   "img_t0": 41.23,
+   "swap": false
+  },
+  {
+   "t": 54.63,
+   "text": "Solo",
+   "line": "Solo quería ser algo así como tu amigo",
+   "mode": "hold",
+   "img": 5,
+   "img_t0": 54.63,
+   "swap": true
+  },
+  {
+   "t": 55.59,
+   "text": "Solo quería",
+   "line": "Solo quería ser algo así como tu amigo",
+   "mode": "hold",
+   "img": 5,
+   "img_t0": 54.63,
+   "swap": false
+  },
+  {
+   "t": 55.79,
+   "text": "Solo quería ser",
+   "line": "Solo quería ser algo así como tu amigo",
+   "mode": "hold",
+   "img": 5,
+   "img_t0": 54.63,
+   "swap": false
+  },
+  {
+   "t": 56.07,
+   "text": "Solo quería ser algo",
+   "line": "Solo quería ser algo así como tu amigo",
+   "mode": "hold",
+   "img": 5,
+   "img_t0": 54.63,
+   "swap": false
+  },
+  {
+   "t": 56.57,
+   "text": "Solo quería ser algo así",
+   "line": "Solo quería ser algo así como tu amigo",
+   "mode": "hold",
+   "img": 5,
+   "img_t0": 54.63,
+   "swap": false
+  },
+  {
+   "t": 56.83,
+   "text": "Solo quería ser algo así como",
+   "line": "Solo quería ser algo así como tu amigo",
+   "mode": "hold",
+   "img": 5,
+   "img_t0": 54.63,
+   "swap": false
+  },
+  {
+   "t": 57.03,
+   "text": "Solo quería ser algo así como tu",
+   "line": "Solo quería ser algo así como tu amigo",
+   "mode": "hold",
+   "img": 5,
+   "img_t0": 54.63,
+   "swap": false
+  },
+  {
+   "t": 59.31,
+   "text": "Solo quería ser algo así como tu amigo",
+   "line": "Solo quería ser algo así como tu amigo",
+   "mode": "hold",
+   "img": 5,
+   "img_t0": 54.63,
+   "swap": false
+  }
+ ],
+ "fade_out": 0.6
+}

@@ -1,0 +1,44 @@
+[
+ {
+  "t0": 0.0,
+  "en": "I only wanted to see you laughing in the purple rain [Whisper: landing]",
+  "es": "Solo quería verte reír bajo la lluvia púrpura",
+  "mode": "hold"
+ },
+ {
+  "t0": 5.6,
+  "en": "Purple rain, purple rain",
+  "es": "Lluvia púrpura, lluvia púrpura",
+  "mode": "hold"
+ },
+ {
+  "t0": 14.1,
+  "en": "Purple rain, purple rain",
+  "es": "Lluvia púrpura, lluvia púrpura",
+  "mode": "flash"
+ },
+ {
+  "t0": 22.3,
+  "en": "Purple rain, purple rain",
+  "es": "Lluvia púrpura, lluvia púrpura",
+  "mode": "hold"
+ },
+ {
+  "t0": 33.66,
+  "en": "I only wanted to see you bathing in the purple rain",
+  "es": "Solo quería verte bañarte bajo la lluvia púrpura",
+  "mode": "hold"
+ },
+ {
+  "t0": 41.26,
+  "en": "I never wanted to be your weekend lover [Whisper: your woman, but we can't no more]",
+  "es": "Nunca quise ser tu amante de fin de semana",
+  "mode": "hold"
+ },
+ {
+  "t0": 54.66,
+  "en": "I only wanted to be some kind of friend",
+  "es": "Solo quería ser algo así como tu amigo",
+  "mode": "hold"
+ }
+]
