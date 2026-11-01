@@ -68,8 +68,8 @@ def find_font():
 
 
 # ------------------------------------------------------------------ medios
-def cover_gray(im, W, H, focus=(0.5, 0.5), zoom=1.0):
-    im = im.convert("L")
+def cover_img(im, W, H, focus=(0.5, 0.5), zoom=1.0, color=False):
+    im = im.convert("RGB" if color else "L")
     s = max(W / im.width, H / im.height) * zoom
     nw, nh = max(W, round(im.width * s)), max(H, round(im.height * s))
     im = im.resize((nw, nh), Image.LANCZOS)
@@ -82,31 +82,42 @@ def is_image(p):
 
 
 class Source:
-    """Clip o imagen convertida a gris, a tamaño de lienzo, muestreada a fps_efectivo."""
+    """Clip o imagen a tamaño de lienzo (gris o RGB), muestreada a fps_efectivo.
+    Los clips se decodifican al primer uso y pueden liberarse con release()."""
 
-    def __init__(self, path, W, H, fpe, inicio=0.0, dur=None, focus=(0.5, 0.5), zoom=(1.0, 1.06)):
+    def __init__(self, path, W, H, fpe, inicio=0.0, dur=None, focus=(0.5, 0.5), zoom=(1.0, 1.06),
+                 color=False):
         self.path, self.W, self.H, self.fpe = path, W, H, fpe
-        self.focus, self.zoom = focus, zoom
-        if is_image(path):
-            self.still = Image.open(path)
-            self.frames = None
-        else:
-            self.still = None
-            cmd = ["ffmpeg", "-v", "error", "-ss", str(inicio)]
-            if dur: cmd += ["-t", str(dur)]
-            fx, fy = focus
-            vf = (f"fps={fpe},scale={W}:{H}:force_original_aspect_ratio=increase:flags=lanczos,"
-                  f"crop={W}:{H}:(iw-{W})*{fx}:(ih-{H})*{fy},format=gray")
-            cmd += ["-i", path, "-vf", vf, "-f", "rawvideo", "-"]
-            raw = subprocess.run(cmd, capture_output=True, check=True).stdout
-            n = len(raw) // (W * H)
-            if n == 0: sys.exit(f"Sin cuadros: {path}")
-            self.frames = np.frombuffer(raw[: n * W * H], np.uint8).reshape(n, H, W)
+        self.focus, self.zoom, self.color = focus, zoom, color
+        self.inicio, self.dur = inicio, dur
+        if not os.path.exists(path): sys.exit(f"No existe: {path}")
+        self.still = Image.open(path) if is_image(path) else None
+        self.frames = None
         self._cache = {}
+
+    def _load(self):
+        W, H = self.W, self.H
+        cmd = ["ffmpeg", "-v", "error", "-ss", str(self.inicio)]
+        if self.dur: cmd += ["-t", str(self.dur)]
+        fx, fy = self.focus
+        pf = "rgb24" if self.color else "gray"
+        vf = (f"fps={self.fpe},scale={W}:{H}:force_original_aspect_ratio=increase:flags=lanczos,"
+              f"crop={W}:{H}:(iw-{W})*{fx}:(ih-{H})*{fy},format={pf}")
+        cmd += ["-i", self.path, "-vf", vf, "-f", "rawvideo", "-"]
+        raw = subprocess.run(cmd, capture_output=True, check=True).stdout
+        c = 3 if self.color else 1
+        n = len(raw) // (W * H * c)
+        if n == 0: sys.exit(f"Sin cuadros: {self.path}")
+        shape = (n, H, W, 3) if self.color else (n, H, W)
+        self.frames = np.frombuffer(raw[: n * W * H * c], np.uint8).reshape(shape)
+
+    def release(self):
+        self.frames = None; self._cache = {}
 
     def get(self, t, span=None):
         """t: segundos dentro del clip (ya cuantizado). span: duración del tramo (para zoom lento)."""
-        if self.frames is not None:
+        if self.still is None:
+            if self.frames is None: self._load()
             i = int(math.floor(t * self.fpe + 1e-6)) % len(self.frames)
             return self.frames[i]
         # imagen fija: acercamiento lento cuantizado (se percibe el ritmo entrecortado)
@@ -115,7 +126,7 @@ class Source:
         key = round(z, 4)
         if key not in self._cache:
             if len(self._cache) > 64: self._cache.clear()
-            self._cache[key] = cover_gray(self.still, self.W, self.H, self.focus, z)
+            self._cache[key] = cover_img(self.still, self.W, self.H, self.focus, z, self.color)
         return self._cache[key]
 
 
@@ -314,7 +325,14 @@ class TextTrack:
         self.fin = cfg.get("texto_fin")
         self._mcache = {}
         self.T = REF["transicion"]
-        self.frames = [int(round(s[0] * fps)) for s in self.states]
+        fr = []
+        for st in self.states:   # al menos 1 cuadro entre palabras
+            f = int(round(st[0] * fps))
+            fr.append(max(f, fr[-1] + 1) if fr else f)
+        self.frames = fr
+        # salida de texto por frase (p. ej. antes de un tramo instrumental largo)
+        self.phr_fin = {fi: int(round(f["fin"] * fps)) for fi, f in enumerate(cfg.get("letra", []))
+                        if f.get("fin") is not None}
 
     def mask(self, k):
         if k not in self._mcache:
@@ -340,8 +358,17 @@ class TextTrack:
             return glitch(self.mask(k), 1 + d, rng, self.em_px(k)) * (1.0 - 0.45 * d)
         k = max((i for i, f in enumerate(frames) if f <= n), default=None)
         if k is None: return None
+        fi = self.states[k][1]
+        if fi in self.phr_fin and n >= self.phr_fin[fi]:
+            d = n - self.phr_fin[fi]
+            if d >= 2: return None
+            return glitch(self.mask(k), 1 + d, rng, self.em_px(k)) * (1.0 - 0.45 * d)
         d = n - frames[k]
         prev = k - 1 if k > 0 else None
+        if prev is not None:
+            pfi = self.states[prev][1]
+            if pfi in self.phr_fin and self.phr_fin[pfi] <= frames[k]:
+                prev = None   # la frase anterior ya salió: entrada como primera aparición
         if prev is None:   # primera aparición: 2 cuadros distorsionados
             if d == 0: return glitch(self.mask(k), 2, rng, self.em_px(k)) * 0.6
             if d == 1: return glitch(self.mask(k), 1, rng, self.em_px(k))
@@ -369,6 +396,9 @@ class Visual:
         self.fpe = look.get("fps_efectivo", REF["fps_efectivo"])
         self.mix = look.get("mezcla_destellos", REF["mezcla_destellos"])
         self.loop = cfg.get("bucle", REF["bucle"])
+        self.color = bool(look.get("color", False))
+        self.tinte = np.asarray(look.get("tinte", [1.0, 1.0, 1.0]), np.float32)
+        self.sat = look.get("saturacion", 1.0)
         bpm = cfg.get("bpm")
         self.cycle = (2 * 60.0 / bpm * fps) if bpm else REF["ciclo_destellos"] * fps / 30.0
         rp = lambda p: p if os.path.isabs(p) else os.path.join(base_dir, p)
@@ -378,16 +408,18 @@ class Visual:
         for i, b in enumerate(segs):
             end = segs[i + 1]["desde"] if i + 1 < len(segs) else span_max
             src = Source(rp(b["archivo"]), W, H, self.fpe, b.get("inicio_clip", 0.0), end - b["desde"] + 0.5,
-                         tuple(b.get("enfoque", (0.5, 0.5))))
+                         tuple(b.get("enfoque", (0.5, 0.5))), color=self.color)
             self.base.append((b["desde"], end, src))
         self.flash = [Source(rp(d["archivo"] if isinstance(d, dict) else d), W, H, self.fpe,
                              (d.get("inicio_clip", 0.0) if isinstance(d, dict) else 0.0),
                              (d.get("duracion", 4.0) if isinstance(d, dict) else 4.0),
-                             tuple(d.get("enfoque", (0.5, 0.5))) if isinstance(d, dict) else (0.5, 0.5))
+                             tuple(d.get("enfoque", (0.5, 0.5))) if isinstance(d, dict) else (0.5, 0.5),
+                             color=self.color)
                       for d in cfg.get("destellos", [])]
         self.ghosts = [(g["desde"], g["hasta"], g.get("opacidad", 0.3),
                         Source(rp(g["archivo"]), W, H, self.fpe, g.get("inicio_clip", 0.0),
-                               g["hasta"] - g["desde"] + 0.5, tuple(g.get("enfoque", (0.5, 0.5)))))
+                               g["hasta"] - g["desde"] + 0.5, tuple(g.get("enfoque", (0.5, 0.5))),
+                               color=self.color))
                        for g in cfg.get("fantasma", [])]
         slots = REF["slots"]
         self.slots = [o * self.cycle / 32.5 for o in slots]
@@ -399,12 +431,16 @@ class Visual:
         yy, xx = np.mgrid[0:H, 0:W].astype(np.float32)
         r2 = ((xx - W / 2) / (W / 2)) ** 2 * 0.5 + ((yy - H / 2) / (H / 2)) ** 2 * 0.5
         self.vig = (1.0 - look.get("vineta", REF["vineta"]) * r2).astype(np.float32)
+        if self.color: self.vig = self.vig[..., None]
 
     def raw(self, n):
         t = n / self.fps
         tv = (t % self.loop) if self.loop else t
         tq = math.floor(tv * self.fpe + 1e-6) / self.fpe          # cadencia reducida
         base = None
+        if not self.loop:   # liberar tramos ya pasados (memoria)
+            for a, b, src in self.base:
+                if b < tq - 1.0 and src.frames is not None: src.release()
         for a, b, src in self.base:
             if a <= tq < b or (base is None and a > tq):
                 base = src.get(tq - a, b - a).astype(np.float32); break
@@ -425,8 +461,10 @@ class Visual:
         """LUT global que lleva el histograma del montaje al de la referencia"""
         hist = np.zeros(256)
         for n in range(0, n_frames, max(1, n_frames // 120)):
-            hist += np.bincount(np.clip(self.raw(n) * self.vig, 0, 255).astype(np.uint8).ravel(),
-                                minlength=256)
+            r = self.raw(n) * self.vig
+            if self.color: r = r.mean(axis=2)
+            hist += np.bincount(np.clip(r, 0, 255).astype(np.uint8).ravel(), minlength=256)
+        for a, b, src in self.base: src.release()
         cdf = np.cumsum(hist); cdf /= cdf[-1]
         ref = np.asarray(ref_cdf)
         lut = np.searchsorted(ref, cdf).clip(0, 255).astype(np.float32)
@@ -440,9 +478,14 @@ class Visual:
         if self.blur > 0.3:
             g = np.asarray(Image.fromarray(g).filter(ImageFilter.GaussianBlur(self.blur)))
         out = g.astype(np.float32)
+        if self.color:
+            if self.sat != 1.0:
+                L = out.mean(axis=2, keepdims=True); out = L + (out - L) * self.sat
+            out = out * self.tinte
         if self.grain > 0:
             rng = np.random.default_rng(n)
-            out += rng.normal(0, self.grain, out.shape).astype(np.float32)
+            shp = out.shape[:2] + ((1,) if self.color else ())
+            out = out + rng.normal(0, self.grain, shp).astype(np.float32)
         return out
 
 
@@ -462,9 +505,10 @@ def frame_at(n, cfg, vis, txt, W, H, fps, solo_texto=False):
         img = vis.finish(vis.raw(n), n)
     m = txt.at(n)
     if m is not None:
+        if img.ndim == 3: m = m[..., None]
         img = img * (1 - m) + txt.eng.color * m
     t = n / fps
-    f0, f1 = dur - REF["fundido_negro"][0], dur - REF["fundido_negro"][1]
+    f0, f1 = cfg.get("fundido_negro") or (dur - REF["fundido_negro"][0], dur - REF["fundido_negro"][1])
     if t >= f0 and not solo_texto:
         img = img * max(0.0, 1 - (t - f0) / (f1 - f0))
     return np.clip(img, 0, 255).astype(np.uint8)
@@ -473,6 +517,8 @@ def frame_at(n, cfg, vis, txt, W, H, fps, solo_texto=False):
 def audio_filter(cfg):
     a = cfg["audio"]; dur = cfg["duracion"]
     fo0 = dur - REF["audio_fade_out"][0]; fo1 = dur - REF["audio_fade_out"][1]
+    if a.get("fade_out"):
+        fo0, fo1 = a["fade_out"][0], a["fade_out"][0] + a["fade_out"][1]
     chain = [f"atrim=start={a.get('inicio', 0.0)}:duration={dur}", "asetpts=PTS-STARTPTS",
              f"afade=t=in:st=0:d={a.get('fade_in', REF['audio_fade_in'])}",
              f"afade=t=out:st={fo0}:d={fo1 - fo0}", f"apad=whole_dur={dur}"]
@@ -529,7 +575,8 @@ def main():
             vw = sal.get("ancho_916", 1080)
             vh = int(round(vw * 16 / 9)); ch = int(round(vw * H / W / 2) * 2)
             vf = f"scale={vw}:{ch}:flags=lanczos,pad={vw}:{vh}:0:(oh-ih)/2:black,format=yuv420p"
-        cmd = ["ffmpeg", "-y", "-v", "error", "-f", "rawvideo", "-pix_fmt", "gray", "-s", f"{W}x{H}",
+        pfin = "rgb24" if (vis is not None and vis.color) else "gray"
+        cmd = ["ffmpeg", "-y", "-v", "error", "-f", "rawvideo", "-pix_fmt", pfin, "-s", f"{W}x{H}",
                "-r", str(fps), "-i", "-"]
         if cfg.get("audio") and not args.solo_texto:
             af = loudnorm_args(cfg, audio_filter(cfg))

@@ -1,0 +1,287 @@
+{
+ "salida": {
+  "ancho": 1440,
+  "alto": 1080,
+  "fps": 30,
+  "lienzo": "4:3",
+  "crf": 18
+ },
+ "bucle": null,
+ "duracion": 60.0,
+ "audio": {
+  "archivo": "medios/cancion.wav",
+  "inicio": 0.0,
+  "lufs": -14,
+  "fade_out": [
+   59.2,
+   0.8
+  ]
+ },
+ "fundido_negro": [
+  59.4,
+  60.0
+ ],
+ "base": [
+  {
+   "archivo": "medios/064.mp4",
+   "desde": 0
+  },
+  {
+   "archivo": "medios/129.mp4",
+   "desde": 5.2
+  },
+  {
+   "archivo": "medios/143.mp4",
+   "desde": 7.4
+  },
+  {
+   "archivo": "medios/003.mp4",
+   "desde": 9.0
+  },
+  {
+   "archivo": "medios/001.mp4",
+   "desde": 11.2
+  },
+  {
+   "archivo": "medios/147.mp4",
+   "desde": 13.9
+  },
+  {
+   "archivo": "medios/022.mp4",
+   "desde": 16.0
+  },
+  {
+   "archivo": "medios/084.mp4",
+   "desde": 19.4
+  },
+  {
+   "archivo": "medios/026.mp4",
+   "desde": 21.2
+  },
+  {
+   "archivo": "medios/011.mp4",
+   "desde": 24.6
+  },
+  {
+   "archivo": "medios/086.mp4",
+   "desde": 27.5
+  },
+  {
+   "archivo": "medios/043.mp4",
+   "desde": 31.1
+  },
+  {
+   "archivo": "medios/156.mp4",
+   "desde": 33.0
+  },
+  {
+   "archivo": "medios/101.mp4",
+   "desde": 35.6
+  },
+  {
+   "archivo": "medios/185.mp4",
+   "desde": 39.0
+  },
+  {
+   "archivo": "medios/047.mp4",
+   "desde": 42.0
+  },
+  {
+   "archivo": "medios/060.mp4",
+   "desde": 45.0
+  },
+  {
+   "archivo": "medios/121.mp4",
+   "desde": 48.1
+  },
+  {
+   "archivo": "medios/172.mp4",
+   "desde": 50.5
+  },
+  {
+   "archivo": "medios/090.mp4",
+   "desde": 52.2
+  },
+  {
+   "archivo": "medios/061.mp4",
+   "desde": 54.0
+  },
+  {
+   "archivo": "medios/081.mp4",
+   "desde": 55.8
+  },
+  {
+   "archivo": "medios/100.mp4",
+   "desde": 57.2
+  },
+  {
+   "archivo": "medios/125.mp4",
+   "desde": 58.4
+  }
+ ],
+ "destellos": [
+  {
+   "archivo": "medios/000.mp4",
+   "duracion": 3.0,
+   "inicio_clip": 0.0
+  },
+  {
+   "archivo": "medios/017.mp4",
+   "duracion": 3.0,
+   "inicio_clip": 0.0
+  },
+  {
+   "archivo": "medios/027.mp4",
+   "duracion": 3.0,
+   "inicio_clip": 0.0
+  },
+  {
+   "archivo": "medios/066.mp4",
+   "duracion": 3.0,
+   "inicio_clip": 0.0
+  },
+  {
+   "archivo": "medios/136.mp4",
+   "duracion": 3.0,
+   "inicio_clip": 0.0
+  },
+  {
+   "archivo": "medios/145.mp4",
+   "duracion": 3.0,
+   "inicio_clip": 0.0
+  },
+  {
+   "archivo": "medios/154.mp4",
+   "duracion": 3.0,
+   "inicio_clip": 0.0
+  },
+  {
+   "archivo": "medios/184.mp4",
+   "duracion": 3.0,
+   "inicio_clip": 0.0
+  },
+  {
+   "archivo": "medios/048.mp4",
+   "duracion": 3.0,
+   "inicio_clip": 0.0
+  },
+  {
+   "archivo": "medios/131.mp4",
+   "duracion": 3.0,
+   "inicio_clip": 4.0
+  },
+  {
+   "archivo": "medios/102.mp4",
+   "duracion": 3.0,
+   "inicio_clip": 0.0
+  },
+  {
+   "archivo": "medios/053.mp4",
+   "duracion": 3.0,
+   "inicio_clip": 0.0
+  }
+ ],
+ "look": {
+  "color": true,
+  "tinte": [
+   1.06,
+   0.98,
+   0.78
+  ],
+  "saturacion": 1.1,
+  "tono_ref": 0.7
+ },
+ "letra": [
+  {
+   "lineas": "cuerpos de luz\ncorriendo en\npleno cielo",
+   "tiempos": [
+    5.28,
+    5.96,
+    6.44,
+    7.44,
+    8.22,
+    8.52,
+    9.22
+   ]
+  },
+  {
+   "lineas": "cristales\nde amor\namarillo",
+   "tiempos": [
+    11.22,
+    12.62,
+    12.98,
+    13.94
+   ]
+  },
+  {
+   "lineas": "no dejaré\nque seas fría",
+   "tiempos": [
+    17.27,
+    17.9,
+    18.42,
+    18.76,
+    19.44
+   ]
+  },
+  {
+   "lineas": "yo podría\ncalentarte",
+   "tiempos": [
+    21.24,
+    21.4,
+    21.96
+   ]
+  },
+  {
+   "lineas": "para abandonarme\ny renacer",
+   "tiempos": [
+    24.64,
+    25.8,
+    27.5,
+    28.0
+   ]
+  },
+  {
+   "lineas": "renacer",
+   "tiempos": [
+    31.14
+   ]
+  },
+  {
+   "lineas": "renacer",
+   "tiempos": [
+    33.04
+   ],
+   "fin": 35.6
+  },
+  {
+   "lineas": "explosiones\nen tus ojos",
+   "tiempos": [
+    48.13,
+    49.64,
+    50.14,
+    50.58
+   ]
+  },
+  {
+   "lineas": "agujeros\nen la tierra",
+   "tiempos": [
+    52.24,
+    52.84,
+    53.46,
+    53.78
+   ]
+  },
+  {
+   "lineas": "y un verde\nprofundo\nen el mar",
+   "tiempos": [
+    55.85,
+    56.66,
+    56.82,
+    57.2,
+    58.4,
+    58.78,
+    59.26
+   ]
+  }
+ ]
+}

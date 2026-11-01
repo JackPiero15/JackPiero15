@@ -182,7 +182,10 @@ Campos de `config.json` (ver `config_plantilla.json`; `config_referencia.json` t
 | `fantasma` | opcional: `archivo`, `desde`, `hasta`, `opacidad` |
 | `letra` | lista de frases: `lineas` (composición final con `\n`) y `tiempos` (uno por palabra); `"was\|wasted"` muestra una palabra parcial y luego la completa (consume 2 tiempos); `escala_1` opcional para palabras solas |
 | `texto_fin` | segundo en que desaparece el texto |
-| `look` | `fps_efectivo`, `mezcla_destellos`, `tono_ref`, `desenfoque`, `grano`, `vineta` |
+| `look` | `fps_efectivo`, `mezcla_destellos`, `tono_ref`, `desenfoque`, `grano`, `vineta`; `color` (true = no convierte a gris; desviación respecto de la referencia), `tinte` [R, G, B], `saturacion` |
+| `fundido_negro` | opcional: [inicio, fin] en s (por defecto 2.02 s → 0.52 s antes del final, como la referencia) |
+| `audio.fade_out` | opcional: [inicio, duración] en s |
+| `letra[].fin` | opcional: segundo en que sale el texto de esa frase (tramos instrumentales largos) |
 
 ## 8. Límites
 

@@ -1,0 +1,194 @@
+{
+ "salida": {
+  "ancho": 1440,
+  "alto": 1080,
+  "fps": 30,
+  "lienzo": "4:3",
+  "crf": 18
+ },
+ "bucle": null,
+ "duracion": 52.636,
+ "audio": {
+  "archivo": "medios/cancion.wav",
+  "inicio": 0.0,
+  "lufs": -14
+ },
+ "base": [
+  {
+   "archivo": "medios/085.mp4",
+   "desde": 0
+  },
+  {
+   "archivo": "medios/020.mp4",
+   "desde": 4.5
+  },
+  {
+   "archivo": "medios/077.mp4",
+   "desde": 9.0
+  },
+  {
+   "archivo": "medios/072.mp4",
+   "desde": 13.5
+  },
+  {
+   "archivo": "medios/088.mp4",
+   "desde": 18.3
+  },
+  {
+   "archivo": "medios/029.mp4",
+   "desde": 21.8
+  },
+  {
+   "archivo": "medios/014.mp4",
+   "desde": 24.2
+  },
+  {
+   "archivo": "medios/140.mp4",
+   "desde": 29.3
+  },
+  {
+   "archivo": "medios/171.mp4",
+   "desde": 33.3
+  },
+  {
+   "archivo": "medios/043.mp4",
+   "desde": 39.5
+  },
+  {
+   "archivo": "medios/163.mp4",
+   "desde": 42.6
+  },
+  {
+   "archivo": "medios/159.mp4",
+   "desde": 46.9
+  }
+ ],
+ "destellos": [
+  {
+   "archivo": "medios/037.mp4",
+   "duracion": 3.0,
+   "inicio_clip": 0.0
+  },
+  {
+   "archivo": "medios/046.mp4",
+   "duracion": 3.0,
+   "inicio_clip": 0.0
+  },
+  {
+   "archivo": "medios/124.mp4",
+   "duracion": 3.0,
+   "inicio_clip": 0.0
+  },
+  {
+   "archivo": "medios/107.mp4",
+   "duracion": 3.0,
+   "inicio_clip": 0.0
+  },
+  {
+   "archivo": "medios/162.mp4",
+   "duracion": 3.0,
+   "inicio_clip": 0.0
+  },
+  {
+   "archivo": "medios/152.mp4",
+   "duracion": 3.0,
+   "inicio_clip": 0.0
+  },
+  {
+   "archivo": "medios/003.mp4",
+   "duracion": 3.0,
+   "inicio_clip": 0.0
+  },
+  {
+   "archivo": "medios/120.mp4",
+   "duracion": 3.0,
+   "inicio_clip": 0.0
+  },
+  {
+   "archivo": "medios/155.mp4",
+   "duracion": 3.0,
+   "inicio_clip": 0.0
+  },
+  {
+   "archivo": "medios/168.mp4",
+   "duracion": 3.0,
+   "inicio_clip": 0.0
+  },
+  {
+   "archivo": "medios/060.mp4",
+   "duracion": 3.0,
+   "inicio_clip": 0.0
+  },
+  {
+   "archivo": "medios/141.mp4",
+   "duracion": 3.0,
+   "inicio_clip": 0.0
+  }
+ ],
+ "look": {},
+ "letra": [
+  {
+   "lineas": "flaca\nno me claves\ntus puñales",
+   "tiempos": [
+    18.3,
+    19.98,
+    20.5,
+    20.96,
+    21.82,
+    22.88
+   ]
+  },
+  {
+   "lineas": "por la espalda\ntan profundo",
+   "tiempos": [
+    24.22,
+    25.06,
+    25.36,
+    26.06,
+    27.2
+   ]
+  },
+  {
+   "lineas": "no me duelen\nno me hacen\nmal",
+   "tiempos": [
+    29.28,
+    29.42,
+    29.78,
+    30.92,
+    31.34,
+    31.64,
+    32.0
+   ]
+  },
+  {
+   "lineas": "lejos\nen el centro\nde la tierra",
+   "tiempos": [
+    37.13,
+    38.2,
+    38.4,
+    38.62,
+    40.28,
+    40.56,
+    40.82
+   ]
+  },
+  {
+   "lineas": "las raíces\ndel amor",
+   "tiempos": [
+    42.6,
+    42.72,
+    44.3,
+    45.0
+   ]
+  },
+  {
+   "lineas": "donde estaban\nquedarán",
+   "tiempos": [
+    46.88,
+    47.32,
+    49.22
+   ]
+  }
+ ],
+ "texto_fin": 50.9
+}

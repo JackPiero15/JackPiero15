@@ -1,0 +1,374 @@
+{
+ "salida": {
+  "ancho": 1440,
+  "alto": 1080,
+  "fps": 30,
+  "lienzo": "4:3",
+  "crf": 18
+ },
+ "bucle": null,
+ "duracion": 60.0,
+ "audio": {
+  "archivo": "medios/cancion.wav",
+  "inicio": 0.0,
+  "lufs": -14,
+  "fade_out": [
+   59.2,
+   0.8
+  ]
+ },
+ "fundido_negro": [
+  59.4,
+  60.0
+ ],
+ "base": [
+  {
+   "archivo": "medios/004.mp4",
+   "desde": 0
+  },
+  {
+   "archivo": "medios/083.mp4",
+   "desde": 4.3
+  },
+  {
+   "archivo": "medios/098.mp4",
+   "desde": 6.3
+  },
+  {
+   "archivo": "medios/155.mp4",
+   "desde": 10.0
+  },
+  {
+   "archivo": "medios/242.mp4",
+   "desde": 12.1
+  },
+  {
+   "archivo": "medios/132.mp4",
+   "desde": 13.8
+  },
+  {
+   "archivo": "medios/077.mp4",
+   "desde": 16.6
+  },
+  {
+   "archivo": "medios/183.mp4",
+   "desde": 19.6
+  },
+  {
+   "archivo": "medios/142.mp4",
+   "desde": 21.7
+  },
+  {
+   "archivo": "medios/199.mp4",
+   "desde": 25.4
+  },
+  {
+   "archivo": "medios/273.mp4",
+   "desde": 27.3
+  },
+  {
+   "archivo": "medios/143.mp4",
+   "desde": 29.5
+  },
+  {
+   "archivo": "medios/117.mp4",
+   "desde": 31.6
+  },
+  {
+   "archivo": "medios/090.mp4",
+   "desde": 33.2,
+   "inicio_clip": 3.0
+  },
+  {
+   "archivo": "medios/072.mp4",
+   "desde": 37.3
+  },
+  {
+   "archivo": "medios/153.mp4",
+   "desde": 39.3
+  },
+  {
+   "archivo": "medios/081.mp4",
+   "desde": 41.0
+  },
+  {
+   "archivo": "medios/087.mp4",
+   "desde": 44.9
+  },
+  {
+   "archivo": "medios/023.mp4",
+   "desde": 47.9
+  },
+  {
+   "archivo": "medios/211.mp4",
+   "desde": 53.2
+  },
+  {
+   "archivo": "medios/099.mp4",
+   "desde": 55.9
+  },
+  {
+   "archivo": "medios/180.mp4",
+   "desde": 56.6
+  }
+ ],
+ "destellos": [
+  {
+   "archivo": "medios/015.mp4",
+   "duracion": 3.0,
+   "inicio_clip": 0.0
+  },
+  {
+   "archivo": "medios/034.mp4",
+   "duracion": 3.0,
+   "inicio_clip": 0.0
+  },
+  {
+   "archivo": "medios/165.mp4",
+   "duracion": 3.0,
+   "inicio_clip": 0.0
+  },
+  {
+   "archivo": "medios/237.mp4",
+   "duracion": 3.0,
+   "inicio_clip": 0.0
+  },
+  {
+   "archivo": "medios/244.mp4",
+   "duracion": 3.0,
+   "inicio_clip": 0.0
+  },
+  {
+   "archivo": "medios/172.mp4",
+   "duracion": 3.0,
+   "inicio_clip": 0.0
+  },
+  {
+   "archivo": "medios/022.mp4",
+   "duracion": 3.0,
+   "inicio_clip": 0.0
+  },
+  {
+   "archivo": "medios/210.mp4",
+   "duracion": 3.0,
+   "inicio_clip": 0.0
+  },
+  {
+   "archivo": "medios/005.mp4",
+   "duracion": 3.0,
+   "inicio_clip": 0.0
+  },
+  {
+   "archivo": "medios/251.mp4",
+   "duracion": 3.0,
+   "inicio_clip": 0.0
+  },
+  {
+   "archivo": "medios/198.mp4",
+   "duracion": 3.0,
+   "inicio_clip": 0.0
+  },
+  {
+   "archivo": "medios/063.mp4",
+   "duracion": 3.0,
+   "inicio_clip": 0.0
+  }
+ ],
+ "look": {
+  "color": true,
+  "tinte": [
+   1.0,
+   1.0,
+   1.0
+  ],
+  "saturacion": 0.95,
+  "tono_ref": 0.7
+ },
+ "letra": [
+  {
+   "lineas": "porque no hay\nnadie que mi\npiel resista",
+   "tiempos": [
+    1.64,
+    2.36,
+    2.74,
+    2.84,
+    3.26,
+    3.56,
+    3.78,
+    4.32
+   ]
+  },
+  {
+   "lineas": "porque no hay\nnadie que yo\nquiera ver",
+   "tiempos": [
+    6.28,
+    6.44,
+    6.66,
+    6.78,
+    7.14,
+    7.48,
+    7.76,
+    8.38
+   ]
+  },
+  {
+   "lineas": "no veo\ntelevisión\nni las revistas",
+   "tiempos": [
+    10.04,
+    10.14,
+    10.32,
+    11.4,
+    11.74,
+    12.14
+   ]
+  },
+  {
+   "lineas": "no veo ya\nnada que no\npueda ser",
+   "tiempos": [
+    13.84,
+    14.0,
+    14.24,
+    14.58,
+    14.92,
+    15.28,
+    15.56,
+    16.1
+   ]
+  },
+  {
+   "lineas": "por eso yo\nno voy en tren\nvoy en avión",
+   "tiempos": [
+    16.66,
+    17.06,
+    17.36,
+    17.74,
+    17.98,
+    18.28,
+    18.74,
+    19.58,
+    19.74,
+    20.06
+   ]
+  },
+  {
+   "lineas": "no necesito\na nadie\na nadie alrededor",
+   "tiempos": [
+    21.74,
+    21.88,
+    23.12,
+    23.46,
+    23.74,
+    24.14,
+    24.6
+   ]
+  },
+  {
+   "lineas": "no voy en tren\nvoy en avión",
+   "tiempos": [
+    25.38,
+    25.92,
+    26.02,
+    26.36,
+    27.3,
+    27.54,
+    27.84
+   ]
+  },
+  {
+   "lineas": "no necesito\na nadie\na nadie alrededor",
+   "tiempos": [
+    29.5,
+    29.66,
+    30.96,
+    31.28,
+    31.6,
+    31.7,
+    32.32
+   ]
+  },
+  {
+   "lineas": "cuando era niño\nnunca fui\nmuy listo",
+   "tiempos": [
+    33.2,
+    33.48,
+    33.94,
+    34.34,
+    34.86,
+    35.42,
+    35.64
+   ]
+  },
+  {
+   "lineas": "tocaba el piano\ncomo un animal",
+   "tiempos": [
+    37.3,
+    37.72,
+    37.92,
+    38.22,
+    38.7,
+    39.32
+   ]
+  },
+  {
+   "lineas": "yo sé que\nalgunos piensan\nque soy mixto",
+   "tiempos": [
+    41.08,
+    41.22,
+    41.44,
+    41.7,
+    42.14,
+    42.68,
+    43.14,
+    43.38
+   ]
+  },
+  {
+   "lineas": "pero yo tengo\npersonalidad",
+   "tiempos": [
+    44.9,
+    45.22,
+    45.62,
+    46.04
+   ]
+  },
+  {
+   "lineas": "yo soy de\nla cruz\ndel sur",
+   "tiempos": [
+    47.92,
+    48.7,
+    49.04,
+    49.3,
+    49.52,
+    50.46,
+    51.2
+   ]
+  },
+  {
+   "lineas": "soy el que cierra\ny el que apaga\nla luz",
+   "tiempos": [
+    53.26,
+    53.94,
+    54.14,
+    54.3,
+    54.7,
+    54.94,
+    55.1,
+    55.32,
+    55.86,
+    56.0
+   ]
+  },
+  {
+   "lineas": "yo soy de\nla cruz\ndel sur",
+   "tiempos": [
+    56.4,
+    56.6,
+    56.8,
+    57.1,
+    57.28,
+    58.24,
+    59.04
+   ]
+  }
+ ]
+}
