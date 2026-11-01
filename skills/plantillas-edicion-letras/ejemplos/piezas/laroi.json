@@ -1,0 +1,1473 @@
+{
+ "id": "toomuch",
+ "duration": 60.0,
+ "font": "fonts/RobotoCondensed[wght].ttf",
+ "font_size": 84,
+ "font_weight": 400,
+ "text_y": 960,
+ "max_text_w": 860,
+ "images": [
+  {
+   "file": "media/related/960142830755_15.jpg",
+   "k": 5.0,
+   "dim": 0.46,
+   "tint": [
+    40,
+    110,
+    210
+   ],
+   "xerox": true
+  },
+  {
+   "file": "media/related/960142830755_08.jpg",
+   "k": 5.0,
+   "dim": 0.46,
+   "tint": [
+    40,
+    110,
+    210
+   ],
+   "xerox": true
+  },
+  {
+   "file": "media/pins/711005859920404333.jpg",
+   "k": 5.0,
+   "dim": 0.46,
+   "tint": [
+    60,
+    170,
+    200
+   ],
+   "xerox": true
+  },
+  {
+   "file": "media/related/960142830755_20.jpg",
+   "k": 5.0,
+   "dim": 0.46,
+   "tint": [
+    40,
+    110,
+    210
+   ],
+   "xerox": true
+  },
+  {
+   "file": "media/related/960142830755_21.jpg",
+   "k": 5.0,
+   "dim": 0.46,
+   "tint": [
+    120,
+    70,
+    200
+   ],
+   "xerox": true
+  },
+  {
+   "file": "media/pins/698972804698111874.jpg",
+   "k": 5.0,
+   "dim": 0.46,
+   "tint": [
+    60,
+    170,
+    200
+   ],
+   "xerox": true
+  },
+  {
+   "file": "media/related/960142830755_16.jpg",
+   "k": 5.0,
+   "dim": 0.46,
+   "tint": [
+    40,
+    110,
+    210
+   ],
+   "xerox": true
+  },
+  {
+   "file": "media/related/960142830755_07.jpg",
+   "k": 5.0,
+   "dim": 0.46,
+   "tint": [
+    40,
+    110,
+    210
+   ],
+   "xerox": true
+  },
+  {
+   "file": "media/related/915405679962_09.jpg",
+   "k": 5.0,
+   "dim": 0.46,
+   "tint": [
+    60,
+    170,
+    200
+   ],
+   "xerox": true
+  },
+  {
+   "file": "media/related/908455095480_10.jpg",
+   "k": 5.0,
+   "dim": 0.46,
+   "tint": [
+    40,
+    110,
+    210
+   ],
+   "xerox": true
+  },
+  {
+   "file": "media/related/960142830755_22.jpg",
+   "k": 5.0,
+   "dim": 0.46,
+   "tint": [
+    40,
+    110,
+    210
+   ],
+   "xerox": true
+  },
+  {
+   "file": "media/related/902130093968_11.jpg",
+   "k": 5.0,
+   "dim": 0.46,
+   "tint": [
+    60,
+    170,
+    200
+   ],
+   "xerox": true
+  },
+  {
+   "file": "media/related/phonk_09.jpg",
+   "k": 5.0,
+   "dim": 0.46,
+   "tint": [
+    120,
+    70,
+    200
+   ],
+   "xerox": true
+  },
+  {
+   "file": "media/related/phonk_02.jpg",
+   "k": 5.0,
+   "dim": 0.46,
+   "tint": [
+    40,
+    110,
+    210
+   ],
+   "xerox": true
+  }
+ ],
+ "events": [
+  {
+   "t": 0.0,
+   "text": "",
+   "line": "",
+   "mode": "hold",
+   "img": 8,
+   "img_t0": 0.0,
+   "swap": true
+  },
+  {
+   "t": 3.64,
+   "text": "Si",
+   "line": "Si tuviéramos la oportunidad y el tiempo",
+   "mode": "hold",
+   "img": 8,
+   "img_t0": 3.64,
+   "swap": true
+  },
+  {
+   "t": 4.2,
+   "text": "Si tuviér-",
+   "line": "Si tuviéramos la oportunidad y el tiempo",
+   "mode": "hold",
+   "img": 8,
+   "img_t0": 3.64,
+   "swap": false
+  },
+  {
+   "t": 4.76,
+   "text": "Si tuviéramos",
+   "line": "Si tuviéramos la oportunidad y el tiempo",
+   "mode": "hold",
+   "img": 8,
+   "img_t0": 3.64,
+   "swap": false
+  },
+  {
+   "t": 5.04,
+   "text": "Si tuviéramos la",
+   "line": "Si tuviéramos la oportunidad y el tiempo",
+   "mode": "hold",
+   "img": 8,
+   "img_t0": 3.64,
+   "swap": false
+  },
+  {
+   "t": 5.28,
+   "text": "Si tuviéramos la oportun_",
+   "line": "Si tuviéramos la oportunidad y el tiempo",
+   "mode": "hold",
+   "img": 8,
+   "img_t0": 3.64,
+   "swap": false
+  },
+  {
+   "t": 5.64,
+   "text": "Si tuviéramos la oportunidad",
+   "line": "Si tuviéramos la oportunidad y el tiempo",
+   "mode": "hold",
+   "img": 8,
+   "img_t0": 3.64,
+   "swap": false
+  },
+  {
+   "t": 5.9,
+   "text": "Si tuviéramos la oportunidad y",
+   "line": "Si tuviéramos la oportunidad y el tiempo",
+   "mode": "hold",
+   "img": 8,
+   "img_t0": 3.64,
+   "swap": false
+  },
+  {
+   "t": 6.12,
+   "text": "Si tuviéramos la oportunidad y el",
+   "line": "Si tuviéramos la oportunidad y el tiempo",
+   "mode": "hold",
+   "img": 8,
+   "img_t0": 3.64,
+   "swap": false
+  },
+  {
+   "t": 6.28,
+   "text": "Si tuviéramos la oportunidad y el tiem_",
+   "line": "Si tuviéramos la oportunidad y el tiempo",
+   "mode": "hold",
+   "img": 8,
+   "img_t0": 3.64,
+   "swap": false
+  },
+  {
+   "t": 6.5,
+   "text": "Si tuviéramos la oportunidad y el tiempo",
+   "line": "Si tuviéramos la oportunidad y el tiempo",
+   "mode": "hold",
+   "img": 8,
+   "img_t0": 3.64,
+   "swap": false
+  },
+  {
+   "t": 6.84,
+   "text": "¿Lo",
+   "line": "¿Lo harías otra vez? ¿Lo harías otra vez?",
+   "mode": "hold",
+   "img": 9,
+   "img_t0": 6.84,
+   "swap": true
+  },
+  {
+   "t": 7.1,
+   "text": "¿Lo harías",
+   "line": "¿Lo harías otra vez? ¿Lo harías otra vez?",
+   "mode": "hold",
+   "img": 9,
+   "img_t0": 6.84,
+   "swap": false
+  },
+  {
+   "t": 7.48,
+   "text": "¿Lo harías otra",
+   "line": "¿Lo harías otra vez? ¿Lo harías otra vez?",
+   "mode": "hold",
+   "img": 9,
+   "img_t0": 6.84,
+   "swap": false
+  },
+  {
+   "t": 7.72,
+   "text": "¿Lo",
+   "line": "¿Lo harías otra vez? ¿Lo harías otra vez?",
+   "mode": "hold",
+   "img": 9,
+   "img_t0": 6.84,
+   "swap": false
+  },
+  {
+   "t": 8.16,
+   "text": "¿Lo harías",
+   "line": "¿Lo harías otra vez? ¿Lo harías otra vez?",
+   "mode": "hold",
+   "img": 9,
+   "img_t0": 6.84,
+   "swap": false
+  },
+  {
+   "t": 8.36,
+   "text": "¿Lo harías otra",
+   "line": "¿Lo harías otra vez? ¿Lo harías otra vez?",
+   "mode": "hold",
+   "img": 9,
+   "img_t0": 6.84,
+   "swap": false
+  },
+  {
+   "t": 8.76,
+   "text": "¿Lo harías otra vez?",
+   "line": "¿Lo harías otra vez? ¿Lo harías otra vez?",
+   "mode": "hold",
+   "img": 9,
+   "img_t0": 6.84,
+   "swap": false
+  },
+  {
+   "t": 9.54,
+   "text": "¿Fue",
+   "line": "¿Fue demasiado? ¿Fue demasiado?",
+   "mode": "flash",
+   "bg": "w",
+   "swap": true
+  },
+  {
+   "t": 9.74,
+   "text": "¿Fue demasi_",
+   "line": "¿Fue demasiado? ¿Fue demasiado?",
+   "mode": "flash",
+   "bg": "w",
+   "swap": false
+  },
+  {
+   "t": 10.22,
+   "text": "¿Fue demasiado?",
+   "line": "¿Fue demasiado? ¿Fue demasiado?",
+   "mode": "flash",
+   "bg": "b",
+   "swap": true
+  },
+  {
+   "t": 10.76,
+   "text": "¿Fue",
+   "line": "¿Fue demasiado? ¿Fue demasiado?",
+   "mode": "flash",
+   "bg": "w",
+   "swap": true
+  },
+  {
+   "t": 12.12,
+   "text": "¿Fue demasi-",
+   "line": "¿Fue demasiado? ¿Fue demasiado?",
+   "mode": "flash",
+   "bg": "b",
+   "swap": true
+  },
+  {
+   "t": 12.38,
+   "text": "¿Fue demasiado?",
+   "line": "¿Fue demasiado? ¿Fue demasiado?",
+   "mode": "flash",
+   "bg": "b",
+   "swap": false
+  },
+  {
+   "t": 14.56,
+   "text": "Ahora",
+   "line": "Ahora llamas a tus amigas porque me fui otra vez",
+   "mode": "hold",
+   "img": 10,
+   "img_t0": 14.56,
+   "swap": true
+  },
+  {
+   "t": 14.76,
+   "text": "Ahora llamas",
+   "line": "Ahora llamas a tus amigas porque me fui otra vez",
+   "mode": "hold",
+   "img": 10,
+   "img_t0": 14.56,
+   "swap": false
+  },
+  {
+   "t": 14.94,
+   "text": "Ahora llamas a tus",
+   "line": "Ahora llamas a tus amigas porque me fui otra vez",
+   "mode": "hold",
+   "img": 10,
+   "img_t0": 14.56,
+   "swap": false
+  },
+  {
+   "t": 15.4,
+   "text": "Ahora llamas a tus amigas",
+   "line": "Ahora llamas a tus amigas porque me fui otra vez",
+   "mode": "hold",
+   "img": 10,
+   "img_t0": 14.56,
+   "swap": false
+  },
+  {
+   "t": 15.72,
+   "text": "Ahora llamas a tus amigas porque",
+   "line": "Ahora llamas a tus amigas porque me fui otra vez",
+   "mode": "hold",
+   "img": 10,
+   "img_t0": 14.56,
+   "swap": false
+  },
+  {
+   "t": 15.9,
+   "text": "Ahora llamas a tus amigas porque me fui",
+   "line": "Ahora llamas a tus amigas porque me fui otra vez",
+   "mode": "hold",
+   "img": 10,
+   "img_t0": 14.56,
+   "swap": false
+  },
+  {
+   "t": 16.26,
+   "text": "Ahora llamas a tus amigas porque me fui otra",
+   "line": "Ahora llamas a tus amigas porque me fui otra vez",
+   "mode": "hold",
+   "img": 10,
+   "img_t0": 14.56,
+   "swap": false
+  },
+  {
+   "t": 16.54,
+   "text": "Ahora llamas a tus amigas porque me fui otra vez",
+   "line": "Ahora llamas a tus amigas porque me fui otra vez",
+   "mode": "hold",
+   "img": 10,
+   "img_t0": 14.56,
+   "swap": false
+  },
+  {
+   "t": 16.96,
+   "text": "Cuan-",
+   "line": "Cuando vuelva, ¿lo harías otra vez?",
+   "mode": "hold",
+   "img": 11,
+   "img_t0": 16.96,
+   "swap": true
+  },
+  {
+   "t": 17.14,
+   "text": "Cuando",
+   "line": "Cuando vuelva, ¿lo harías otra vez?",
+   "mode": "hold",
+   "img": 11,
+   "img_t0": 16.96,
+   "swap": false
+  },
+  {
+   "t": 17.48,
+   "text": "Cuando vuel_",
+   "line": "Cuando vuelva, ¿lo harías otra vez?",
+   "mode": "hold",
+   "img": 11,
+   "img_t0": 16.96,
+   "swap": false
+  },
+  {
+   "t": 17.72,
+   "text": "Cuando vuelva,",
+   "line": "Cuando vuelva, ¿lo harías otra vez?",
+   "mode": "hold",
+   "img": 11,
+   "img_t0": 16.96,
+   "swap": false
+  },
+  {
+   "t": 18.42,
+   "text": "Cuando vuelva, ¿lo",
+   "line": "Cuando vuelva, ¿lo harías otra vez?",
+   "mode": "hold",
+   "img": 11,
+   "img_t0": 16.96,
+   "swap": false
+  },
+  {
+   "t": 18.58,
+   "text": "Cuando vuelva, ¿lo harías",
+   "line": "Cuando vuelva, ¿lo harías otra vez?",
+   "mode": "hold",
+   "img": 11,
+   "img_t0": 16.96,
+   "swap": false
+  },
+  {
+   "t": 18.84,
+   "text": "Cuando vuelva, ¿lo harías otra",
+   "line": "Cuando vuelva, ¿lo harías otra vez?",
+   "mode": "hold",
+   "img": 11,
+   "img_t0": 16.96,
+   "swap": false
+  },
+  {
+   "t": 19.08,
+   "text": "Cuando vuelva, ¿lo harías otra vez?",
+   "line": "Cuando vuelva, ¿lo harías otra vez?",
+   "mode": "hold",
+   "img": 11,
+   "img_t0": 16.96,
+   "swap": false
+  },
+  {
+   "t": 19.64,
+   "text": "¿Fue",
+   "line": "¿Fue demasiado? ¿Fue demasiado?",
+   "mode": "flash",
+   "bg": "w",
+   "swap": true
+  },
+  {
+   "t": 19.88,
+   "text": "¿Fue demasi_",
+   "line": "¿Fue demasiado? ¿Fue demasiado?",
+   "mode": "flash",
+   "bg": "w",
+   "swap": false
+  },
+  {
+   "t": 20.3,
+   "text": "¿Fue demasiado?",
+   "line": "¿Fue demasiado? ¿Fue demasiado?",
+   "mode": "flash",
+   "bg": "b",
+   "swap": true
+  },
+  {
+   "t": 21.4,
+   "text": "¿Fue",
+   "line": "¿Fue demasiado? ¿Fue demasiado?",
+   "mode": "flash",
+   "bg": "w",
+   "swap": true
+  },
+  {
+   "t": 22.22,
+   "text": "¿Fue demasi-",
+   "line": "¿Fue demasiado? ¿Fue demasiado?",
+   "mode": "flash",
+   "bg": "b",
+   "swap": true
+  },
+  {
+   "t": 22.52,
+   "text": "¿Fue demasiado?",
+   "line": "¿Fue demasiado? ¿Fue demasiado?",
+   "mode": "flash",
+   "bg": "w",
+   "swap": true
+  },
+  {
+   "t": 24.63,
+   "text": "Enton-",
+   "line": "Entonces dime qué se interpuso y cómo pensé que era bueno que cambiara",
+   "mode": "hold",
+   "img": 0,
+   "img_t0": 24.62,
+   "swap": true
+  },
+  {
+   "t": 24.85,
+   "text": "Entonces",
+   "line": "Entonces dime qué se interpuso y cómo pensé que era bueno que cambiara",
+   "mode": "hold",
+   "img": 0,
+   "img_t0": 24.62,
+   "swap": false
+  },
+  {
+   "t": 25.05,
+   "text": "Entonces dime",
+   "line": "Entonces dime qué se interpuso y cómo pensé que era bueno que cambiara",
+   "mode": "hold",
+   "img": 0,
+   "img_t0": 24.62,
+   "swap": false
+  },
+  {
+   "t": 25.39,
+   "text": "Entonces dime qué",
+   "line": "Entonces dime qué se interpuso y cómo pensé que era bueno que cambiara",
+   "mode": "hold",
+   "img": 0,
+   "img_t0": 24.62,
+   "swap": false
+  },
+  {
+   "t": 25.79,
+   "text": "Entonces dime qué se",
+   "line": "Entonces dime qué se interpuso y cómo pensé que era bueno que cambiara",
+   "mode": "hold",
+   "img": 0,
+   "img_t0": 24.62,
+   "swap": false
+  },
+  {
+   "t": 26.03,
+   "text": "Entonces dime qué se inter_",
+   "line": "Entonces dime qué se interpuso y cómo pensé que era bueno que cambiara",
+   "mode": "hold",
+   "img": 0,
+   "img_t0": 24.62,
+   "swap": false
+  },
+  {
+   "t": 26.31,
+   "text": "Entonces dime qué se interpuso",
+   "line": "Entonces dime qué se interpuso y cómo pensé que era bueno que cambiara",
+   "mode": "hold",
+   "img": 0,
+   "img_t0": 24.62,
+   "swap": false
+  },
+  {
+   "t": 26.83,
+   "text": "Entonces dime qué se interpuso y",
+   "line": "Entonces dime qué se interpuso y cómo pensé que era bueno que cambiara",
+   "mode": "hold",
+   "img": 0,
+   "img_t0": 24.62,
+   "swap": false
+  },
+  {
+   "t": 27.21,
+   "text": "Entonces dime qué se interpuso y cómo",
+   "line": "Entonces dime qué se interpuso y cómo pensé que era bueno que cambiara",
+   "mode": "hold",
+   "img": 0,
+   "img_t0": 24.62,
+   "swap": false
+  },
+  {
+   "t": 27.39,
+   "text": "Entonces dime qué se interpuso y cómo pensé",
+   "line": "Entonces dime qué se interpuso y cómo pensé que era bueno que cambiara",
+   "mode": "hold",
+   "img": 0,
+   "img_t0": 24.62,
+   "swap": false
+  },
+  {
+   "t": 27.59,
+   "text": "Entonces dime qué se interpuso y cómo pensé que",
+   "line": "Entonces dime qué se interpuso y cómo pensé que era bueno que cambiara",
+   "mode": "hold",
+   "img": 0,
+   "img_t0": 24.62,
+   "swap": false
+  },
+  {
+   "t": 27.77,
+   "text": "Entonces dime qué se interpuso y cómo pensé que era",
+   "line": "Entonces dime qué se interpuso y cómo pensé que era bueno que cambiara",
+   "mode": "hold",
+   "img": 0,
+   "img_t0": 24.62,
+   "swap": false
+  },
+  {
+   "t": 27.97,
+   "text": "Entonces dime qué se interpuso y cómo pensé que era bueno",
+   "line": "Entonces dime qué se interpuso y cómo pensé que era bueno que cambiara",
+   "mode": "hold",
+   "img": 0,
+   "img_t0": 24.62,
+   "swap": false
+  },
+  {
+   "t": 28.21,
+   "text": "Entonces dime qué se interpuso y cómo pensé que era bueno que",
+   "line": "Entonces dime qué se interpuso y cómo pensé que era bueno que cambiara",
+   "mode": "hold",
+   "img": 0,
+   "img_t0": 24.62,
+   "swap": false
+  },
+  {
+   "t": 28.47,
+   "text": "Entonces dime qué se interpuso y cómo pensé que era bueno que cambi_",
+   "line": "Entonces dime qué se interpuso y cómo pensé que era bueno que cambiara",
+   "mode": "hold",
+   "img": 0,
+   "img_t0": 24.62,
+   "swap": false
+  },
+  {
+   "t": 28.81,
+   "text": "Entonces dime qué se interpuso y cómo pensé que era bueno que cambiara",
+   "line": "Entonces dime qué se interpuso y cómo pensé que era bueno que cambiara",
+   "mode": "hold",
+   "img": 0,
+   "img_t0": 24.62,
+   "swap": false
+  },
+  {
+   "t": 29.35,
+   "text": "Y",
+   "line": "Y te pido perdón otra vez",
+   "mode": "hold",
+   "img": 2,
+   "img_t0": 29.35,
+   "swap": true
+  },
+  {
+   "t": 29.75,
+   "text": "Y te",
+   "line": "Y te pido perdón otra vez",
+   "mode": "hold",
+   "img": 2,
+   "img_t0": 29.35,
+   "swap": false
+  },
+  {
+   "t": 29.91,
+   "text": "Y te pido",
+   "line": "Y te pido perdón otra vez",
+   "mode": "hold",
+   "img": 2,
+   "img_t0": 29.35,
+   "swap": false
+  },
+  {
+   "t": 30.23,
+   "text": "Y te pido perdón",
+   "line": "Y te pido perdón otra vez",
+   "mode": "hold",
+   "img": 2,
+   "img_t0": 29.35,
+   "swap": false
+  },
+  {
+   "t": 30.51,
+   "text": "Y te pido perdón otra",
+   "line": "Y te pido perdón otra vez",
+   "mode": "hold",
+   "img": 2,
+   "img_t0": 29.35,
+   "swap": false
+  },
+  {
+   "t": 31.37,
+   "text": "Y te pido perdón otra vez",
+   "line": "Y te pido perdón otra vez",
+   "mode": "hold",
+   "img": 2,
+   "img_t0": 29.35,
+   "swap": false
+  },
+  {
+   "t": 31.97,
+   "text": "Ay,",
+   "line": "Ay, nunca supe quitarme de mi camino",
+   "mode": "hold",
+   "img": 3,
+   "img_t0": 31.97,
+   "swap": true
+  },
+  {
+   "t": 32.21,
+   "text": "Ay, nunca",
+   "line": "Ay, nunca supe quitarme de mi camino",
+   "mode": "hold",
+   "img": 3,
+   "img_t0": 31.97,
+   "swap": false
+  },
+  {
+   "t": 32.57,
+   "text": "Ay, nunca supe",
+   "line": "Ay, nunca supe quitarme de mi camino",
+   "mode": "hold",
+   "img": 3,
+   "img_t0": 31.97,
+   "swap": false
+  },
+  {
+   "t": 32.79,
+   "text": "Ay, nunca supe quita_",
+   "line": "Ay, nunca supe quitarme de mi camino",
+   "mode": "hold",
+   "img": 3,
+   "img_t0": 31.97,
+   "swap": false
+  },
+  {
+   "t": 33.13,
+   "text": "Ay, nunca supe quitarme",
+   "line": "Ay, nunca supe quitarme de mi camino",
+   "mode": "hold",
+   "img": 3,
+   "img_t0": 31.97,
+   "swap": false
+  },
+  {
+   "t": 33.43,
+   "text": "Ay, nunca supe quitarme de",
+   "line": "Ay, nunca supe quitarme de mi camino",
+   "mode": "hold",
+   "img": 3,
+   "img_t0": 31.97,
+   "swap": false
+  },
+  {
+   "t": 33.61,
+   "text": "Ay, nunca supe quitarme de mi",
+   "line": "Ay, nunca supe quitarme de mi camino",
+   "mode": "hold",
+   "img": 3,
+   "img_t0": 31.97,
+   "swap": false
+  },
+  {
+   "t": 33.89,
+   "text": "Ay, nunca supe quitarme de mi camino",
+   "line": "Ay, nunca supe quitarme de mi camino",
+   "mode": "hold",
+   "img": 3,
+   "img_t0": 31.97,
+   "swap": false
+  },
+  {
+   "t": 34.53,
+   "text": "Vamos",
+   "line": "Vamos de compras y renuevo tu clóset",
+   "mode": "hold",
+   "img": 4,
+   "img_t0": 34.53,
+   "swap": true
+  },
+  {
+   "t": 34.99,
+   "text": "Vamos de",
+   "line": "Vamos de compras y renuevo tu clóset",
+   "mode": "hold",
+   "img": 4,
+   "img_t0": 34.53,
+   "swap": false
+  },
+  {
+   "t": 35.31,
+   "text": "Vamos de compras",
+   "line": "Vamos de compras y renuevo tu clóset",
+   "mode": "hold",
+   "img": 4,
+   "img_t0": 34.53,
+   "swap": false
+  },
+  {
+   "t": 35.63,
+   "text": "Vamos de compras y",
+   "line": "Vamos de compras y renuevo tu clóset",
+   "mode": "hold",
+   "img": 4,
+   "img_t0": 34.53,
+   "swap": false
+  },
+  {
+   "t": 35.89,
+   "text": "Vamos de compras y renuevo",
+   "line": "Vamos de compras y renuevo tu clóset",
+   "mode": "hold",
+   "img": 4,
+   "img_t0": 34.53,
+   "swap": false
+  },
+  {
+   "t": 36.07,
+   "text": "Vamos de compras y renuevo tu",
+   "line": "Vamos de compras y renuevo tu clóset",
+   "mode": "hold",
+   "img": 4,
+   "img_t0": 34.53,
+   "swap": false
+  },
+  {
+   "t": 36.39,
+   "text": "Vamos de compras y renuevo tu clóset",
+   "line": "Vamos de compras y renuevo tu clóset",
+   "mode": "hold",
+   "img": 4,
+   "img_t0": 34.53,
+   "swap": false
+  },
+  {
+   "t": 37.07,
+   "text": "Y",
+   "line": "Y aun así solo sabes quejarte",
+   "mode": "hold",
+   "img": 5,
+   "img_t0": 37.07,
+   "swap": true
+  },
+  {
+   "t": 37.49,
+   "text": "Y aun",
+   "line": "Y aun así solo sabes quejarte",
+   "mode": "hold",
+   "img": 5,
+   "img_t0": 37.07,
+   "swap": false
+  },
+  {
+   "t": 37.73,
+   "text": "Y aun así",
+   "line": "Y aun así solo sabes quejarte",
+   "mode": "hold",
+   "img": 5,
+   "img_t0": 37.07,
+   "swap": false
+  },
+  {
+   "t": 37.99,
+   "text": "Y aun así solo",
+   "line": "Y aun así solo sabes quejarte",
+   "mode": "hold",
+   "img": 5,
+   "img_t0": 37.07,
+   "swap": false
+  },
+  {
+   "t": 38.35,
+   "text": "Y aun así solo sabes",
+   "line": "Y aun así solo sabes quejarte",
+   "mode": "hold",
+   "img": 5,
+   "img_t0": 37.07,
+   "swap": false
+  },
+  {
+   "t": 38.65,
+   "text": "Y aun así solo sabes quejarte",
+   "line": "Y aun así solo sabes quejarte",
+   "mode": "hold",
+   "img": 5,
+   "img_t0": 37.07,
+   "swap": false
+  },
+  {
+   "t": 39.37,
+   "text": "Me",
+   "line": "Me lo sigues echando en cara",
+   "mode": "hold",
+   "img": 6,
+   "img_t0": 39.37,
+   "swap": true
+  },
+  {
+   "t": 39.73,
+   "text": "Me lo",
+   "line": "Me lo sigues echando en cara",
+   "mode": "hold",
+   "img": 6,
+   "img_t0": 39.37,
+   "swap": false
+  },
+  {
+   "t": 39.97,
+   "text": "Me lo sigu-",
+   "line": "Me lo sigues echando en cara",
+   "mode": "hold",
+   "img": 6,
+   "img_t0": 39.37,
+   "swap": false
+  },
+  {
+   "t": 40.19,
+   "text": "Me lo sigues",
+   "line": "Me lo sigues echando en cara",
+   "mode": "hold",
+   "img": 6,
+   "img_t0": 39.37,
+   "swap": false
+  },
+  {
+   "t": 40.43,
+   "text": "Me lo sigues echa_",
+   "line": "Me lo sigues echando en cara",
+   "mode": "hold",
+   "img": 6,
+   "img_t0": 39.37,
+   "swap": false
+  },
+  {
+   "t": 40.63,
+   "text": "Me lo sigues echando",
+   "line": "Me lo sigues echando en cara",
+   "mode": "hold",
+   "img": 6,
+   "img_t0": 39.37,
+   "swap": false
+  },
+  {
+   "t": 40.89,
+   "text": "Me lo sigues echando en",
+   "line": "Me lo sigues echando en cara",
+   "mode": "hold",
+   "img": 6,
+   "img_t0": 39.37,
+   "swap": false
+  },
+  {
+   "t": 41.13,
+   "text": "Me lo sigues echando en cara",
+   "line": "Me lo sigues echando en cara",
+   "mode": "hold",
+   "img": 6,
+   "img_t0": 39.37,
+   "swap": false
+  },
+  {
+   "t": 41.97,
+   "text": "Y",
+   "line": "Y ahora me dices que necesito espacio",
+   "mode": "hold",
+   "img": 7,
+   "img_t0": 41.97,
+   "swap": true
+  },
+  {
+   "t": 42.37,
+   "text": "Y ahora",
+   "line": "Y ahora me dices que necesito espacio",
+   "mode": "hold",
+   "img": 7,
+   "img_t0": 41.97,
+   "swap": false
+  },
+  {
+   "t": 42.69,
+   "text": "Y ahora me",
+   "line": "Y ahora me dices que necesito espacio",
+   "mode": "hold",
+   "img": 7,
+   "img_t0": 41.97,
+   "swap": false
+  },
+  {
+   "t": 42.95,
+   "text": "Y ahora me dices",
+   "line": "Y ahora me dices que necesito espacio",
+   "mode": "hold",
+   "img": 7,
+   "img_t0": 41.97,
+   "swap": false
+  },
+  {
+   "t": 43.19,
+   "text": "Y ahora me dices que",
+   "line": "Y ahora me dices que necesito espacio",
+   "mode": "hold",
+   "img": 7,
+   "img_t0": 41.97,
+   "swap": false
+  },
+  {
+   "t": 43.45,
+   "text": "Y ahora me dices que neces_",
+   "line": "Y ahora me dices que necesito espacio",
+   "mode": "hold",
+   "img": 7,
+   "img_t0": 41.97,
+   "swap": false
+  },
+  {
+   "t": 43.69,
+   "text": "Y ahora me dices que necesito",
+   "line": "Y ahora me dices que necesito espacio",
+   "mode": "hold",
+   "img": 7,
+   "img_t0": 41.97,
+   "swap": false
+  },
+  {
+   "t": 43.95,
+   "text": "Y ahora me dices que necesito espacio",
+   "line": "Y ahora me dices que necesito espacio",
+   "mode": "hold",
+   "img": 7,
+   "img_t0": 41.97,
+   "swap": false
+  },
+  {
+   "t": 44.85,
+   "text": "Así",
+   "line": "Así que estoy tirado en mi cama, alucinando con hongos",
+   "mode": "flash",
+   "bg": "b",
+   "swap": true
+  },
+  {
+   "t": 45.07,
+   "text": "Así que",
+   "line": "Así que estoy tirado en mi cama, alucinando con hongos",
+   "mode": "flash",
+   "bg": "b",
+   "swap": false
+  },
+  {
+   "t": 46.03,
+   "text": "Así que estoy",
+   "line": "Así que estoy tirado en mi cama, alucinando con hongos",
+   "mode": "flash",
+   "bg": "w",
+   "swap": true
+  },
+  {
+   "t": 46.47,
+   "text": "Así que estoy tirado",
+   "line": "Así que estoy tirado en mi cama, alucinando con hongos",
+   "mode": "flash",
+   "bg": "b",
+   "swap": true
+  },
+  {
+   "t": 46.79,
+   "text": "Así que estoy tirado en mi",
+   "line": "Así que estoy tirado en mi cama, alucinando con hongos",
+   "mode": "flash",
+   "bg": "w",
+   "swap": true
+  },
+  {
+   "t": 47.15,
+   "text": "Así que estoy tirado en mi cama,",
+   "line": "Así que estoy tirado en mi cama, alucinando con hongos",
+   "mode": "flash",
+   "bg": "b",
+   "swap": true
+  },
+  {
+   "t": 47.47,
+   "text": "Así que estoy tirado en mi cama, alucinando",
+   "line": "Así que estoy tirado en mi cama, alucinando con hongos",
+   "mode": "flash",
+   "bg": "w",
+   "swap": true
+  },
+  {
+   "t": 47.69,
+   "text": "Así que estoy tirado en mi cama, alucinando con",
+   "line": "Así que estoy tirado en mi cama, alucinando con hongos",
+   "mode": "flash",
+   "bg": "w",
+   "swap": false
+  },
+  {
+   "t": 47.95,
+   "text": "Así que estoy tirado en mi cama, alucinando con hongos",
+   "line": "Así que estoy tirado en mi cama, alucinando con hongos",
+   "mode": "flash",
+   "bg": "b",
+   "swap": true
+  },
+  {
+   "t": 48.35,
+   "text": "Esta_",
+   "line": "Estaré muerto antes de estar sin ti",
+   "mode": "flash",
+   "bg": "w",
+   "swap": true
+  },
+  {
+   "t": 48.83,
+   "text": "Estaré",
+   "line": "Estaré muerto antes de estar sin ti",
+   "mode": "flash",
+   "bg": "b",
+   "swap": true
+  },
+  {
+   "t": 49.01,
+   "text": "Estaré muerto",
+   "line": "Estaré muerto antes de estar sin ti",
+   "mode": "flash",
+   "bg": "b",
+   "swap": false
+  },
+  {
+   "t": 49.21,
+   "text": "Estaré muerto antes",
+   "line": "Estaré muerto antes de estar sin ti",
+   "mode": "flash",
+   "bg": "w",
+   "swap": true
+  },
+  {
+   "t": 49.55,
+   "text": "Estaré muerto antes de",
+   "line": "Estaré muerto antes de estar sin ti",
+   "mode": "flash",
+   "bg": "b",
+   "swap": true
+  },
+  {
+   "t": 49.81,
+   "text": "Estaré muerto antes de estar",
+   "line": "Estaré muerto antes de estar sin ti",
+   "mode": "flash",
+   "bg": "b",
+   "swap": false
+  },
+  {
+   "t": 50.21,
+   "text": "Estaré muerto antes de estar sin",
+   "line": "Estaré muerto antes de estar sin ti",
+   "mode": "flash",
+   "bg": "w",
+   "swap": true
+  },
+  {
+   "t": 50.47,
+   "text": "Estaré muerto antes de estar sin ti",
+   "line": "Estaré muerto antes de estar sin ti",
+   "mode": "flash",
+   "bg": "w",
+   "swap": false
+  },
+  {
+   "t": 50.87,
+   "text": "Dándome",
+   "line": "Dándome cuenta de que soy adicto a ti",
+   "mode": "hold",
+   "img": 13,
+   "img_t0": 50.87,
+   "swap": true
+  },
+  {
+   "t": 51.63,
+   "text": "Dándome cuenta",
+   "line": "Dándome cuenta de que soy adicto a ti",
+   "mode": "hold",
+   "img": 13,
+   "img_t0": 50.87,
+   "swap": false
+  },
+  {
+   "t": 51.99,
+   "text": "Dándome cuenta de que",
+   "line": "Dándome cuenta de que soy adicto a ti",
+   "mode": "hold",
+   "img": 13,
+   "img_t0": 50.87,
+   "swap": false
+  },
+  {
+   "t": 52.39,
+   "text": "Dándome cuenta de que soy",
+   "line": "Dándome cuenta de que soy adicto a ti",
+   "mode": "hold",
+   "img": 13,
+   "img_t0": 50.87,
+   "swap": false
+  },
+  {
+   "t": 52.71,
+   "text": "Dándome cuenta de que soy adicto",
+   "line": "Dándome cuenta de que soy adicto a ti",
+   "mode": "hold",
+   "img": 13,
+   "img_t0": 50.87,
+   "swap": false
+  },
+  {
+   "t": 53.05,
+   "text": "Dándome cuenta de que soy adicto a ti",
+   "line": "Dándome cuenta de que soy adicto a ti",
+   "mode": "hold",
+   "img": 13,
+   "img_t0": 50.87,
+   "swap": false
+  },
+  {
+   "t": 53.59,
+   "text": "Ven",
+   "line": "Ven aquí, bebé, relájate y cálmate",
+   "mode": "flash",
+   "bg": "b",
+   "swap": true
+  },
+  {
+   "t": 54.09,
+   "text": "Ven aquí,",
+   "line": "Ven aquí, bebé, relájate y cálmate",
+   "mode": "flash",
+   "bg": "w",
+   "swap": true
+  },
+  {
+   "t": 54.31,
+   "text": "Ven aquí, bebé,",
+   "line": "Ven aquí, bebé, relájate y cálmate",
+   "mode": "flash",
+   "bg": "w",
+   "swap": false
+  },
+  {
+   "t": 54.59,
+   "text": "Ven aquí, bebé, reláj_",
+   "line": "Ven aquí, bebé, relájate y cálmate",
+   "mode": "flash",
+   "bg": "b",
+   "swap": true
+  },
+  {
+   "t": 55.05,
+   "text": "Ven aquí, bebé, relájate",
+   "line": "Ven aquí, bebé, relájate y cálmate",
+   "mode": "flash",
+   "bg": "w",
+   "swap": true
+  },
+  {
+   "t": 55.31,
+   "text": "Ven aquí, bebé, relájate y",
+   "line": "Ven aquí, bebé, relájate y cálmate",
+   "mode": "flash",
+   "bg": "w",
+   "swap": false
+  },
+  {
+   "t": 55.55,
+   "text": "Ven aquí, bebé, relájate y cálmate",
+   "line": "Ven aquí, bebé, relájate y cálmate",
+   "mode": "flash",
+   "bg": "b",
+   "swap": true
+  },
+  {
+   "t": 55.87,
+   "text": "¿Qué",
+   "line": "¿Qué dices? Contéstame con tu jugada",
+   "mode": "flash",
+   "bg": "w",
+   "swap": true
+  },
+  {
+   "t": 56.27,
+   "text": "¿Qué dice-",
+   "line": "¿Qué dices? Contéstame con tu jugada",
+   "mode": "flash",
+   "bg": "b",
+   "swap": true
+  },
+  {
+   "t": 56.51,
+   "text": "¿Qué dices?",
+   "line": "¿Qué dices? Contéstame con tu jugada",
+   "mode": "flash",
+   "bg": "b",
+   "swap": false
+  },
+  {
+   "t": 56.79,
+   "text": "Contés_",
+   "line": "¿Qué dices? Contéstame con tu jugada",
+   "mode": "flash",
+   "bg": "w",
+   "swap": true
+  },
+  {
+   "t": 56.97,
+   "text": "Contéstame",
+   "line": "¿Qué dices? Contéstame con tu jugada",
+   "mode": "flash",
+   "bg": "w",
+   "swap": false
+  },
+  {
+   "t": 57.19,
+   "text": "Contéstame con",
+   "line": "¿Qué dices? Contéstame con tu jugada",
+   "mode": "flash",
+   "bg": "b",
+   "swap": true
+  },
+  {
+   "t": 57.39,
+   "text": "Contéstame con tu",
+   "line": "¿Qué dices? Contéstame con tu jugada",
+   "mode": "flash",
+   "bg": "b",
+   "swap": false
+  },
+  {
+   "t": 57.59,
+   "text": "Contéstame con tu juga_",
+   "line": "¿Qué dices? Contéstame con tu jugada",
+   "mode": "flash",
+   "bg": "w",
+   "swap": true
+  },
+  {
+   "t": 57.81,
+   "text": "Contéstame con tu jugada",
+   "line": "¿Qué dices? Contéstame con tu jugada",
+   "mode": "flash",
+   "bg": "w",
+   "swap": false
+  },
+  {
+   "t": 58.33,
+   "text": "En mi",
+   "line": "En mi mente no hay nadie más",
+   "mode": "hold",
+   "img": 1,
+   "img_t0": 58.33,
+   "swap": true
+  },
+  {
+   "t": 58.83,
+   "text": "En mi mente",
+   "line": "En mi mente no hay nadie más",
+   "mode": "hold",
+   "img": 1,
+   "img_t0": 58.33,
+   "swap": false
+  },
+  {
+   "t": 59.07,
+   "text": "En mi mente no",
+   "line": "En mi mente no hay nadie más",
+   "mode": "hold",
+   "img": 1,
+   "img_t0": 58.33,
+   "swap": false
+  },
+  {
+   "t": 59.39,
+   "text": "En mi mente no hay",
+   "line": "En mi mente no hay nadie más",
+   "mode": "hold",
+   "img": 1,
+   "img_t0": 58.33,
+   "swap": false
+  },
+  {
+   "t": 59.73,
+   "text": "En mi mente no hay nadie",
+   "line": "En mi mente no hay nadie más",
+   "mode": "hold",
+   "img": 1,
+   "img_t0": 58.33,
+   "swap": false
+  },
+  {
+   "t": 59.91,
+   "text": "En mi mente no hay nadie más",
+   "line": "En mi mente no hay nadie más",
+   "mode": "hold",
+   "img": 1,
+   "img_t0": 58.33,
+   "swap": false
+  }
+ ],
+ "fade_out": 0.4
+}

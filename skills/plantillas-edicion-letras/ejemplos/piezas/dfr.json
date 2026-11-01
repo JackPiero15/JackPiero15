@@ -1,0 +1,1553 @@
+{
+ "id": "downforreal",
+ "duration": 59.53,
+ "font": "fonts/RobotoCondensed[wght].ttf",
+ "font_size": 84,
+ "font_weight": 400,
+ "text_y": 960,
+ "max_text_w": 860,
+ "images": [
+  {
+   "file": "media/pins/846606429929980782.jpg",
+   "k": 3.6,
+   "dim": 0.5,
+   "tint": [
+    205,
+    90,
+    175
+   ]
+  },
+  {
+   "file": "media/rel/949059402116_06.jpg",
+   "k": 3.6,
+   "dim": 0.5,
+   "tint": [
+    125,
+    70,
+    205
+   ]
+  },
+  {
+   "file": "media/rel/949059402116_09.jpg",
+   "k": 3.6,
+   "dim": 0.5,
+   "tint": [
+    70,
+    95,
+    210
+   ]
+  },
+  {
+   "file": "media/rel/949059402116_17.jpg",
+   "k": 3.6,
+   "dim": 0.5,
+   "tint": [
+    205,
+    90,
+    175
+   ]
+  },
+  {
+   "file": "media/rel/949059402116_13.jpg",
+   "k": 3.6,
+   "dim": 0.5,
+   "tint": [
+    125,
+    70,
+    205
+   ]
+  },
+  {
+   "file": "media/pins/747386500695041982.jpg",
+   "k": 3.6,
+   "dim": 0.5,
+   "tint": [
+    205,
+    90,
+    175
+   ]
+  },
+  {
+   "file": "media/rel/949059402116_20.jpg",
+   "k": 3.6,
+   "dim": 0.5,
+   "tint": [
+    125,
+    70,
+    205
+   ]
+  },
+  {
+   "file": "media/pins/635992778670724493.jpg",
+   "k": 3.6,
+   "dim": 0.5,
+   "tint": [
+    70,
+    95,
+    210
+   ]
+  },
+  {
+   "file": "media/rel/930160668246_27.jpg",
+   "k": 3.6,
+   "dim": 0.5,
+   "tint": [
+    125,
+    70,
+    205
+   ]
+  },
+  {
+   "file": "media/rel/949059402116_01.jpg",
+   "k": 3.6,
+   "dim": 0.5,
+   "tint": [
+    125,
+    70,
+    205
+   ]
+  },
+  {
+   "file": "media/rel/949059402116_12.jpg",
+   "k": 3.6,
+   "dim": 0.5,
+   "tint": [
+    70,
+    95,
+    210
+   ]
+  },
+  {
+   "file": "media/rel/949059402116_18.jpg",
+   "k": 3.6,
+   "dim": 0.5,
+   "tint": [
+    125,
+    70,
+    205
+   ]
+  },
+  {
+   "file": "media/rel/959884220651_11.jpg",
+   "k": 3.6,
+   "dim": 0.5,
+   "tint": [
+    70,
+    95,
+    210
+   ]
+  },
+  {
+   "file": "media/rel/930160668246_28.jpg",
+   "k": 3.6,
+   "dim": 0.5,
+   "tint": [
+    125,
+    70,
+    205
+   ]
+  },
+  {
+   "file": "media/rel/930160668246_29.jpg",
+   "k": 3.6,
+   "dim": 0.5,
+   "tint": [
+    70,
+    95,
+    210
+   ]
+  }
+ ],
+ "events": [
+  {
+   "t": 0.0,
+   "text": "Quiero",
+   "line": "Quiero una confirmación, bebé",
+   "mode": "flash",
+   "bg": "w",
+   "swap": true
+  },
+  {
+   "t": 0.55,
+   "text": "Quiero una",
+   "line": "Quiero una confirmación, bebé",
+   "mode": "flash",
+   "bg": "b",
+   "swap": true
+  },
+  {
+   "t": 0.71,
+   "text": "Quiero una confirmación,",
+   "line": "Quiero una confirmación, bebé",
+   "mode": "flash",
+   "bg": "b",
+   "swap": false
+  },
+  {
+   "t": 0.87,
+   "text": "Quiero una confirmación, bebé",
+   "line": "Quiero una confirmación, bebé",
+   "mode": "flash",
+   "bg": "w",
+   "swap": true
+  },
+  {
+   "t": 1.71,
+   "text": "Soy inseguro",
+   "line": "Soy inseguro y estoy loco",
+   "mode": "flash",
+   "bg": "b",
+   "swap": true
+  },
+  {
+   "t": 2.11,
+   "text": "Soy inseguro y estoy loco",
+   "line": "Soy inseguro y estoy loco",
+   "mode": "flash",
+   "bg": "w",
+   "swap": true
+  },
+  {
+   "t": 2.49,
+   "text": "Cuan-",
+   "line": "Cuando estamos juntos, todo es perfecto",
+   "mode": "hold",
+   "img": 0,
+   "img_t0": 2.49,
+   "swap": true
+  },
+  {
+   "t": 2.71,
+   "text": "Cuando",
+   "line": "Cuando estamos juntos, todo es perfecto",
+   "mode": "hold",
+   "img": 0,
+   "img_t0": 2.49,
+   "swap": false
+  },
+  {
+   "t": 3.15,
+   "text": "Cuando esta-",
+   "line": "Cuando estamos juntos, todo es perfecto",
+   "mode": "hold",
+   "img": 0,
+   "img_t0": 2.49,
+   "swap": false
+  },
+  {
+   "t": 3.33,
+   "text": "Cuando estamos",
+   "line": "Cuando estamos juntos, todo es perfecto",
+   "mode": "hold",
+   "img": 0,
+   "img_t0": 2.49,
+   "swap": false
+  },
+  {
+   "t": 3.53,
+   "text": "Cuando estamos junt_",
+   "line": "Cuando estamos juntos, todo es perfecto",
+   "mode": "hold",
+   "img": 0,
+   "img_t0": 2.49,
+   "swap": false
+  },
+  {
+   "t": 3.95,
+   "text": "Cuando estamos juntos,",
+   "line": "Cuando estamos juntos, todo es perfecto",
+   "mode": "hold",
+   "img": 0,
+   "img_t0": 2.49,
+   "swap": false
+  },
+  {
+   "t": 4.21,
+   "text": "Cuando estamos juntos, todo",
+   "line": "Cuando estamos juntos, todo es perfecto",
+   "mode": "hold",
+   "img": 0,
+   "img_t0": 2.49,
+   "swap": false
+  },
+  {
+   "t": 4.47,
+   "text": "Cuando estamos juntos, todo es",
+   "line": "Cuando estamos juntos, todo es perfecto",
+   "mode": "hold",
+   "img": 0,
+   "img_t0": 2.49,
+   "swap": false
+  },
+  {
+   "t": 4.71,
+   "text": "Cuando estamos juntos, todo es perfe_",
+   "line": "Cuando estamos juntos, todo es perfecto",
+   "mode": "hold",
+   "img": 0,
+   "img_t0": 2.49,
+   "swap": false
+  },
+  {
+   "t": 4.89,
+   "text": "Cuando estamos juntos, todo es perfecto",
+   "line": "Cuando estamos juntos, todo es perfecto",
+   "mode": "hold",
+   "img": 0,
+   "img_t0": 2.49,
+   "swap": false
+  },
+  {
+   "t": 5.31,
+   "text": "Pero",
+   "line": "Pero últimamente me cuesta más sentirte",
+   "mode": "flash",
+   "bg": "b",
+   "swap": true
+  },
+  {
+   "t": 5.51,
+   "text": "Pero últimam_",
+   "line": "Pero últimamente me cuesta más sentirte",
+   "mode": "flash",
+   "bg": "b",
+   "swap": false
+  },
+  {
+   "t": 5.75,
+   "text": "Pero últimamente",
+   "line": "Pero últimamente me cuesta más sentirte",
+   "mode": "flash",
+   "bg": "w",
+   "swap": true
+  },
+  {
+   "t": 5.97,
+   "text": "Pero últimamente me",
+   "line": "Pero últimamente me cuesta más sentirte",
+   "mode": "flash",
+   "bg": "w",
+   "swap": false
+  },
+  {
+   "t": 6.19,
+   "text": "Pero últimamente me cuesta",
+   "line": "Pero últimamente me cuesta más sentirte",
+   "mode": "flash",
+   "bg": "b",
+   "swap": true
+  },
+  {
+   "t": 6.45,
+   "text": "Pero últimamente me cuesta más",
+   "line": "Pero últimamente me cuesta más sentirte",
+   "mode": "flash",
+   "bg": "b",
+   "swap": false
+  },
+  {
+   "t": 6.89,
+   "text": "Pero últimamente me cuesta más sentirte",
+   "line": "Pero últimamente me cuesta más sentirte",
+   "mode": "flash",
+   "bg": "w",
+   "swap": true
+  },
+  {
+   "t": 7.13,
+   "text": "Me",
+   "line": "Me cuesta acercarme a ti a través de la pantalla",
+   "mode": "hold",
+   "img": 1,
+   "img_t0": 7.13,
+   "swap": true
+  },
+  {
+   "t": 7.35,
+   "text": "Me cuesta",
+   "line": "Me cuesta acercarme a ti a través de la pantalla",
+   "mode": "hold",
+   "img": 1,
+   "img_t0": 7.13,
+   "swap": false
+  },
+  {
+   "t": 7.61,
+   "text": "Me cuesta acercarme",
+   "line": "Me cuesta acercarme a ti a través de la pantalla",
+   "mode": "hold",
+   "img": 1,
+   "img_t0": 7.13,
+   "swap": false
+  },
+  {
+   "t": 7.81,
+   "text": "Me cuesta acercarme a",
+   "line": "Me cuesta acercarme a ti a través de la pantalla",
+   "mode": "hold",
+   "img": 1,
+   "img_t0": 7.13,
+   "swap": false
+  },
+  {
+   "t": 8.03,
+   "text": "Me cuesta acercarme a ti",
+   "line": "Me cuesta acercarme a ti a través de la pantalla",
+   "mode": "hold",
+   "img": 1,
+   "img_t0": 7.13,
+   "swap": false
+  },
+  {
+   "t": 8.23,
+   "text": "Me cuesta acercarme a ti a",
+   "line": "Me cuesta acercarme a ti a través de la pantalla",
+   "mode": "hold",
+   "img": 1,
+   "img_t0": 7.13,
+   "swap": false
+  },
+  {
+   "t": 8.49,
+   "text": "Me cuesta acercarme a ti a través",
+   "line": "Me cuesta acercarme a ti a través de la pantalla",
+   "mode": "hold",
+   "img": 1,
+   "img_t0": 7.13,
+   "swap": false
+  },
+  {
+   "t": 8.67,
+   "text": "Me cuesta acercarme a ti a través de",
+   "line": "Me cuesta acercarme a ti a través de la pantalla",
+   "mode": "hold",
+   "img": 1,
+   "img_t0": 7.13,
+   "swap": false
+  },
+  {
+   "t": 8.93,
+   "text": "Me cuesta acercarme a ti a través de la",
+   "line": "Me cuesta acercarme a ti a través de la pantalla",
+   "mode": "hold",
+   "img": 1,
+   "img_t0": 7.13,
+   "swap": false
+  },
+  {
+   "t": 9.11,
+   "text": "Me cuesta acercarme a ti a través de la pantalla",
+   "line": "Me cuesta acercarme a ti a través de la pantalla",
+   "mode": "hold",
+   "img": 1,
+   "img_t0": 7.13,
+   "swap": false
+  },
+  {
+   "t": 9.45,
+   "text": "La",
+   "line": "La distancia me está haciendo temerte",
+   "mode": "flash",
+   "bg": "b",
+   "swap": true
+  },
+  {
+   "t": 9.71,
+   "text": "La distancia",
+   "line": "La distancia me está haciendo temerte",
+   "mode": "flash",
+   "bg": "b",
+   "swap": false
+  },
+  {
+   "t": 10.15,
+   "text": "La distancia me",
+   "line": "La distancia me está haciendo temerte",
+   "mode": "flash",
+   "bg": "w",
+   "swap": true
+  },
+  {
+   "t": 10.33,
+   "text": "La distancia me está",
+   "line": "La distancia me está haciendo temerte",
+   "mode": "flash",
+   "bg": "w",
+   "swap": false
+  },
+  {
+   "t": 10.59,
+   "text": "La distancia me está haciendo",
+   "line": "La distancia me está haciendo temerte",
+   "mode": "flash",
+   "bg": "b",
+   "swap": true
+  },
+  {
+   "t": 10.91,
+   "text": "La distancia me está haciendo temerte",
+   "line": "La distancia me está haciendo temerte",
+   "mode": "flash",
+   "bg": "w",
+   "swap": true
+  },
+  {
+   "t": 11.25,
+   "text": "¿Not-",
+   "line": "¿Notas que es diferente?",
+   "mode": "flash",
+   "bg": "b",
+   "swap": true
+  },
+  {
+   "t": 11.47,
+   "text": "¿Notas",
+   "line": "¿Notas que es diferente?",
+   "mode": "flash",
+   "bg": "b",
+   "swap": false
+  },
+  {
+   "t": 11.75,
+   "text": "¿Notas que",
+   "line": "¿Notas que es diferente?",
+   "mode": "flash",
+   "bg": "w",
+   "swap": true
+  },
+  {
+   "t": 11.99,
+   "text": "¿Notas que es",
+   "line": "¿Notas que es diferente?",
+   "mode": "flash",
+   "bg": "w",
+   "swap": false
+  },
+  {
+   "t": 12.15,
+   "text": "¿Notas que es difere_",
+   "line": "¿Notas que es diferente?",
+   "mode": "flash",
+   "bg": "b",
+   "swap": true
+  },
+  {
+   "t": 12.59,
+   "text": "¿Notas que es diferente?",
+   "line": "¿Notas que es diferente?",
+   "mode": "flash",
+   "bg": "w",
+   "swap": true
+  },
+  {
+   "t": 13.09,
+   "text": "Creo que",
+   "line": "Creo que algo falta",
+   "mode": "flash",
+   "bg": "b",
+   "swap": true
+  },
+  {
+   "t": 13.43,
+   "text": "Creo que algo falta",
+   "line": "Creo que algo falta",
+   "mode": "flash",
+   "bg": "w",
+   "swap": true
+  },
+  {
+   "t": 14.21,
+   "text": "Incluso",
+   "line": "Incluso cuando nos besamos, te siento distante",
+   "mode": "hold",
+   "img": 2,
+   "img_t0": 14.21,
+   "swap": true
+  },
+  {
+   "t": 14.63,
+   "text": "Incluso cuando",
+   "line": "Incluso cuando nos besamos, te siento distante",
+   "mode": "hold",
+   "img": 2,
+   "img_t0": 14.21,
+   "swap": false
+  },
+  {
+   "t": 14.79,
+   "text": "Incluso cuando nos",
+   "line": "Incluso cuando nos besamos, te siento distante",
+   "mode": "hold",
+   "img": 2,
+   "img_t0": 14.21,
+   "swap": false
+  },
+  {
+   "t": 15.11,
+   "text": "Incluso cuando nos besam_",
+   "line": "Incluso cuando nos besamos, te siento distante",
+   "mode": "hold",
+   "img": 2,
+   "img_t0": 14.21,
+   "swap": false
+  },
+  {
+   "t": 15.49,
+   "text": "Incluso cuando nos besamos,",
+   "line": "Incluso cuando nos besamos, te siento distante",
+   "mode": "hold",
+   "img": 2,
+   "img_t0": 14.21,
+   "swap": false
+  },
+  {
+   "t": 15.89,
+   "text": "Incluso cuando nos besamos, te",
+   "line": "Incluso cuando nos besamos, te siento distante",
+   "mode": "hold",
+   "img": 2,
+   "img_t0": 14.21,
+   "swap": false
+  },
+  {
+   "t": 16.11,
+   "text": "Incluso cuando nos besamos, te siento",
+   "line": "Incluso cuando nos besamos, te siento distante",
+   "mode": "hold",
+   "img": 2,
+   "img_t0": 14.21,
+   "swap": false
+  },
+  {
+   "t": 16.41,
+   "text": "Incluso cuando nos besamos, te siento distante",
+   "line": "Incluso cuando nos besamos, te siento distante",
+   "mode": "hold",
+   "img": 2,
+   "img_t0": 14.21,
+   "swap": false
+  },
+  {
+   "t": 16.97,
+   "text": "Estoy",
+   "line": "Estoy harto de pedirte que me escuches",
+   "mode": "flash",
+   "bg": "b",
+   "swap": true
+  },
+  {
+   "t": 17.37,
+   "text": "Estoy harto",
+   "line": "Estoy harto de pedirte que me escuches",
+   "mode": "flash",
+   "bg": "w",
+   "swap": true
+  },
+  {
+   "t": 17.79,
+   "text": "Estoy harto de",
+   "line": "Estoy harto de pedirte que me escuches",
+   "mode": "flash",
+   "bg": "b",
+   "swap": true
+  },
+  {
+   "t": 18.15,
+   "text": "Estoy harto de pedirte",
+   "line": "Estoy harto de pedirte que me escuches",
+   "mode": "flash",
+   "bg": "w",
+   "swap": true
+  },
+  {
+   "t": 18.43,
+   "text": "Estoy harto de pedirte que",
+   "line": "Estoy harto de pedirte que me escuches",
+   "mode": "flash",
+   "bg": "b",
+   "swap": true
+  },
+  {
+   "t": 18.63,
+   "text": "Estoy harto de pedirte que me",
+   "line": "Estoy harto de pedirte que me escuches",
+   "mode": "flash",
+   "bg": "b",
+   "swap": false
+  },
+  {
+   "t": 18.91,
+   "text": "Estoy harto de pedirte que me escuc_",
+   "line": "Estoy harto de pedirte que me escuches",
+   "mode": "flash",
+   "bg": "w",
+   "swap": true
+  },
+  {
+   "t": 19.15,
+   "text": "Estoy harto de pedirte que me escuches",
+   "line": "Estoy harto de pedirte que me escuches",
+   "mode": "flash",
+   "bg": "w",
+   "swap": false
+  },
+  {
+   "t": 19.43,
+   "text": "Esto",
+   "line": "Esto es cosa de dos",
+   "mode": "flash",
+   "bg": "b",
+   "swap": true
+  },
+  {
+   "t": 19.69,
+   "text": "Esto es",
+   "line": "Esto es cosa de dos",
+   "mode": "flash",
+   "bg": "b",
+   "swap": false
+  },
+  {
+   "t": 19.95,
+   "text": "Esto es cosa",
+   "line": "Esto es cosa de dos",
+   "mode": "flash",
+   "bg": "w",
+   "swap": true
+  },
+  {
+   "t": 20.19,
+   "text": "Esto es cosa de",
+   "line": "Esto es cosa de dos",
+   "mode": "flash",
+   "bg": "w",
+   "swap": false
+  },
+  {
+   "t": 20.45,
+   "text": "Esto es cosa de dos",
+   "line": "Esto es cosa de dos",
+   "mode": "flash",
+   "bg": "b",
+   "swap": true
+  },
+  {
+   "t": 20.67,
+   "text": "¿Estás",
+   "line": "¿Estás dispuesta a arreglarlo?",
+   "mode": "flash",
+   "bg": "w",
+   "swap": true
+  },
+  {
+   "t": 20.87,
+   "text": "¿Estás dispu-",
+   "line": "¿Estás dispuesta a arreglarlo?",
+   "mode": "flash",
+   "bg": "w",
+   "swap": false
+  },
+  {
+   "t": 21.13,
+   "text": "¿Estás dispuesta",
+   "line": "¿Estás dispuesta a arreglarlo?",
+   "mode": "flash",
+   "bg": "b",
+   "swap": true
+  },
+  {
+   "t": 21.43,
+   "text": "¿Estás dispuesta a",
+   "line": "¿Estás dispuesta a arreglarlo?",
+   "mode": "flash",
+   "bg": "w",
+   "swap": true
+  },
+  {
+   "t": 21.73,
+   "text": "¿Estás dispuesta a arregla_",
+   "line": "¿Estás dispuesta a arreglarlo?",
+   "mode": "flash",
+   "bg": "b",
+   "swap": true
+  },
+  {
+   "t": 21.97,
+   "text": "¿Estás dispuesta a arreglarlo?",
+   "line": "¿Estás dispuesta a arreglarlo?",
+   "mode": "flash",
+   "bg": "b",
+   "swap": false
+  },
+  {
+   "t": 22.83,
+   "text": "Porque",
+   "line": "Porque yo voy si tú vas",
+   "mode": "hold",
+   "img": 3,
+   "img_t0": 22.83,
+   "swap": true
+  },
+  {
+   "t": 23.21,
+   "text": "Porque yo",
+   "line": "Porque yo voy si tú vas",
+   "mode": "hold",
+   "img": 3,
+   "img_t0": 22.83,
+   "swap": false
+  },
+  {
+   "t": 23.61,
+   "text": "Porque yo voy",
+   "line": "Porque yo voy si tú vas",
+   "mode": "hold",
+   "img": 3,
+   "img_t0": 22.83,
+   "swap": false
+  },
+  {
+   "t": 23.83,
+   "text": "Porque yo voy si tú",
+   "line": "Porque yo voy si tú vas",
+   "mode": "hold",
+   "img": 3,
+   "img_t0": 22.83,
+   "swap": false
+  },
+  {
+   "t": 24.67,
+   "text": "Porque yo voy si tú vas",
+   "line": "Porque yo voy si tú vas",
+   "mode": "hold",
+   "img": 3,
+   "img_t0": 22.83,
+   "swap": false
+  },
+  {
+   "t": 25.39,
+   "text": "Porque",
+   "line": "Porque yo voy si tú vas",
+   "mode": "hold",
+   "img": 4,
+   "img_t0": 25.39,
+   "swap": true
+  },
+  {
+   "t": 25.99,
+   "text": "Porque yo voy",
+   "line": "Porque yo voy si tú vas",
+   "mode": "hold",
+   "img": 4,
+   "img_t0": 25.39,
+   "swap": false
+  },
+  {
+   "t": 26.25,
+   "text": "Porque yo voy si tú",
+   "line": "Porque yo voy si tú vas",
+   "mode": "hold",
+   "img": 4,
+   "img_t0": 25.39,
+   "swap": false
+  },
+  {
+   "t": 26.51,
+   "text": "Porque yo voy si tú vas",
+   "line": "Porque yo voy si tú vas",
+   "mode": "hold",
+   "img": 4,
+   "img_t0": 25.39,
+   "swap": false
+  },
+  {
+   "t": 28.21,
+   "text": "Porque",
+   "line": "Porque yo voy si tú vas",
+   "mode": "hold",
+   "img": 5,
+   "img_t0": 28.21,
+   "swap": true
+  },
+  {
+   "t": 28.71,
+   "text": "Porque yo",
+   "line": "Porque yo voy si tú vas",
+   "mode": "hold",
+   "img": 5,
+   "img_t0": 28.21,
+   "swap": false
+  },
+  {
+   "t": 28.91,
+   "text": "Porque yo voy",
+   "line": "Porque yo voy si tú vas",
+   "mode": "hold",
+   "img": 5,
+   "img_t0": 28.21,
+   "swap": false
+  },
+  {
+   "t": 29.17,
+   "text": "Porque yo voy si tú",
+   "line": "Porque yo voy si tú vas",
+   "mode": "hold",
+   "img": 5,
+   "img_t0": 28.21,
+   "swap": false
+  },
+  {
+   "t": 29.93,
+   "text": "Porque yo voy si tú vas",
+   "line": "Porque yo voy si tú vas",
+   "mode": "hold",
+   "img": 5,
+   "img_t0": 28.21,
+   "swap": false
+  },
+  {
+   "t": 30.95,
+   "text": "Porque",
+   "line": "Porque yo voy si tú vas",
+   "mode": "hold",
+   "img": 6,
+   "img_t0": 30.95,
+   "swap": true
+  },
+  {
+   "t": 31.41,
+   "text": "Porque yo voy",
+   "line": "Porque yo voy si tú vas",
+   "mode": "hold",
+   "img": 6,
+   "img_t0": 30.95,
+   "swap": false
+  },
+  {
+   "t": 31.71,
+   "text": "Porque yo voy si tú",
+   "line": "Porque yo voy si tú vas",
+   "mode": "hold",
+   "img": 6,
+   "img_t0": 30.95,
+   "swap": false
+  },
+  {
+   "t": 32.03,
+   "text": "Porque yo voy si tú vas",
+   "line": "Porque yo voy si tú vas",
+   "mode": "hold",
+   "img": 6,
+   "img_t0": 30.95,
+   "swap": false
+  },
+  {
+   "t": 32.31,
+   "text": "Bebé,",
+   "line": "Bebé, ¿de verdad vas en serio?",
+   "mode": "hold",
+   "img": 7,
+   "img_t0": 32.31,
+   "swap": true
+  },
+  {
+   "t": 32.69,
+   "text": "Bebé, ¿de",
+   "line": "Bebé, ¿de verdad vas en serio?",
+   "mode": "hold",
+   "img": 7,
+   "img_t0": 32.31,
+   "swap": false
+  },
+  {
+   "t": 32.87,
+   "text": "Bebé, ¿de verdad",
+   "line": "Bebé, ¿de verdad vas en serio?",
+   "mode": "hold",
+   "img": 7,
+   "img_t0": 32.31,
+   "swap": false
+  },
+  {
+   "t": 33.15,
+   "text": "Bebé, ¿de verdad vas",
+   "line": "Bebé, ¿de verdad vas en serio?",
+   "mode": "hold",
+   "img": 7,
+   "img_t0": 32.31,
+   "swap": false
+  },
+  {
+   "t": 33.43,
+   "text": "Bebé, ¿de verdad vas en",
+   "line": "Bebé, ¿de verdad vas en serio?",
+   "mode": "hold",
+   "img": 7,
+   "img_t0": 32.31,
+   "swap": false
+  },
+  {
+   "t": 33.81,
+   "text": "Bebé, ¿de verdad vas en serio?",
+   "line": "Bebé, ¿de verdad vas en serio?",
+   "mode": "hold",
+   "img": 7,
+   "img_t0": 32.31,
+   "swap": false
+  },
+  {
+   "t": 35.09,
+   "text": "Me",
+   "line": "Me preocupo cuando no estoy contigo",
+   "mode": "hold",
+   "img": 8,
+   "img_t0": 35.09,
+   "swap": true
+  },
+  {
+   "t": 35.49,
+   "text": "Me preoc_",
+   "line": "Me preocupo cuando no estoy contigo",
+   "mode": "hold",
+   "img": 8,
+   "img_t0": 35.09,
+   "swap": false
+  },
+  {
+   "t": 36.07,
+   "text": "Me preocupo",
+   "line": "Me preocupo cuando no estoy contigo",
+   "mode": "hold",
+   "img": 8,
+   "img_t0": 35.09,
+   "swap": false
+  },
+  {
+   "t": 36.31,
+   "text": "Me preocupo cuando",
+   "line": "Me preocupo cuando no estoy contigo",
+   "mode": "hold",
+   "img": 8,
+   "img_t0": 35.09,
+   "swap": false
+  },
+  {
+   "t": 36.59,
+   "text": "Me preocupo cuando no",
+   "line": "Me preocupo cuando no estoy contigo",
+   "mode": "hold",
+   "img": 8,
+   "img_t0": 35.09,
+   "swap": false
+  },
+  {
+   "t": 36.81,
+   "text": "Me preocupo cuando no estoy",
+   "line": "Me preocupo cuando no estoy contigo",
+   "mode": "hold",
+   "img": 8,
+   "img_t0": 35.09,
+   "swap": false
+  },
+  {
+   "t": 37.25,
+   "text": "Me preocupo cuando no estoy contigo",
+   "line": "Me preocupo cuando no estoy contigo",
+   "mode": "hold",
+   "img": 8,
+   "img_t0": 35.09,
+   "swap": false
+  },
+  {
+   "t": 37.53,
+   "text": "Anda,",
+   "line": "Anda, dime lo que sientes",
+   "mode": "hold",
+   "img": 9,
+   "img_t0": 37.53,
+   "swap": true
+  },
+  {
+   "t": 37.85,
+   "text": "Anda, dime",
+   "line": "Anda, dime lo que sientes",
+   "mode": "hold",
+   "img": 9,
+   "img_t0": 37.53,
+   "swap": false
+  },
+  {
+   "t": 38.03,
+   "text": "Anda, dime lo",
+   "line": "Anda, dime lo que sientes",
+   "mode": "hold",
+   "img": 9,
+   "img_t0": 37.53,
+   "swap": false
+  },
+  {
+   "t": 38.33,
+   "text": "Anda, dime lo que",
+   "line": "Anda, dime lo que sientes",
+   "mode": "hold",
+   "img": 9,
+   "img_t0": 37.53,
+   "swap": false
+  },
+  {
+   "t": 38.85,
+   "text": "Anda, dime lo que sien_",
+   "line": "Anda, dime lo que sientes",
+   "mode": "hold",
+   "img": 9,
+   "img_t0": 37.53,
+   "swap": false
+  },
+  {
+   "t": 39.37,
+   "text": "Anda, dime lo que sientes",
+   "line": "Anda, dime lo que sientes",
+   "mode": "hold",
+   "img": 9,
+   "img_t0": 37.53,
+   "swap": false
+  },
+  {
+   "t": 39.97,
+   "text": "¿Es",
+   "line": "¿Es mutuo cuando te extraño?",
+   "mode": "hold",
+   "img": 10,
+   "img_t0": 39.97,
+   "swap": true
+  },
+  {
+   "t": 40.57,
+   "text": "¿Es mutuo",
+   "line": "¿Es mutuo cuando te extraño?",
+   "mode": "hold",
+   "img": 10,
+   "img_t0": 39.97,
+   "swap": false
+  },
+  {
+   "t": 40.83,
+   "text": "¿Es mutuo cuan-",
+   "line": "¿Es mutuo cuando te extraño?",
+   "mode": "hold",
+   "img": 10,
+   "img_t0": 39.97,
+   "swap": false
+  },
+  {
+   "t": 41.63,
+   "text": "¿Es mutuo cuando",
+   "line": "¿Es mutuo cuando te extraño?",
+   "mode": "hold",
+   "img": 10,
+   "img_t0": 39.97,
+   "swap": false
+  },
+  {
+   "t": 41.87,
+   "text": "¿Es mutuo cuando te",
+   "line": "¿Es mutuo cuando te extraño?",
+   "mode": "hold",
+   "img": 10,
+   "img_t0": 39.97,
+   "swap": false
+  },
+  {
+   "t": 42.23,
+   "text": "¿Es mutuo cuando te extra_",
+   "line": "¿Es mutuo cuando te extraño?",
+   "mode": "hold",
+   "img": 10,
+   "img_t0": 39.97,
+   "swap": false
+  },
+  {
+   "t": 42.55,
+   "text": "¿Es mutuo cuando te extraño?",
+   "line": "¿Es mutuo cuando te extraño?",
+   "mode": "hold",
+   "img": 10,
+   "img_t0": 39.97,
+   "swap": false
+  },
+  {
+   "t": 43.17,
+   "text": "Bebé,",
+   "line": "Bebé, ¿de verdad vas en serio?",
+   "mode": "hold",
+   "img": 11,
+   "img_t0": 43.17,
+   "swap": true
+  },
+  {
+   "t": 43.37,
+   "text": "Bebé, ¿de",
+   "line": "Bebé, ¿de verdad vas en serio?",
+   "mode": "hold",
+   "img": 11,
+   "img_t0": 43.17,
+   "swap": false
+  },
+  {
+   "t": 43.57,
+   "text": "Bebé, ¿de verdad",
+   "line": "Bebé, ¿de verdad vas en serio?",
+   "mode": "hold",
+   "img": 11,
+   "img_t0": 43.17,
+   "swap": false
+  },
+  {
+   "t": 43.85,
+   "text": "Bebé, ¿de verdad vas",
+   "line": "Bebé, ¿de verdad vas en serio?",
+   "mode": "hold",
+   "img": 11,
+   "img_t0": 43.17,
+   "swap": false
+  },
+  {
+   "t": 44.11,
+   "text": "Bebé, ¿de verdad vas en",
+   "line": "Bebé, ¿de verdad vas en serio?",
+   "mode": "hold",
+   "img": 11,
+   "img_t0": 43.17,
+   "swap": false
+  },
+  {
+   "t": 44.49,
+   "text": "Bebé, ¿de verdad vas en serio?",
+   "line": "Bebé, ¿de verdad vas en serio?",
+   "mode": "hold",
+   "img": 11,
+   "img_t0": 43.17,
+   "swap": false
+  },
+  {
+   "t": 45.55,
+   "text": "¿O",
+   "line": "¿O son solo palabras? No lo sé",
+   "mode": "hold",
+   "img": 12,
+   "img_t0": 45.55,
+   "swap": true
+  },
+  {
+   "t": 45.71,
+   "text": "¿O son",
+   "line": "¿O son solo palabras? No lo sé",
+   "mode": "hold",
+   "img": 12,
+   "img_t0": 45.55,
+   "swap": false
+  },
+  {
+   "t": 45.97,
+   "text": "¿O son solo",
+   "line": "¿O son solo palabras? No lo sé",
+   "mode": "hold",
+   "img": 12,
+   "img_t0": 45.55,
+   "swap": false
+  },
+  {
+   "t": 46.21,
+   "text": "¿O son solo palab_",
+   "line": "¿O son solo palabras? No lo sé",
+   "mode": "hold",
+   "img": 12,
+   "img_t0": 45.55,
+   "swap": false
+  },
+  {
+   "t": 46.55,
+   "text": "¿O son solo palabras?",
+   "line": "¿O son solo palabras? No lo sé",
+   "mode": "hold",
+   "img": 12,
+   "img_t0": 45.55,
+   "swap": false
+  },
+  {
+   "t": 46.95,
+   "text": "No",
+   "line": "¿O son solo palabras? No lo sé",
+   "mode": "hold",
+   "img": 12,
+   "img_t0": 45.55,
+   "swap": false
+  },
+  {
+   "t": 47.15,
+   "text": "No lo",
+   "line": "¿O son solo palabras? No lo sé",
+   "mode": "hold",
+   "img": 12,
+   "img_t0": 45.55,
+   "swap": false
+  },
+  {
+   "t": 47.69,
+   "text": "No lo sé",
+   "line": "¿O son solo palabras? No lo sé",
+   "mode": "hold",
+   "img": 12,
+   "img_t0": 45.55,
+   "swap": false
+  },
+  {
+   "t": 48.51,
+   "text": "Dices",
+   "line": "Dices que me amas, pero me cierras la puerta",
+   "mode": "hold",
+   "img": 13,
+   "img_t0": 48.51,
+   "swap": true
+  },
+  {
+   "t": 48.93,
+   "text": "Dices que me",
+   "line": "Dices que me amas, pero me cierras la puerta",
+   "mode": "hold",
+   "img": 13,
+   "img_t0": 48.51,
+   "swap": false
+  },
+  {
+   "t": 49.15,
+   "text": "Dices que me amas,",
+   "line": "Dices que me amas, pero me cierras la puerta",
+   "mode": "hold",
+   "img": 13,
+   "img_t0": 48.51,
+   "swap": false
+  },
+  {
+   "t": 49.33,
+   "text": "Dices que me amas, pero me",
+   "line": "Dices que me amas, pero me cierras la puerta",
+   "mode": "hold",
+   "img": 13,
+   "img_t0": 48.51,
+   "swap": false
+  },
+  {
+   "t": 49.49,
+   "text": "Dices que me amas, pero me cierras",
+   "line": "Dices que me amas, pero me cierras la puerta",
+   "mode": "hold",
+   "img": 13,
+   "img_t0": 48.51,
+   "swap": false
+  },
+  {
+   "t": 49.75,
+   "text": "Dices que me amas, pero me cierras la",
+   "line": "Dices que me amas, pero me cierras la puerta",
+   "mode": "hold",
+   "img": 13,
+   "img_t0": 48.51,
+   "swap": false
+  },
+  {
+   "t": 50.35,
+   "text": "Dices que me amas, pero me cierras la puerta",
+   "line": "Dices que me amas, pero me cierras la puerta",
+   "mode": "hold",
+   "img": 13,
+   "img_t0": 48.51,
+   "swap": false
+  },
+  {
+   "t": 50.69,
+   "text": "No",
+   "line": "No puedo evitar preguntarme si hay alguien más",
+   "mode": "hold",
+   "img": 14,
+   "img_t0": 50.69,
+   "swap": true
+  },
+  {
+   "t": 51.09,
+   "text": "No puedo",
+   "line": "No puedo evitar preguntarme si hay alguien más",
+   "mode": "hold",
+   "img": 14,
+   "img_t0": 50.69,
+   "swap": false
+  },
+  {
+   "t": 51.39,
+   "text": "No puedo evitar",
+   "line": "No puedo evitar preguntarme si hay alguien más",
+   "mode": "hold",
+   "img": 14,
+   "img_t0": 50.69,
+   "swap": false
+  },
+  {
+   "t": 51.65,
+   "text": "No puedo evitar preguntarme",
+   "line": "No puedo evitar preguntarme si hay alguien más",
+   "mode": "hold",
+   "img": 14,
+   "img_t0": 50.69,
+   "swap": false
+  },
+  {
+   "t": 52.01,
+   "text": "No puedo evitar preguntarme si",
+   "line": "No puedo evitar preguntarme si hay alguien más",
+   "mode": "hold",
+   "img": 14,
+   "img_t0": 50.69,
+   "swap": false
+  },
+  {
+   "t": 52.23,
+   "text": "No puedo evitar preguntarme si hay",
+   "line": "No puedo evitar preguntarme si hay alguien más",
+   "mode": "hold",
+   "img": 14,
+   "img_t0": 50.69,
+   "swap": false
+  },
+  {
+   "t": 52.55,
+   "text": "No puedo evitar preguntarme si hay alguien",
+   "line": "No puedo evitar preguntarme si hay alguien más",
+   "mode": "hold",
+   "img": 14,
+   "img_t0": 50.69,
+   "swap": false
+  },
+  {
+   "t": 52.85,
+   "text": "No puedo evitar preguntarme si hay alguien más",
+   "line": "No puedo evitar preguntarme si hay alguien más",
+   "mode": "hold",
+   "img": 14,
+   "img_t0": 50.69,
+   "swap": false
+  },
+  {
+   "t": 53.57,
+   "text": "Te he",
+   "line": "Te he estado esperando, apostando por ti, bebé",
+   "mode": "flash",
+   "bg": "w",
+   "swap": true
+  },
+  {
+   "t": 54.31,
+   "text": "Te he estado",
+   "line": "Te he estado esperando, apostando por ti, bebé",
+   "mode": "flash",
+   "bg": "b",
+   "swap": true
+  },
+  {
+   "t": 54.85,
+   "text": "Te he estado esperando,",
+   "line": "Te he estado esperando, apostando por ti, bebé",
+   "mode": "flash",
+   "bg": "w",
+   "swap": true
+  },
+  {
+   "t": 55.17,
+   "text": "Te he estado esperando, apostando",
+   "line": "Te he estado esperando, apostando por ti, bebé",
+   "mode": "flash",
+   "bg": "b",
+   "swap": true
+  },
+  {
+   "t": 55.53,
+   "text": "Te he estado esperando, apostando por",
+   "line": "Te he estado esperando, apostando por ti, bebé",
+   "mode": "flash",
+   "bg": "w",
+   "swap": true
+  },
+  {
+   "t": 55.85,
+   "text": "Te he estado esperando, apostando por ti,",
+   "line": "Te he estado esperando, apostando por ti, bebé",
+   "mode": "flash",
+   "bg": "b",
+   "swap": true
+  },
+  {
+   "t": 56.17,
+   "text": "Te he estado esperando, apostando por ti, bebé",
+   "line": "Te he estado esperando, apostando por ti, bebé",
+   "mode": "flash",
+   "bg": "w",
+   "swap": true
+  },
+  {
+   "t": 56.87,
+   "text": "Odio",
+   "line": "Odio que pienses que estoy cambiando",
+   "mode": "flash",
+   "bg": "b",
+   "swap": true
+  },
+  {
+   "t": 57.49,
+   "text": "Odio que",
+   "line": "Odio que pienses que estoy cambiando",
+   "mode": "flash",
+   "bg": "w",
+   "swap": true
+  },
+  {
+   "t": 57.77,
+   "text": "Odio que pienses",
+   "line": "Odio que pienses que estoy cambiando",
+   "mode": "flash",
+   "bg": "b",
+   "swap": true
+  },
+  {
+   "t": 57.99,
+   "text": "Odio que pienses que",
+   "line": "Odio que pienses que estoy cambiando",
+   "mode": "flash",
+   "bg": "b",
+   "swap": false
+  },
+  {
+   "t": 58.49,
+   "text": "Odio que pienses que estoy",
+   "line": "Odio que pienses que estoy cambiando",
+   "mode": "flash",
+   "bg": "w",
+   "swap": true
+  },
+  {
+   "t": 58.79,
+   "text": "Odio que pienses que estoy cambi_",
+   "line": "Odio que pienses que estoy cambiando",
+   "mode": "flash",
+   "bg": "b",
+   "swap": true
+  },
+  {
+   "t": 59.05,
+   "text": "Odio que pienses que estoy cambiando",
+   "line": "Odio que pienses que estoy cambiando",
+   "mode": "flash",
+   "bg": "b",
+   "swap": false
+  }
+ ],
+ "fade_out": 0.6
+}

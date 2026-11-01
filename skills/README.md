@@ -1,6 +1,6 @@
 # Skills propias
 
-Copia de las 9 skills creadas por el usuario (origen `plugin` en el manifiesto de skills sincronizadas, fecha de copia 2026-11-01). Se excluyen las skills de Anthropic (`docx`, `xlsx`, `pptx`, `pdf`, `docs`, `skill-creator`, `import-memory`, `morning`, `google-workspace`).
+Copia de las 9 skills creadas por el usuario, más `plantillas-edicion-letras` (origen `plugin` en el manifiesto de skills sincronizadas, fecha de copia 2026-11-01). Se excluyen las skills de Anthropic (`docx`, `xlsx`, `pptx`, `pdf`, `docs`, `skill-creator`, `import-memory`, `morning`, `google-workspace`).
 
 | Skill | Ámbito | Última actualización |
 |---|---|---|
@@ -13,6 +13,7 @@ Copia de las 9 skills creadas por el usuario (origen `plugin` en el manifiesto d
 | `mentor-ecommerce-contraentrega` | E-commerce contraentrega Perú/LatAm | 2026-10-25 |
 | `tap-certus` | TAP de CERTUS (Word, Excel, exposición) | 2026-10-25 |
 | `excel-profesional` | Formato profesional de libros .xlsx | 2026-10-05 |
+| `plantillas-edicion-letras` | Plantilla de los edits de letra tecleada (Confident v3, Too Much, Justin, Laroi, Down For Real, Dinero); `.zip` listo para subir: `plantillas-edicion-letras.zip` | 2026-11-01 |
 
 ## Plantillas de edición
 
@@ -29,6 +30,8 @@ Plantillas reutilizables incluidas en las skills:
 | `mentor-entrevistas/references/plantillas.md` | Correo de agradecimiento y otras plantillas de entrevista |
 | `mentor-ecommerce-contraentrega/references/plantillas.md` | Prompts de IA, speech de llamada, seguimiento, upsell, cobranza, brief UGC, reclutamiento |
 | `excel-profesional/scripts/estilo_excel.py` | Estilos openpyxl reutilizables |
+
+Plantilla de letra tecleada empaquetada como skill: `plantillas-edicion-letras/` (renderizador, constructor de línea de tiempo, tipografía, piezas de ejemplo).
 
 Proyectos de edición ya realizados (configuraciones de pieza y renderizadores): `../export/proyecto*/`.
 

@@ -1,0 +1,21 @@
+{
+ "id": "mi_cancion",
+ "words": "work/tr.json",
+ "sheet_index": "work/sheet_index.txt",
+ "in": 31.02,
+ "out": 90.55,
+ "rgb": false,
+ "font": "fonts/RobotoCondensed[wght].ttf",
+ "font_size": 84,
+ "font_weight": 400,
+ "text_y": 960,
+ "max_text_w": 860,
+ "fade_out": 0.6,
+ "image_defaults": {"k": 3.6, "dim": 0.5},
+ "reset_questions": true,
+ "lines": [
+  {"t0": 31.10, "t1": 32.40, "en": "Uh, I want confirmation, baby", "es": "Quiero una confirmación, bebé", "mode": "flash"},
+  {"t0": 33.54, "t1": 36.20, "en": "When we together in person, it's picture perfect", "es": "Cuando estamos juntos, todo es perfecto", "mode": "hold", "img": 2, "tint": [205, 90, 175]},
+  {"t0": 38.18, "t1": 40.45, "en": "Find it harder to get near you through my phone screen", "es": "Me cuesta acercarme a ti a través de la pantalla", "mode": "hold", "img": 69, "tint": [125, 70, 205]}
+ ]
+}

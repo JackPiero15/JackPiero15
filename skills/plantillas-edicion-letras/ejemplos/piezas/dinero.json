@@ -1,0 +1,1171 @@
+{
+ "id": "dinero",
+ "rgb": true,
+ "duration": 60.0,
+ "font": "fonts/RobotoCondensed[wght].ttf",
+ "font_size": 84,
+ "font_weight": 400,
+ "text_y": 960,
+ "max_text_w": 860,
+ "images": [
+  {
+   "file": "media/rel/918662550000_18.jpg",
+   "color": true,
+   "dim": 0.55
+  },
+  {
+   "file": "media/rel/910066805872_08.jpg",
+   "color": true,
+   "dim": 0.55
+  },
+  {
+   "file": "media/rel/937936734387_04.jpg",
+   "color": true,
+   "dim": 0.55
+  },
+  {
+   "file": "media/rel/910066805872_21.jpg",
+   "color": true,
+   "dim": 0.55
+  },
+  {
+   "file": "media/rel/918662550000_17.jpg",
+   "color": true,
+   "dim": 0.55
+  },
+  {
+   "file": "media/pins/535998793192472467.jpg",
+   "color": true,
+   "dim": 0.55
+  },
+  {
+   "file": "media/rel/937936734387_19.jpg",
+   "color": true,
+   "dim": 0.55
+  },
+  {
+   "file": "media/rel/910066805872_05.jpg",
+   "color": true,
+   "dim": 0.55
+  },
+  {
+   "file": "media/rel/910066805872_06.jpg",
+   "color": true,
+   "dim": 0.55
+  },
+  {
+   "file": "media/rel/910066805872_14.jpg",
+   "color": true,
+   "dim": 0.55
+  },
+  {
+   "file": "media/rel/918662550000_00.jpg",
+   "color": true,
+   "dim": 0.55
+  }
+ ],
+ "events": [
+  {
+   "t": 0.0,
+   "text": "Ya, si",
+   "line": "Ya, si quieres dinero, lo siento, no tengo",
+   "mode": "hold",
+   "img": 0,
+   "img_t0": 0.0,
+   "swap": true
+  },
+  {
+   "t": 1.03,
+   "text": "Ya, si quieres",
+   "line": "Ya, si quieres dinero, lo siento, no tengo",
+   "mode": "hold",
+   "img": 0,
+   "img_t0": 0.0,
+   "swap": false
+  },
+  {
+   "t": 1.47,
+   "text": "Ya, si quieres dinero,",
+   "line": "Ya, si quieres dinero, lo siento, no tengo",
+   "mode": "hold",
+   "img": 0,
+   "img_t0": 0.0,
+   "swap": false
+  },
+  {
+   "t": 2.11,
+   "text": "Ya, si quieres dinero, lo",
+   "line": "Ya, si quieres dinero, lo siento, no tengo",
+   "mode": "hold",
+   "img": 0,
+   "img_t0": 0.0,
+   "swap": false
+  },
+  {
+   "t": 3.35,
+   "text": "Ya, si quieres dinero, lo siento,",
+   "line": "Ya, si quieres dinero, lo siento, no tengo",
+   "mode": "hold",
+   "img": 0,
+   "img_t0": 0.0,
+   "swap": false
+  },
+  {
+   "t": 4.17,
+   "text": "Ya, si quieres dinero, lo siento, no",
+   "line": "Ya, si quieres dinero, lo siento, no tengo",
+   "mode": "hold",
+   "img": 0,
+   "img_t0": 0.0,
+   "swap": false
+  },
+  {
+   "t": 4.43,
+   "text": "Ya, si quieres dinero, lo siento, no tengo",
+   "line": "Ya, si quieres dinero, lo siento, no tengo",
+   "mode": "hold",
+   "img": 0,
+   "img_t0": 0.0,
+   "swap": false
+  },
+  {
+   "t": 4.99,
+   "text": "Ella se",
+   "line": "Ella se lleva mi dinero, se lleva mi dinero",
+   "mode": "flash",
+   "bg": "w",
+   "swap": true
+  },
+  {
+   "t": 5.37,
+   "text": "Ella se lleva mi",
+   "line": "Ella se lleva mi dinero, se lleva mi dinero",
+   "mode": "flash",
+   "bg": "b",
+   "swap": true
+  },
+  {
+   "t": 5.81,
+   "text": "Ella se lleva mi dinero,",
+   "line": "Ella se lleva mi dinero, se lleva mi dinero",
+   "mode": "flash",
+   "bg": "w",
+   "swap": true
+  },
+  {
+   "t": 6.13,
+   "text": "Ella se lleva mi dinero, se",
+   "line": "Ella se lleva mi dinero, se lleva mi dinero",
+   "mode": "flash",
+   "bg": "b",
+   "swap": true
+  },
+  {
+   "t": 7.11,
+   "text": "Ella se lleva mi dinero, se lleva",
+   "line": "Ella se lleva mi dinero, se lleva mi dinero",
+   "mode": "flash",
+   "bg": "w",
+   "swap": true
+  },
+  {
+   "t": 7.83,
+   "text": "Ella se lleva mi dinero, se lleva mi",
+   "line": "Ella se lleva mi dinero, se lleva mi dinero",
+   "mode": "flash",
+   "bg": "b",
+   "swap": true
+  },
+  {
+   "t": 8.15,
+   "text": "Ella se lleva mi dinero, se lleva mi dinero",
+   "line": "Ella se lleva mi dinero, se lleva mi dinero",
+   "mode": "flash",
+   "bg": "w",
+   "swap": true
+  },
+  {
+   "t": 8.95,
+   "text": "Ella se",
+   "line": "Ella se lleva mi dinero, se lleva mi dinero",
+   "mode": "flash",
+   "bg": "b",
+   "swap": true
+  },
+  {
+   "t": 9.43,
+   "text": "Ella se lleva mi",
+   "line": "Ella se lleva mi dinero, se lleva mi dinero",
+   "mode": "flash",
+   "bg": "w",
+   "swap": true
+  },
+  {
+   "t": 9.75,
+   "text": "Ella se lleva mi dinero,",
+   "line": "Ella se lleva mi dinero, se lleva mi dinero",
+   "mode": "flash",
+   "bg": "b",
+   "swap": true
+  },
+  {
+   "t": 10.19,
+   "text": "Ella se lleva mi dinero, se",
+   "line": "Ella se lleva mi dinero, se lleva mi dinero",
+   "mode": "flash",
+   "bg": "w",
+   "swap": true
+  },
+  {
+   "t": 11.21,
+   "text": "Ella se lleva mi dinero, se lleva",
+   "line": "Ella se lleva mi dinero, se lleva mi dinero",
+   "mode": "flash",
+   "bg": "b",
+   "swap": true
+  },
+  {
+   "t": 11.87,
+   "text": "Ella se lleva mi dinero, se lleva mi",
+   "line": "Ella se lleva mi dinero, se lleva mi dinero",
+   "mode": "flash",
+   "bg": "w",
+   "swap": true
+  },
+  {
+   "t": 12.23,
+   "text": "Ella se lleva mi dinero, se lleva mi dinero",
+   "line": "Ella se lleva mi dinero, se lleva mi dinero",
+   "mode": "flash",
+   "bg": "b",
+   "swap": true
+  },
+  {
+   "t": 12.95,
+   "text": "Jue_",
+   "line": "Juega bien duro, juega por pesos",
+   "mode": "hold",
+   "img": 1,
+   "img_t0": 12.95,
+   "swap": true
+  },
+  {
+   "t": 13.41,
+   "text": "Juega",
+   "line": "Juega bien duro, juega por pesos",
+   "mode": "hold",
+   "img": 1,
+   "img_t0": 12.95,
+   "swap": false
+  },
+  {
+   "t": 14.11,
+   "text": "Juega bien",
+   "line": "Juega bien duro, juega por pesos",
+   "mode": "hold",
+   "img": 1,
+   "img_t0": 12.95,
+   "swap": false
+  },
+  {
+   "t": 14.39,
+   "text": "Juega bien duro,",
+   "line": "Juega bien duro, juega por pesos",
+   "mode": "hold",
+   "img": 1,
+   "img_t0": 12.95,
+   "swap": false
+  },
+  {
+   "t": 15.71,
+   "text": "Juega bien duro, juega",
+   "line": "Juega bien duro, juega por pesos",
+   "mode": "hold",
+   "img": 1,
+   "img_t0": 12.95,
+   "swap": false
+  },
+  {
+   "t": 16.31,
+   "text": "Juega bien duro, juega por",
+   "line": "Juega bien duro, juega por pesos",
+   "mode": "hold",
+   "img": 1,
+   "img_t0": 12.95,
+   "swap": false
+  },
+  {
+   "t": 16.47,
+   "text": "Juega bien duro, juega por pesos",
+   "line": "Juega bien duro, juega por pesos",
+   "mode": "hold",
+   "img": 1,
+   "img_t0": 12.95,
+   "swap": false
+  },
+  {
+   "t": 16.89,
+   "text": "Jue_",
+   "line": "Juega bien duro, juega por pesos",
+   "mode": "hold",
+   "img": 2,
+   "img_t0": 16.89,
+   "swap": true
+  },
+  {
+   "t": 17.29,
+   "text": "Juega",
+   "line": "Juega bien duro, juega por pesos",
+   "mode": "hold",
+   "img": 2,
+   "img_t0": 16.89,
+   "swap": false
+  },
+  {
+   "t": 18.01,
+   "text": "Juega bien",
+   "line": "Juega bien duro, juega por pesos",
+   "mode": "hold",
+   "img": 2,
+   "img_t0": 16.89,
+   "swap": false
+  },
+  {
+   "t": 18.49,
+   "text": "Juega bien duro,",
+   "line": "Juega bien duro, juega por pesos",
+   "mode": "hold",
+   "img": 2,
+   "img_t0": 16.89,
+   "swap": false
+  },
+  {
+   "t": 19.77,
+   "text": "Juega bien duro, juega",
+   "line": "Juega bien duro, juega por pesos",
+   "mode": "hold",
+   "img": 2,
+   "img_t0": 16.89,
+   "swap": false
+  },
+  {
+   "t": 20.21,
+   "text": "Juega bien duro, juega por",
+   "line": "Juega bien duro, juega por pesos",
+   "mode": "hold",
+   "img": 2,
+   "img_t0": 16.89,
+   "swap": false
+  },
+  {
+   "t": 20.57,
+   "text": "Juega bien duro, juega por pesos",
+   "line": "Juega bien duro, juega por pesos",
+   "mode": "hold",
+   "img": 2,
+   "img_t0": 16.89,
+   "swap": false
+  },
+  {
+   "t": 21.21,
+   "text": "Arranco",
+   "line": "Arranco el carro, voy rodando",
+   "mode": "hold",
+   "img": 3,
+   "img_t0": 21.21,
+   "swap": true
+  },
+  {
+   "t": 22.01,
+   "text": "Arranco el",
+   "line": "Arranco el carro, voy rodando",
+   "mode": "hold",
+   "img": 3,
+   "img_t0": 21.21,
+   "swap": false
+  },
+  {
+   "t": 22.49,
+   "text": "Arranco el carro,",
+   "line": "Arranco el carro, voy rodando",
+   "mode": "hold",
+   "img": 3,
+   "img_t0": 21.21,
+   "swap": false
+  },
+  {
+   "t": 22.71,
+   "text": "Arranco el carro, voy",
+   "line": "Arranco el carro, voy rodando",
+   "mode": "hold",
+   "img": 3,
+   "img_t0": 21.21,
+   "swap": false
+  },
+  {
+   "t": 23.05,
+   "text": "Arranco el carro, voy rodando",
+   "line": "Arranco el carro, voy rodando",
+   "mode": "hold",
+   "img": 3,
+   "img_t0": 21.21,
+   "swap": false
+  },
+  {
+   "t": 23.67,
+   "text": "Traigo",
+   "line": "Traigo el dinero a la vista",
+   "mode": "hold",
+   "img": 4,
+   "img_t0": 23.67,
+   "swap": true
+  },
+  {
+   "t": 23.85,
+   "text": "Traigo el",
+   "line": "Traigo el dinero a la vista",
+   "mode": "hold",
+   "img": 4,
+   "img_t0": 23.67,
+   "swap": false
+  },
+  {
+   "t": 24.09,
+   "text": "Traigo el dinero",
+   "line": "Traigo el dinero a la vista",
+   "mode": "hold",
+   "img": 4,
+   "img_t0": 23.67,
+   "swap": false
+  },
+  {
+   "t": 24.43,
+   "text": "Traigo el dinero a la",
+   "line": "Traigo el dinero a la vista",
+   "mode": "hold",
+   "img": 4,
+   "img_t0": 23.67,
+   "swap": false
+  },
+  {
+   "t": 24.93,
+   "text": "Traigo el dinero a la vista",
+   "line": "Traigo el dinero a la vista",
+   "mode": "hold",
+   "img": 4,
+   "img_t0": 23.67,
+   "swap": false
+  },
+  {
+   "t": 25.43,
+   "text": "Me",
+   "line": "Me escribe 'buenos días' y ya estoy listo para salir a comprar",
+   "mode": "flash",
+   "bg": "w",
+   "swap": true
+  },
+  {
+   "t": 25.83,
+   "text": "Me escr_",
+   "line": "Me escribe 'buenos días' y ya estoy listo para salir a comprar",
+   "mode": "flash",
+   "bg": "b",
+   "swap": true
+  },
+  {
+   "t": 26.23,
+   "text": "Me escribe",
+   "line": "Me escribe 'buenos días' y ya estoy listo para salir a comprar",
+   "mode": "flash",
+   "bg": "w",
+   "swap": true
+  },
+  {
+   "t": 26.65,
+   "text": "Me escribe 'buenos",
+   "line": "Me escribe 'buenos días' y ya estoy listo para salir a comprar",
+   "mode": "flash",
+   "bg": "b",
+   "swap": true
+  },
+  {
+   "t": 26.99,
+   "text": "Me escribe 'buenos días'",
+   "line": "Me escribe 'buenos días' y ya estoy listo para salir a comprar",
+   "mode": "flash",
+   "bg": "w",
+   "swap": true
+  },
+  {
+   "t": 27.31,
+   "text": "Me escribe 'buenos días' y",
+   "line": "Me escribe 'buenos días' y ya estoy listo para salir a comprar",
+   "mode": "flash",
+   "bg": "b",
+   "swap": true
+  },
+  {
+   "t": 27.69,
+   "text": "Me escribe 'buenos días' y ya",
+   "line": "Me escribe 'buenos días' y ya estoy listo para salir a comprar",
+   "mode": "flash",
+   "bg": "w",
+   "swap": true
+  },
+  {
+   "t": 27.93,
+   "text": "Me escribe 'buenos días' y ya estoy",
+   "line": "Me escribe 'buenos días' y ya estoy listo para salir a comprar",
+   "mode": "flash",
+   "bg": "w",
+   "swap": false
+  },
+  {
+   "t": 28.31,
+   "text": "Me escribe 'buenos días' y ya estoy listo",
+   "line": "Me escribe 'buenos días' y ya estoy listo para salir a comprar",
+   "mode": "flash",
+   "bg": "b",
+   "swap": true
+  },
+  {
+   "t": 28.71,
+   "text": "Me escribe 'buenos días' y ya estoy listo para",
+   "line": "Me escribe 'buenos días' y ya estoy listo para salir a comprar",
+   "mode": "flash",
+   "bg": "w",
+   "swap": true
+  },
+  {
+   "t": 29.03,
+   "text": "Me escribe 'buenos días' y ya estoy listo para salir",
+   "line": "Me escribe 'buenos días' y ya estoy listo para salir a comprar",
+   "mode": "flash",
+   "bg": "b",
+   "swap": true
+  },
+  {
+   "t": 29.27,
+   "text": "Me escribe 'buenos días' y ya estoy listo para salir a",
+   "line": "Me escribe 'buenos días' y ya estoy listo para salir a comprar",
+   "mode": "flash",
+   "bg": "b",
+   "swap": false
+  },
+  {
+   "t": 29.53,
+   "text": "Me escribe 'buenos días' y ya estoy listo para salir a comprar",
+   "line": "Me escribe 'buenos días' y ya estoy listo para salir a comprar",
+   "mode": "flash",
+   "bg": "w",
+   "swap": true
+  },
+  {
+   "t": 30.17,
+   "text": "Todo",
+   "line": "Todo lo que le guste, lo que se le antoje",
+   "mode": "flash",
+   "bg": "b",
+   "swap": true
+  },
+  {
+   "t": 30.87,
+   "text": "Todo lo que",
+   "line": "Todo lo que le guste, lo que se le antoje",
+   "mode": "flash",
+   "bg": "w",
+   "swap": true
+  },
+  {
+   "t": 31.15,
+   "text": "Todo lo que le",
+   "line": "Todo lo que le guste, lo que se le antoje",
+   "mode": "flash",
+   "bg": "w",
+   "swap": false
+  },
+  {
+   "t": 31.49,
+   "text": "Todo lo que le guste,",
+   "line": "Todo lo que le guste, lo que se le antoje",
+   "mode": "flash",
+   "bg": "b",
+   "swap": true
+  },
+  {
+   "t": 32.53,
+   "text": "Todo lo que le guste, lo",
+   "line": "Todo lo que le guste, lo que se le antoje",
+   "mode": "flash",
+   "bg": "w",
+   "swap": true
+  },
+  {
+   "t": 33.09,
+   "text": "Todo lo que le guste, lo que",
+   "line": "Todo lo que le guste, lo que se le antoje",
+   "mode": "flash",
+   "bg": "b",
+   "swap": true
+  },
+  {
+   "t": 33.29,
+   "text": "Todo lo que le guste, lo que se le",
+   "line": "Todo lo que le guste, lo que se le antoje",
+   "mode": "flash",
+   "bg": "b",
+   "swap": false
+  },
+  {
+   "t": 33.65,
+   "text": "Todo lo que le guste, lo que se le antoje",
+   "line": "Todo lo que le guste, lo que se le antoje",
+   "mode": "flash",
+   "bg": "w",
+   "swap": true
+  },
+  {
+   "t": 34.09,
+   "text": "Gasta_",
+   "line": "Gastando dinero sin parar",
+   "mode": "flash",
+   "bg": "b",
+   "swap": true
+  },
+  {
+   "t": 34.65,
+   "text": "Gastando",
+   "line": "Gastando dinero sin parar",
+   "mode": "flash",
+   "bg": "w",
+   "swap": true
+  },
+  {
+   "t": 34.83,
+   "text": "Gastando dine-",
+   "line": "Gastando dinero sin parar",
+   "mode": "flash",
+   "bg": "w",
+   "swap": false
+  },
+  {
+   "t": 35.13,
+   "text": "Gastando dinero",
+   "line": "Gastando dinero sin parar",
+   "mode": "flash",
+   "bg": "b",
+   "swap": true
+  },
+  {
+   "t": 35.33,
+   "text": "Gastando dinero sin",
+   "line": "Gastando dinero sin parar",
+   "mode": "flash",
+   "bg": "b",
+   "swap": false
+  },
+  {
+   "t": 35.55,
+   "text": "Gastando dinero sin par_",
+   "line": "Gastando dinero sin parar",
+   "mode": "flash",
+   "bg": "w",
+   "swap": true
+  },
+  {
+   "t": 36.17,
+   "text": "Gastando dinero sin parar",
+   "line": "Gastando dinero sin parar",
+   "mode": "flash",
+   "bg": "b",
+   "swap": true
+  },
+  {
+   "t": 37.27,
+   "text": "Me",
+   "line": "Me despierto con el sol de la mañana",
+   "mode": "hold",
+   "img": 5,
+   "img_t0": 37.27,
+   "swap": true
+  },
+  {
+   "t": 37.61,
+   "text": "Me despierto",
+   "line": "Me despierto con el sol de la mañana",
+   "mode": "hold",
+   "img": 5,
+   "img_t0": 37.27,
+   "swap": false
+  },
+  {
+   "t": 38.13,
+   "text": "Me despierto con el",
+   "line": "Me despierto con el sol de la mañana",
+   "mode": "hold",
+   "img": 5,
+   "img_t0": 37.27,
+   "swap": false
+  },
+  {
+   "t": 38.29,
+   "text": "Me despierto con el sol",
+   "line": "Me despierto con el sol de la mañana",
+   "mode": "hold",
+   "img": 5,
+   "img_t0": 37.27,
+   "swap": false
+  },
+  {
+   "t": 38.55,
+   "text": "Me despierto con el sol de la",
+   "line": "Me despierto con el sol de la mañana",
+   "mode": "hold",
+   "img": 5,
+   "img_t0": 37.27,
+   "swap": false
+  },
+  {
+   "t": 38.87,
+   "text": "Me despierto con el sol de la mañana",
+   "line": "Me despierto con el sol de la mañana",
+   "mode": "hold",
+   "img": 5,
+   "img_t0": 37.27,
+   "swap": false
+  },
+  {
+   "t": 39.19,
+   "text": "Me",
+   "line": "Me engañé solo por una belleza",
+   "mode": "hold",
+   "img": 6,
+   "img_t0": 39.19,
+   "swap": true
+  },
+  {
+   "t": 39.47,
+   "text": "Me engañé",
+   "line": "Me engañé solo por una belleza",
+   "mode": "hold",
+   "img": 6,
+   "img_t0": 39.19,
+   "swap": false
+  },
+  {
+   "t": 40.15,
+   "text": "Me engañé solo",
+   "line": "Me engañé solo por una belleza",
+   "mode": "hold",
+   "img": 6,
+   "img_t0": 39.19,
+   "swap": false
+  },
+  {
+   "t": 40.45,
+   "text": "Me engañé solo por una",
+   "line": "Me engañé solo por una belleza",
+   "mode": "hold",
+   "img": 6,
+   "img_t0": 39.19,
+   "swap": false
+  },
+  {
+   "t": 40.73,
+   "text": "Me engañé solo por una belleza",
+   "line": "Me engañé solo por una belleza",
+   "mode": "hold",
+   "img": 6,
+   "img_t0": 39.19,
+   "swap": false
+  },
+  {
+   "t": 41.27,
+   "text": "Se",
+   "line": "Se llevó todo mi dinero y ahora se fue",
+   "mode": "flash",
+   "bg": "w",
+   "swap": true
+  },
+  {
+   "t": 41.63,
+   "text": "Se llevó",
+   "line": "Se llevó todo mi dinero y ahora se fue",
+   "mode": "flash",
+   "bg": "b",
+   "swap": true
+  },
+  {
+   "t": 41.81,
+   "text": "Se llevó todo mi",
+   "line": "Se llevó todo mi dinero y ahora se fue",
+   "mode": "flash",
+   "bg": "b",
+   "swap": false
+  },
+  {
+   "t": 42.23,
+   "text": "Se llevó todo mi dinero",
+   "line": "Se llevó todo mi dinero y ahora se fue",
+   "mode": "flash",
+   "bg": "w",
+   "swap": true
+  },
+  {
+   "t": 42.49,
+   "text": "Se llevó todo mi dinero y",
+   "line": "Se llevó todo mi dinero y ahora se fue",
+   "mode": "flash",
+   "bg": "w",
+   "swap": false
+  },
+  {
+   "t": 42.85,
+   "text": "Se llevó todo mi dinero y ahora",
+   "line": "Se llevó todo mi dinero y ahora se fue",
+   "mode": "flash",
+   "bg": "b",
+   "swap": true
+  },
+  {
+   "t": 43.11,
+   "text": "Se llevó todo mi dinero y ahora se fue",
+   "line": "Se llevó todo mi dinero y ahora se fue",
+   "mode": "flash",
+   "bg": "b",
+   "swap": false
+  },
+  {
+   "t": 43.29,
+   "text": "Estoy",
+   "line": "Estoy jodidamente quebrado y estoy solo",
+   "mode": "flash",
+   "bg": "w",
+   "swap": true
+  },
+  {
+   "t": 43.57,
+   "text": "Estoy jodidam_",
+   "line": "Estoy jodidamente quebrado y estoy solo",
+   "mode": "flash",
+   "bg": "b",
+   "swap": true
+  },
+  {
+   "t": 43.87,
+   "text": "Estoy jodidamente",
+   "line": "Estoy jodidamente quebrado y estoy solo",
+   "mode": "flash",
+   "bg": "w",
+   "swap": true
+  },
+  {
+   "t": 44.11,
+   "text": "Estoy jodidamente quebrado",
+   "line": "Estoy jodidamente quebrado y estoy solo",
+   "mode": "flash",
+   "bg": "w",
+   "swap": false
+  },
+  {
+   "t": 44.29,
+   "text": "Estoy jodidamente quebrado y",
+   "line": "Estoy jodidamente quebrado y estoy solo",
+   "mode": "flash",
+   "bg": "b",
+   "swap": true
+  },
+  {
+   "t": 44.71,
+   "text": "Estoy jodidamente quebrado y estoy",
+   "line": "Estoy jodidamente quebrado y estoy solo",
+   "mode": "flash",
+   "bg": "w",
+   "swap": true
+  },
+  {
+   "t": 45.17,
+   "text": "Estoy jodidamente quebrado y estoy solo",
+   "line": "Estoy jodidamente quebrado y estoy solo",
+   "mode": "flash",
+   "bg": "b",
+   "swap": true
+  },
+  {
+   "t": 45.75,
+   "text": "Tratando",
+   "line": "Tratando de darme la gran vida",
+   "mode": "hold",
+   "img": 7,
+   "img_t0": 45.75,
+   "swap": true
+  },
+  {
+   "t": 46.29,
+   "text": "Tratando de",
+   "line": "Tratando de darme la gran vida",
+   "mode": "hold",
+   "img": 7,
+   "img_t0": 45.75,
+   "swap": false
+  },
+  {
+   "t": 46.51,
+   "text": "Tratando de darme",
+   "line": "Tratando de darme la gran vida",
+   "mode": "hold",
+   "img": 7,
+   "img_t0": 45.75,
+   "swap": false
+  },
+  {
+   "t": 46.75,
+   "text": "Tratando de darme la gran",
+   "line": "Tratando de darme la gran vida",
+   "mode": "hold",
+   "img": 7,
+   "img_t0": 45.75,
+   "swap": false
+  },
+  {
+   "t": 47.23,
+   "text": "Tratando de darme la gran vida",
+   "line": "Tratando de darme la gran vida",
+   "mode": "hold",
+   "img": 7,
+   "img_t0": 45.75,
+   "swap": false
+  },
+  {
+   "t": 47.67,
+   "text": "Con",
+   "line": "Con la misma ropa, yeah",
+   "mode": "hold",
+   "img": 8,
+   "img_t0": 47.67,
+   "swap": true
+  },
+  {
+   "t": 48.21,
+   "text": "Con la",
+   "line": "Con la misma ropa, yeah",
+   "mode": "hold",
+   "img": 8,
+   "img_t0": 47.67,
+   "swap": false
+  },
+  {
+   "t": 48.47,
+   "text": "Con la misma",
+   "line": "Con la misma ropa, yeah",
+   "mode": "hold",
+   "img": 8,
+   "img_t0": 47.67,
+   "swap": false
+  },
+  {
+   "t": 48.71,
+   "text": "Con la misma ropa,",
+   "line": "Con la misma ropa, yeah",
+   "mode": "hold",
+   "img": 8,
+   "img_t0": 47.67,
+   "swap": false
+  },
+  {
+   "t": 49.09,
+   "text": "Con la misma ropa, yeah",
+   "line": "Con la misma ropa, yeah",
+   "mode": "hold",
+   "img": 8,
+   "img_t0": 47.67,
+   "swap": false
+  },
+  {
+   "t": 49.79,
+   "text": "Tratando",
+   "line": "Tratando de pasar desapercibido",
+   "mode": "hold",
+   "img": 9,
+   "img_t0": 49.79,
+   "swap": true
+  },
+  {
+   "t": 50.27,
+   "text": "Tratando de",
+   "line": "Tratando de pasar desapercibido",
+   "mode": "hold",
+   "img": 9,
+   "img_t0": 49.79,
+   "swap": false
+  },
+  {
+   "t": 50.45,
+   "text": "Tratando de pasar",
+   "line": "Tratando de pasar desapercibido",
+   "mode": "hold",
+   "img": 9,
+   "img_t0": 49.79,
+   "swap": false
+  },
+  {
+   "t": 50.79,
+   "text": "Tratando de pasar desaperc_",
+   "line": "Tratando de pasar desapercibido",
+   "mode": "hold",
+   "img": 9,
+   "img_t0": 49.79,
+   "swap": false
+  },
+  {
+   "t": 51.13,
+   "text": "Tratando de pasar desapercibido",
+   "line": "Tratando de pasar desapercibido",
+   "mode": "hold",
+   "img": 9,
+   "img_t0": 49.79,
+   "swap": false
+  },
+  {
+   "t": 51.79,
+   "text": "Busca_",
+   "line": "Buscando pesos, yeah",
+   "mode": "hold",
+   "img": 10,
+   "img_t0": 51.79,
+   "swap": true
+  },
+  {
+   "t": 52.13,
+   "text": "Buscando",
+   "line": "Buscando pesos, yeah",
+   "mode": "hold",
+   "img": 10,
+   "img_t0": 51.79,
+   "swap": false
+  },
+  {
+   "t": 52.49,
+   "text": "Buscando pesos,",
+   "line": "Buscando pesos, yeah",
+   "mode": "hold",
+   "img": 10,
+   "img_t0": 51.79,
+   "swap": false
+  },
+  {
+   "t": 52.93,
+   "text": "Buscando pesos, yeah",
+   "line": "Buscando pesos, yeah",
+   "mode": "hold",
+   "img": 10,
+   "img_t0": 51.79,
+   "swap": false
+  },
+  {
+   "t": 53.29,
+   "text": "Ella se",
+   "line": "Ella se lleva mi dinero, se lleva mi dinero",
+   "mode": "flash",
+   "bg": "w",
+   "swap": true
+  },
+  {
+   "t": 53.53,
+   "text": "Ella se lleva mi",
+   "line": "Ella se lleva mi dinero, se lleva mi dinero",
+   "mode": "flash",
+   "bg": "w",
+   "swap": false
+  },
+  {
+   "t": 53.77,
+   "text": "Ella se lleva mi dinero,",
+   "line": "Ella se lleva mi dinero, se lleva mi dinero",
+   "mode": "flash",
+   "bg": "b",
+   "swap": true
+  },
+  {
+   "t": 54.13,
+   "text": "Ella se lleva mi dinero, se",
+   "line": "Ella se lleva mi dinero, se lleva mi dinero",
+   "mode": "flash",
+   "bg": "w",
+   "swap": true
+  },
+  {
+   "t": 54.83,
+   "text": "Ella se lleva mi dinero, se lleva",
+   "line": "Ella se lleva mi dinero, se lleva mi dinero",
+   "mode": "flash",
+   "bg": "b",
+   "swap": true
+  },
+  {
+   "t": 55.89,
+   "text": "Ella se lleva mi dinero, se lleva mi",
+   "line": "Ella se lleva mi dinero, se lleva mi dinero",
+   "mode": "flash",
+   "bg": "w",
+   "swap": true
+  },
+  {
+   "t": 56.13,
+   "text": "Ella se lleva mi dinero, se lleva mi dinero",
+   "line": "Ella se lleva mi dinero, se lleva mi dinero",
+   "mode": "flash",
+   "bg": "w",
+   "swap": false
+  },
+  {
+   "t": 56.83,
+   "text": "Ella se",
+   "line": "Ella se lleva mi dinero, se lleva mi…",
+   "mode": "flash",
+   "bg": "b",
+   "swap": true
+  },
+  {
+   "t": 57.33,
+   "text": "Ella se lleva mi",
+   "line": "Ella se lleva mi dinero, se lleva mi…",
+   "mode": "flash",
+   "bg": "w",
+   "swap": true
+  },
+  {
+   "t": 57.89,
+   "text": "Ella se lleva mi dinero,",
+   "line": "Ella se lleva mi dinero, se lleva mi…",
+   "mode": "flash",
+   "bg": "b",
+   "swap": true
+  },
+  {
+   "t": 58.23,
+   "text": "Ella se lleva mi dinero, se",
+   "line": "Ella se lleva mi dinero, se lleva mi…",
+   "mode": "flash",
+   "bg": "w",
+   "swap": true
+  },
+  {
+   "t": 58.97,
+   "text": "Ella se lleva mi dinero, se lleva",
+   "line": "Ella se lleva mi dinero, se lleva mi…",
+   "mode": "flash",
+   "bg": "b",
+   "swap": true
+  },
+  {
+   "t": 59.83,
+   "text": "Ella se lleva mi dinero, se lleva mi…",
+   "line": "Ella se lleva mi dinero, se lleva mi…",
+   "mode": "flash",
+   "bg": "w",
+   "swap": true
+  }
+ ],
+ "fade_out": 0.4
+}
