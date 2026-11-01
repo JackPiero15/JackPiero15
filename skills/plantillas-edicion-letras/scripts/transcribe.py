@@ -1,6 +1,6 @@
 """Transcribe a song with faster-whisper (word timestamps) -> JSON.
 
-Usage: python transcribe.py in.wav out.json [model]
+Usage: python transcribe.py in.wav out.json [model] [idioma: en|ja|es...]
 Audio is decoded with PyAV into numpy (faster-whisper's own av.open breaks with PyAV 19).
 """
 import json
@@ -26,10 +26,11 @@ def load_16k_mono(path):
 def main():
     src, out = sys.argv[1], sys.argv[2]
     model_name = sys.argv[3] if len(sys.argv) > 3 else "medium"
+    lang = sys.argv[4] if len(sys.argv) > 4 else "en"
     audio = load_16k_mono(src)
     model = WhisperModel(model_name, device="cpu", compute_type="int8")
     segs, info = model.transcribe(
-        audio, language="en", word_timestamps=True, vad_filter=False,
+        audio, language=lang, word_timestamps=True, vad_filter=False,
         beam_size=5, condition_on_previous_text=False,
     )
     data = []

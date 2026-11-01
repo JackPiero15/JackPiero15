@@ -21,7 +21,7 @@ Variantes (parámetros de imagen comprobados en los JSON):
 ## Flujo
 
 1. Crear proyecto: `bash scripts/nuevo_proyecto.sh <carpeta>` → `tools/` (scripts), `fonts/` (Roboto Condensed variable), `media/`, `pieces/`, `work/`, `out/`, `lineas.json`. Todos los comandos siguientes se ejecutan desde `<carpeta>`.
-2. Audio: dejar la canción en `media/`. Transcribir con tiempos por palabra: `python tools/transcribe.py media/cancion.wav work/tr.json medium` (faster-whisper, idioma `en`). Formato: `{"segments":[{"words":[{"w","s","e","p"}]}]}`.
+2. Audio: dejar la canción en `media/`. Transcribir con tiempos por palabra: `python tools/transcribe.py media/cancion.wav work/tr.json medium en` (faster-whisper; último argumento = idioma: `en`, `ja`, `es`...). En partes instrumentales Whisper alucina texto (p. ej. "Sound Hodori", "Instagram"): descartarlo. Formato: `{"segments":[{"words":[{"w","s","e","p"}]}]}`.
 3. Imágenes: `python tools/pin_fetch.py media/pins <id_pin> ...` o `python tools/board_fetch.py media/rel <limite> <url_tablero> ...`; luego `python tools/make_sheet.py media/rel` → `work/sheet_index.txt` + `work/sheet_XX.jpg` numeradas. Revisar la hoja y excluir imágenes que no encajen (en Dinero se excluyeron fotos de ropa).
 4. Tabla de líneas en `lineas.json` (plantilla en `assets/plantilla_lineas.json`). Una entrada por verso: `t0`/`t1` en segundos de la fuente, `en` (original), `es` (traducción fiel, español latino), `mode` (`flash` o `hold`), `img` (idx de la hoja, solo `hold`), `tint` opcional `[r,g,b]`. `in`/`out` = ventana del fragmento en la fuente.
 5. Construir: `python tools/build_timeline.py lineas.json` → `pieces/<id>.json` y `pieces/<id>_table.json`.

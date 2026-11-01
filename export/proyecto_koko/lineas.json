@@ -1,0 +1,180 @@
+{
+ "id": "koko",
+ "in": 70.01,
+ "out": 131.61,
+ "fade_out": 0.6,
+ "font_size": 84,
+ "image_defaults": {
+  "k": 5.0,
+  "dim": 0.46,
+  "xerox": true
+ },
+ "lines": [
+  {
+   "t0": 70.68,
+   "t1": 76.75,
+   "en": "Umaku iki mo dekinai sekai de",
+   "es": "En un mundo donde ni respirar bien puedo",
+   "mode": "hold",
+   "img": 0,
+   "tint": [
+    40,
+    110,
+    210
+   ]
+  },
+  {
+   "t0": 76.8,
+   "t1": 80.05,
+   "en": "Kimi ga kureta tsuyosa idakeba [Whisper: 強さにだけは]",
+   "es": "si abrazo la fuerza que me diste",
+   "mode": "hold",
+   "img": 1,
+   "tint": [
+    60,
+    170,
+    200
+   ]
+  },
+  {
+   "t0": 80.1,
+   "t1": 85.8,
+   "en": "Mieta baddo endo sae mo",
+   "es": "hasta el mal final que ya veía",
+   "mode": "hold",
+   "img": 2,
+   "tint": [
+    120,
+    70,
+    200
+   ]
+  },
+  {
+   "t0": 85.84,
+   "t1": 90.95,
+   "en": "Amai yume ni kaete shimau yo",
+   "es": "lo convierto en un dulce sueño",
+   "mode": "hold",
+   "img": 3,
+   "tint": [
+    40,
+    110,
+    210
+   ]
+  },
+  {
+   "t0": 91.02,
+   "t1": 94.55,
+   "en": "Oh, furikaereba",
+   "es": "Oh, si miro atrás",
+   "mode": "flash"
+  },
+  {
+   "t0": 94.6,
+   "t1": 98.95,
+   "en": "Itsumo waratta kimi ga ita kara",
+   "es": "siempre estabas tú sonriendo",
+   "mode": "flash"
+  },
+  {
+   "t0": 99.02,
+   "t1": 103.3,
+   "en": "Omoide no naka de 'mata ne'",
+   "es": "En los recuerdos, un 'nos vemos'",
+   "mode": "flash"
+  },
+  {
+   "t0": 103.38,
+   "t1": 106.15,
+   "en": "Soredemo ii",
+   "es": "aun así está bien",
+   "mode": "flash"
+  },
+  {
+   "t0": 106.2,
+   "t1": 109.6,
+   "en": "Tada, ima sugu ni aishite",
+   "es": "Solo ámame ahora mismo",
+   "mode": "hold",
+   "img": 4,
+   "tint": [
+    60,
+    170,
+    200
+   ]
+  },
+  {
+   "t0": 109.66,
+   "t1": 111.78,
+   "en": "Massarana sekai de",
+   "es": "en un mundo en blanco",
+   "mode": "flash"
+  },
+  {
+   "t0": 111.82,
+   "t1": 114.3,
+   "en": "Mou ichido deatte mo",
+   "es": "Aunque nos volvamos a conocer",
+   "mode": "hold",
+   "img": 5,
+   "tint": [
+    40,
+    110,
+    210
+   ]
+  },
+  {
+   "t0": 114.36,
+   "t1": 116.5,
+   "en": "'Watashi no hiiroo'",
+   "es": "'mi héroe'",
+   "mode": "hold",
+   "img": 6,
+   "tint": [
+    120,
+    70,
+    200
+   ]
+  },
+  {
+   "t0": 116.56,
+   "t1": 118.5,
+   "en": "Massugu na negai ga",
+   "es": "este deseo sincero",
+   "mode": "flash"
+  },
+  {
+   "t0": 118.56,
+   "t1": 120.75,
+   "en": "Megutta toki wo koete [Whisper: 揺るった]",
+   "es": "cruza el tiempo que volvió a girar",
+   "mode": "flash"
+  },
+  {
+   "t0": 120.8,
+   "t1": 125.5,
+   "en": "Kimi wo mata, mitsukedaseru you ni",
+   "es": "para poder encontrarte otra vez",
+   "mode": "hold",
+   "img": 7,
+   "tint": [
+    60,
+    170,
+    200
+   ]
+  },
+  {
+   "t0": 125.58,
+   "t1": 131.4,
+   "en": "Itsumo koko de iki wo shite",
+   "es": "Siempre aquí, respirando",
+   "mode": "hold",
+   "img": 8,
+   "tint": [
+    40,
+    110,
+    210
+   ]
+  }
+ ]
+}

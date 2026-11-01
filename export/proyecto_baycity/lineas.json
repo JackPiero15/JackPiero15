@@ -1,0 +1,111 @@
+{
+ "id": "baycity",
+ "rgb": true,
+ "in": 156.34,
+ "out": 216.32,
+ "fade_out": 0.6,
+ "image_defaults": {
+  "color": true,
+  "dim": 0.55
+ },
+ "lines": [
+  {
+   "t0": 158.38,
+   "t1": 163.25,
+   "en": "空が海を抱くみたいに",
+   "es": "Como el cielo abraza al mar",
+   "mode": "hold",
+   "img": 0
+  },
+  {
+   "t0": 163.32,
+   "t1": 167.15,
+   "en": "愛し合えた奇跡を",
+   "es": "el milagro de habernos amado",
+   "mode": "hold",
+   "img": 1
+  },
+  {
+   "t0": 167.2,
+   "t1": 169.4,
+   "en": "もう一度だけ",
+   "es": "Una vez más",
+   "mode": "flash"
+  },
+  {
+   "t0": 169.46,
+   "t1": 171.55,
+   "en": "もう一度だけ",
+   "es": "solo una vez más",
+   "mode": "flash"
+  },
+  {
+   "t0": 171.6,
+   "t1": 180.1,
+   "en": "幻でいい",
+   "es": "aunque sea una ilusión",
+   "mode": "hold",
+   "img": 2
+  },
+  {
+   "t0": 180.16,
+   "t1": 182.95,
+   "en": "ああ あなたを追って",
+   "es": "Ah, voy tras de ti",
+   "mode": "flash"
+  },
+  {
+   "t0": 183.02,
+   "t1": 188.05,
+   "en": "黄昏のBay City [Whisper: フェイシティ]",
+   "es": "Bay City al atardecer",
+   "mode": "hold",
+   "img": 3
+  },
+  {
+   "t0": 188.12,
+   "t1": 191.6,
+   "en": "ああ めぐり逢えたら",
+   "es": "Ah, si nos volvemos a encontrar",
+   "mode": "flash"
+  },
+  {
+   "t0": 191.66,
+   "t1": 196.45,
+   "en": "黙って抱きとめて",
+   "es": "abrázame sin decir nada",
+   "mode": "hold",
+   "img": 4
+  },
+  {
+   "t0": 196.54,
+   "t1": 199.58,
+   "en": "ああ あなたを追って",
+   "es": "Ah, voy tras de ti",
+   "mode": "flash"
+  },
+  {
+   "t0": 199.64,
+   "t1": 205.28,
+   "en": "黄昏のBay City",
+   "es": "Bay City al atardecer",
+   "mode": "hold",
+   "img": 5
+  },
+  {
+   "t0": 205.34,
+   "t1": 208.25,
+   "en": "ああ めぐり逢えたら",
+   "es": "Ah, si nos volvemos a encontrar",
+   "mode": "flash"
+  },
+  {
+   "t0": 208.3,
+   "t1": 216.32,
+   "en": "黙って抱きとめて",
+   "es": "abrázame sin decir nada",
+   "mode": "hold",
+   "img": 6
+  }
+ ]
+}
