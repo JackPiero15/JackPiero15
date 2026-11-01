@@ -1,0 +1,137 @@
+{
+ "_nota": "Tiempos medidos cuadro a cuadro en la referencia (inicio de la transición de cada palabra, 30 fps). Los archivos de medios son marcadores: sustituir por material propio.",
+ "duracion": 22.467,
+ "salida": {
+  "ancho": 1440,
+  "alto": 1080,
+  "fps": 30,
+  "lienzo": "4:3",
+  "crf": 18
+ },
+ "audio": {
+  "archivo": "cancion.wav",
+  "inicio": 0.0,
+  "lufs": -14
+ },
+ "bucle": 8.067,
+ "base": [
+  {
+   "archivo": "base_01.mp4",
+   "desde": 0.0
+  },
+  {
+   "archivo": "base_02.mp4",
+   "desde": 2.0
+  },
+  {
+   "archivo": "base_03.mp4",
+   "desde": 3.2
+  },
+  {
+   "archivo": "base_04.mp4",
+   "desde": 4.0
+  },
+  {
+   "archivo": "base_05.mp4",
+   "desde": 6.0
+  }
+ ],
+ "destellos": [
+  "destello_01.mp4",
+  "destello_02.mp4",
+  "destello_03.mp4",
+  "destello_04.mp4",
+  "destello_05.mp4",
+  "destello_06.mp4",
+  "destello_07.mp4",
+  "destello_08.mp4",
+  "destello_09.mp4",
+  "destello_10.mp4"
+ ],
+ "fantasma": [
+  {
+   "archivo": "fantasma_flor.png",
+   "desde": 3.2,
+   "hasta": 6.6,
+   "opacidad": 0.3
+  }
+ ],
+ "letra": [
+  {
+   "lineas": "touch\nmy\nneck",
+   "tiempos": [
+    2.067,
+    2.533,
+    3.133
+   ]
+  },
+  {
+   "lineas": "and I'll\ntouch\nyours",
+   "tiempos": [
+    3.967,
+    4.267,
+    4.633,
+    5.1
+   ]
+  },
+  {
+   "lineas": "you in\nthose\nlittle high",
+   "tiempos": [
+    6.367,
+    6.633,
+    6.967,
+    7.467,
+    8.0
+   ]
+  },
+  {
+   "lineas": "was|wasted\nshorts\noh",
+   "tiempos": [
+    8.533,
+    9.033,
+    9.533,
+    10.533
+   ]
+  },
+  {
+   "lineas": "she knows\nwhat i\nthink about",
+   "tiempos": [
+    12.0,
+    12.3,
+    12.633,
+    12.8,
+    12.933,
+    13.267
+   ]
+  },
+  {
+   "lineas": "and what\ni think\nabout",
+   "tiempos": [
+    14.633,
+    14.867,
+    14.967,
+    15.1,
+    15.433
+   ]
+  },
+  {
+   "lineas": "one love\ntwo\nmouths",
+   "tiempos": [
+    16.3,
+    16.6,
+    17.367,
+    17.667
+   ]
+  },
+  {
+   "lineas": "one love\none\nhouse",
+   "tiempos": [
+    18.567,
+    18.833,
+    19.567,
+    19.767
+   ]
+  }
+ ],
+ "texto_fin": 20.7
+}
