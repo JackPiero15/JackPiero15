@@ -1,0 +1,79 @@
+{
+ "size": [
+  1080,
+  1920
+ ],
+ "fps": 60,
+ "duration": 60.0,
+ "world_res": 1.5,
+ "preset": "luna",
+ "background": "../media/fondos/7.png",
+ "grade": {
+  "exposure": 0.62,
+  "saturation": 0.85,
+  "vignette": 0.55
+ },
+ "character": {
+  "image": "../recortes/2_final.png",
+  "height": 0.5,
+  "center_x": 0.6,
+  "bottom_y": 1.0,
+  "brightness": 0.92,
+  "rim": [
+   10,
+   0.35
+  ]
+ },
+ "credit": "De Mí - Camila",
+ "audio": {
+  "file": "../media/audio/de_mi.mp3",
+  "start": 0,
+  "fade_in": 1.0,
+  "fade_out": 1.0
+ },
+ "lyrics": [
+  {
+   "start": 0.4,
+   "text": "De mí,"
+  },
+  {
+   "start": 5.5,
+   "text": "de mí,"
+  },
+  {
+   "start": 8.5,
+   "text": "de mí…"
+  },
+  {
+   "start": 16.5,
+   "text": "Dime cómo\ndebo hacer"
+  },
+  {
+   "start": 22.5,
+   "text": "para olvidarme\nde tus besos"
+  },
+  {
+   "start": 28.5,
+   "text": "y sacarte\npara siempre\nde mí"
+  },
+  {
+   "start": 34.5,
+   "text": "Tu piel\nenvenenó mi\ncorazón"
+  },
+  {
+   "start": 40.5,
+   "text": "dejándome en\ncompleta\noscuridad"
+  },
+  {
+   "start": 46.5,
+   "text": "Y ahora\nestás aquí,"
+  },
+  {
+   "start": 51.0,
+   "text": "viéndome\nsufrir",
+   "hold_to_end": true
+  }
+ ],
+ "output": "../render/01_de_mi.mp4",
+ "text_follows_zoom": false
+}

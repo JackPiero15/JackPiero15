@@ -1,0 +1,94 @@
+{
+ "size": [
+  1080,
+  1920
+ ],
+ "fps": 60,
+ "duration": 60.0,
+ "world_res": 1.5,
+ "preset": "ciudad",
+ "background": "../media/fondos/9.webp",
+ "grade": {
+  "exposure": 1.0,
+  "vignette": 0.35
+ },
+ "character": {
+  "image": "../recortes/1_final.png",
+  "height": 0.56,
+  "center_x": 0.69,
+  "bottom_y": 1.0,
+  "brightness": 1.0,
+  "rim": [
+   9,
+   0.3
+  ]
+ },
+ "credit": "Call Out My Name\n-The Weeknd",
+ "audio": {
+  "file": "../media/audio/call_out.mp3",
+  "start": 0,
+  "fade_in": 0.7,
+  "fade_out": 1.5
+ },
+ "lyrics": [
+  {
+   "start": 3.4,
+   "text": "Dije que no\nsentía nada,\npero mentí"
+  },
+  {
+   "start": 8.9,
+   "text": "Casi di una\nparte de mí\npor tu vida"
+  },
+  {
+   "start": 14.7,
+   "text": "Solo fui\nuna parada\nmás"
+  },
+  {
+   "start": 17.6,
+   "text": "hasta que\ndecidiste"
+  },
+  {
+   "start": 20.1,
+   "text": "Me hiciste\nperder\nel tiempo"
+  },
+  {
+   "start": 23.0,
+   "text": "Te puse\nen lo más alto"
+  },
+  {
+   "start": 27.2,
+   "text": "Te presumí\ncon orgullo"
+  },
+  {
+   "start": 29.6,
+   "text": "Y en los\nmomentos\ndifíciles"
+  },
+  {
+   "start": 37.9,
+   "text": "te abracé\nfuerte\ncontra mí"
+  },
+  {
+   "start": 43.0,
+   "text": "Así que\ndi mi nombre"
+  },
+  {
+   "start": 49.1,
+   "text": "Di mi nombre\nmientras\nte beso"
+  },
+  {
+   "start": 52.8,
+   "text": "tan\nsuavemente"
+  },
+  {
+   "start": 54.2,
+   "text": "Quiero que\nte quedes"
+  },
+  {
+   "start": 56.4,
+   "text": "Quiero que\nte quedes",
+   "style": "neon_red",
+   "hold_to_end": true
+  }
+ ],
+ "output": "../render/02_call_out_my_name.mp4"
+}

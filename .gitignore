@@ -1,3 +1,14 @@
 # Videos renderizados: pesan demasiado para git (límite de GitHub 100 MB) y contienen material de terceros
 export/*.mp4
 export/*.png
+# Material derivado de referencias de terceros y renders de prueba
+export/**/*.mp4
+export/**/*.png
+export/**/*.wav
+export/**/*.jpg
+export/ref_analisis/*.json
+export/ref_analisis/*.txt
+__pycache__/
+export/**/*.mp3
+export/**/*.webp
+export/proyecto_4videos/work/
