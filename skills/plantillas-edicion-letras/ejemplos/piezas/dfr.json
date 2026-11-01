@@ -1,7 +1,7 @@
 {
  "id": "downforreal",
  "duration": 59.53,
- "font": "fonts/RobotoCondensed[wght].ttf",
+ "font": "fonts/RobotoCondensed-Variable.ttf",
  "font_size": 84,
  "font_weight": 400,
  "text_y": 960,

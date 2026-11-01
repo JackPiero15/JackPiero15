@@ -59,4 +59,4 @@ Lógica idéntica a los builders de Dinero y Down For Real; la salida se comprob
 - `scripts/`: `render_letras.py` (versión de Dinero: incluye todas las funciones de Confident v3 y Too Much), `build_timeline.py`, `make_sheet.py`, `transcribe.py`, `pin_fetch.py`, `board_fetch.py`, `mux_audio.sh`, `nuevo_proyecto.sh`.
 - `assets/`: `plantilla_lineas.json`, `fonts/` (ver `assets/fonts/FUENTES.md`).
 - `ejemplos/piezas/`: piezas finales y tablas en/es de los 6 edits.
-- `ejemplos/builders_originales/`: scripts originales de cada edit (rutas `/home/user/...` de la sesión original; solo referencia).
+- `ejemplos/builders_originales/`: scripts originales de cada edit (rutas `/home/user/...` y fuente `RobotoCondensed[wght].ttf` de la sesión original; solo referencia).

@@ -11,7 +11,7 @@ W, H, FPS = 1080, 1920, 30
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 P = json.load(open(sys.argv[1], encoding="utf-8"))
 OUT = sys.argv[2]
-FONT = ImageFont.truetype(str(ROOT / P.get("font", "fonts/RobotoCondensed[wght].ttf")), P.get("font_size", 82))
+FONT = ImageFont.truetype(str(ROOT / P.get("font", "fonts/RobotoCondensed-Variable.ttf")), P.get("font_size", 82))
 try:
     FONT.set_variation_by_axes([P.get("font_weight", 400)])
 except Exception:

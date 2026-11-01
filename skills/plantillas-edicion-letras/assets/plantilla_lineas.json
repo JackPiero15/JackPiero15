@@ -5,7 +5,7 @@
  "in": 31.02,
  "out": 90.55,
  "rgb": false,
- "font": "fonts/RobotoCondensed[wght].ttf",
+ "font": "fonts/RobotoCondensed-Variable.ttf",
  "font_size": 84,
  "font_weight": 400,
  "text_y": 960,

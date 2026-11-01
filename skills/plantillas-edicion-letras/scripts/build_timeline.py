@@ -75,7 +75,7 @@ events[0]["t"] = 0.0
 
 piece = {"id": C["id"]}
 if C.get("rgb"): piece["rgb"] = True
-piece.update({"duration": C.get("duration", round(OUT - IN, 3)), "font": C.get("font", "fonts/RobotoCondensed[wght].ttf"),
+piece.update({"duration": C.get("duration", round(OUT - IN, 3)), "font": C.get("font", "fonts/RobotoCondensed-Variable.ttf"),
               "font_size": C.get("font_size", 84), "font_weight": C.get("font_weight", 400), "text_y": C.get("text_y", 960),
               "max_text_w": C.get("max_text_w", 860), "images": images, "events": events, "fade_out": C.get("fade_out", 0.5)})
 pathlib.Path("pieces").mkdir(exist_ok=True)
