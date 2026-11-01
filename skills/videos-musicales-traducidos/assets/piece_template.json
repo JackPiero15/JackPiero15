@@ -1,0 +1,42 @@
+{
+ "id": "01_CANCION_ES",
+ "scene": "CANCION",
+ "title": "CANCIÓN — Artista",
+ "fps": [24, 1.001],
+ "audio_file": "media/cancion_src.mp4",
+ "accent": "#FFC58A",
+ "notes": "Qué es cada fuente, intervalos excluidos, decisiones que no salen del código.",
+ "vertical": {
+  "in": 14.09, "out": 70.15, "fade_in": 0.08, "fade_out": 0.5,
+  "mode": "sync",
+  "video_file": "media/cancion_src.mp4", "src_w": 1920, "src_h": 1080,
+  "cutaways": [[45.40, 49.50, 960]],
+  "shots": [
+   {"t": 0.00, "cx": 864, "desc": "primer plano en el humo"},
+   {"t": 0.47, "cx": 408, "desc": "playa, cantante a la izquierda"},
+   {"t": 5.18, "src": 45.45, "cx": 960, "desc": "plano ambiental sobre un negro del original"},
+   {"t": 5.98}
+  ]
+ },
+ "horizontal": {
+  "in": 0.72, "out": 168.10, "fade_in": 0.02, "fade_out": 0.25,
+  "mode": "sync",
+  "video_file": "media/cancion_src.mp4", "src_w": 1920, "src_h": 1080,
+  "shots": [{"t": 0.0}],
+  "markers": [[0.9, "Intro"], [14.56, "Verso 1"], [55.34, "Coro"]]
+ },
+ "subs": [
+  {"src_in": 14.56, "src_out": 16.2, "en": "(línea inglesa transcrita)", "es": "A veces me pregunto…", "conf": "alta"},
+  {"src_in": 16.36, "src_out": 19.5, "en": "(línea inglesa transcrita)", "es": "cuando no estoy,\n¿te desahogas con otros?", "conf": "alta"},
+  {"src_in": 24.28, "src_out": 26.4, "en": "You been [?], (resto seguro)", "es": "¿Dónde tienes la cabeza?", "conf": "BAJA en la primera mitad: hipótesis A / B / C; se traduce solo lo seguro"},
+  {"src_in": 65.70, "src_out": 69.9, "en": "(línea inglesa transcrita)", "es": "solo vas a *desquitarte*.\nLo sé.", "conf": "alta", "hold": 0.35, "pos": "top"}
+ ],
+ "_comentarios": {
+  "mode": "sync = el video es el de la propia canción (sincronía labial; t = segundo del montaje). montage = otro material (shots con t0/t1 o k en beats, y src).",
+  "montage": "Para mode montage, horizontal.montage = {beat, phase, end, pools, plan, section_k, fillers} y se genera con gen_montage.py.",
+  "shot": "cx = centro horizontal del recorte 9:16 en píxeles de la fuente (número o [desde, hasta] para un paneo lento); flip; scale (multiplicador); src = toma ajena a la sincronía (cutaway).",
+  "sub": "es: \\n = salto de línea, *palabra* = color de acento. es_h = texto propio para 16:9. pos (vertical) / pos_h: 'low' (defecto) o 'top'. hold = segundos extra tras la voz.",
+  "plate": "vertical/horizontal.plate = {x0,x1,y0,y1,alpha,feather,color}: placa opaca que tapa texto incrustado; con layout.cy el subtítulo se centra en ella.",
+  "layout": "vertical/horizontal.layout sobreescribe tamaños: size, min_size, cy, cy_top, max_w, max_chars, safe_x0, safe_x1."
+ }
+}
