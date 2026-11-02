@@ -1,0 +1,412 @@
+{
+ "duracion": 58.4,
+ "salida": {
+  "ancho": 1440,
+  "alto": 1080,
+  "fps": 30,
+  "lienzo": "4:3",
+  "crf": 18
+ },
+ "bucle": null,
+ "audio": {
+  "archivo": "medios/cancion.wav",
+  "inicio": 10.6,
+  "lufs": -14,
+  "fade_in": 0.4,
+  "fade_out": [
+   57.6,
+   0.8
+  ]
+ },
+ "fundido_negro": [
+  57.8,
+  58.4
+ ],
+ "base": [
+  {
+   "archivo": "medios/050.mp4",
+   "desde": 0.0
+  },
+  {
+   "archivo": "medios/172.mp4",
+   "desde": 3.7
+  },
+  {
+   "archivo": "medios/042.mp4",
+   "desde": 6.8
+  },
+  {
+   "archivo": "medios/246.mp4",
+   "desde": 9.6
+  },
+  {
+   "archivo": "medios/142.mp4",
+   "desde": 12.1
+  },
+  {
+   "archivo": "medios/219.mp4",
+   "desde": 14.7
+  },
+  {
+   "archivo": "medios/052.mp4",
+   "desde": 17.6
+  },
+  {
+   "archivo": "medios/182.mp4",
+   "desde": 20.5
+  },
+  {
+   "archivo": "medios/067.mp4",
+   "desde": 24.0
+  },
+  {
+   "archivo": "medios/002.mp4",
+   "desde": 26.9
+  },
+  {
+   "archivo": "medios/156.mp4",
+   "desde": 29.2
+  },
+  {
+   "archivo": "medios/190.mp4",
+   "desde": 30.9
+  },
+  {
+   "archivo": "medios/154.mp4",
+   "desde": 32.4
+  },
+  {
+   "archivo": "medios/046.mp4",
+   "desde": 34.9
+  },
+  {
+   "archivo": "medios/141.mp4",
+   "desde": 38.8
+  },
+  {
+   "archivo": "medios/224.mp4",
+   "desde": 40.7
+  },
+  {
+   "archivo": "medios/191.mp4",
+   "desde": 43.1
+  },
+  {
+   "archivo": "medios/181.mp4",
+   "desde": 46.9
+  },
+  {
+   "archivo": "medios/169.mp4",
+   "desde": 49.7
+  },
+  {
+   "archivo": "medios/206.mp4",
+   "desde": 52.3
+  },
+  {
+   "archivo": "medios/062.mp4",
+   "desde": 55.0
+  }
+ ],
+ "destellos": [
+  {
+   "archivo": "medios/010.mp4",
+   "duracion": 3.0
+  },
+  {
+   "archivo": "medios/045.mp4",
+   "duracion": 3.0
+  },
+  {
+   "archivo": "medios/074.mp4",
+   "duracion": 3.0
+  },
+  {
+   "archivo": "medios/084.mp4",
+   "duracion": 3.0
+  },
+  {
+   "archivo": "medios/096.mp4",
+   "duracion": 3.0
+  },
+  {
+   "archivo": "medios/123.mp4",
+   "duracion": 3.0
+  },
+  {
+   "archivo": "medios/136.mp4",
+   "duracion": 3.0
+  },
+  {
+   "archivo": "medios/165.mp4",
+   "duracion": 3.0
+  },
+  {
+   "archivo": "medios/177.mp4",
+   "duracion": 3.0
+  },
+  {
+   "archivo": "medios/179.mp4",
+   "duracion": 3.0
+  },
+  {
+   "archivo": "medios/212.mp4",
+   "duracion": 3.0
+  },
+  {
+   "archivo": "medios/267.mp4",
+   "duracion": 3.0
+  }
+ ],
+ "look": {
+  "color": true,
+  "saturacion": 0.85,
+  "tono_ref": 0.6
+ },
+ "letra": [
+  {
+   "lineas": "ask me 'bout\nthe weight\non my shoulder",
+   "tiempos": [
+    0.42,
+    1.16,
+    1.9,
+    2.1,
+    2.34,
+    2.5,
+    2.68,
+    3.04
+   ]
+  },
+  {
+   "lineas": "you're testing\nme so much",
+   "tiempos": [
+    3.76,
+    5.06,
+    5.58,
+    5.7,
+    6.1
+   ]
+  },
+  {
+   "lineas": "the best\nof me's\nso lost",
+   "tiempos": [
+    6.86,
+    7.78,
+    8.06,
+    8.36,
+    8.56,
+    8.9
+   ]
+  },
+  {
+   "lineas": "it's best when\nwe're over",
+   "tiempos": [
+    9.62,
+    10.7,
+    10.88,
+    11.2,
+    11.58
+   ]
+  },
+  {
+   "lineas": "with you\nit's the\nweakest feeling",
+   "tiempos": [
+    12.18,
+    12.64,
+    12.9,
+    13.46,
+    13.72,
+    14.2
+   ]
+  },
+  {
+   "lineas": "baby, we kiss\nit's the least\nI'm feeling",
+   "tiempos": [
+    14.76,
+    15.06,
+    15.3,
+    15.72,
+    16.32,
+    16.56,
+    16.76,
+    17.24
+   ]
+  },
+  {
+   "lineas": "baby, I just hope\nthat we can\nbeat it",
+   "tiempos": [
+    17.62,
+    17.84,
+    18.28,
+    18.6,
+    19.06,
+    19.36,
+    19.58,
+    20.16,
+    20.24
+   ]
+  },
+  {
+   "lineas": "baby, we kiss\nit's the weakest\nfeeling with you",
+   "tiempos": [
+    20.52,
+    20.7,
+    20.9,
+    21.38,
+    21.98,
+    22.16,
+    22.72,
+    23.26,
+    23.46
+   ]
+  },
+  {
+   "lineas": "it's time\nto do right",
+   "tiempos": [
+    24.04,
+    24.22,
+    24.48,
+    24.7,
+    24.84
+   ]
+  },
+  {
+   "lineas": "everything\nhas been\nwrong",
+   "tiempos": [
+    25.32,
+    25.74,
+    26.1,
+    26.38
+   ]
+  },
+  {
+   "lineas": "and the fire\nin your eyes",
+   "tiempos": [
+    29.28,
+    29.64,
+    29.9,
+    30.18,
+    30.4,
+    30.64
+   ]
+  },
+  {
+   "lineas": "has been dyin'\nfor too long",
+   "tiempos": [
+    30.9,
+    31.06,
+    31.26,
+    31.54,
+    31.8,
+    32.0
+   ]
+  },
+  {
+   "lineas": "and you tell me\nI might never find\nwhat I want",
+   "tiempos": [
+    34.92,
+    35.32,
+    35.42,
+    35.76,
+    36.04,
+    36.24,
+    36.52,
+    36.86,
+    37.24,
+    37.5,
+    37.84
+   ]
+  },
+  {
+   "lineas": "I'll try, baby\nI'll try",
+   "tiempos": [
+    38.88,
+    39.26,
+    39.72,
+    40.22,
+    40.58
+   ]
+  },
+  {
+   "lineas": "but I'd rather\nrisk it\nrisk it",
+   "tiempos": [
+    40.78,
+    40.96,
+    41.32,
+    41.66,
+    41.96,
+    42.52,
+    42.86
+   ]
+  },
+  {
+   "lineas": "yeah, I'd rather risk it\nthan be\nwith you",
+   "tiempos": [
+    43.18,
+    43.92,
+    44.26,
+    44.58,
+    44.86,
+    45.16,
+    45.52,
+    45.74,
+    46.12
+   ]
+  },
+  {
+   "lineas": "it's a lot of things\nwhen you're\nwith me",
+   "tiempos": [
+    46.98,
+    47.28,
+    47.4,
+    47.6,
+    47.82,
+    48.1,
+    48.28,
+    48.54,
+    48.78
+   ]
+  },
+  {
+   "lineas": "it's just not\nthe things\nthat I'm into",
+   "tiempos": [
+    49.76,
+    50.0,
+    50.22,
+    50.42,
+    50.68,
+    50.98,
+    51.18,
+    51.38
+   ]
+  },
+  {
+   "lineas": "we can both fake\nlet your\nfriends see",
+   "tiempos": [
+    52.32,
+    52.88,
+    53.06,
+    53.32,
+    53.86,
+    53.96,
+    54.18,
+    54.4
+   ]
+  },
+  {
+   "lineas": "but I can't fake\nthat I\nmiss you",
+   "tiempos": [
+    55.04,
+    55.7,
+    55.82,
+    56.26,
+    56.52,
+    56.8,
+    56.96,
+    57.28
+   ],
+   "fin": 58.0
+  }
+ ],
+ "texto_fin": 57.9
+}

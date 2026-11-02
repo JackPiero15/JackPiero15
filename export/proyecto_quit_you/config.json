@@ -1,0 +1,368 @@
+{
+ "duracion": 60.5,
+ "salida": {
+  "ancho": 1440,
+  "alto": 1080,
+  "fps": 30,
+  "lienzo": "4:3",
+  "crf": 18
+ },
+ "bucle": null,
+ "audio": {
+  "archivo": "medios/cancion.wav",
+  "inicio": 34.9,
+  "lufs": -14,
+  "fade_in": 0.4,
+  "fade_out": [
+   59.7,
+   0.8
+  ]
+ },
+ "fundido_negro": [
+  59.9,
+  60.5
+ ],
+ "base": [
+  {
+   "archivo": "medios/025.mp4",
+   "desde": 0.0
+  },
+  {
+   "archivo": "medios/026.mp4",
+   "desde": 5.9
+  },
+  {
+   "archivo": "medios/098.mp4",
+   "desde": 7.1
+  },
+  {
+   "archivo": "medios/252.mp4",
+   "desde": 11.1
+  },
+  {
+   "archivo": "medios/147.mp4",
+   "desde": 14.9
+  },
+  {
+   "archivo": "medios/211.mp4",
+   "desde": 17.9
+  },
+  {
+   "archivo": "medios/188.mp4",
+   "desde": 20.7
+  },
+  {
+   "archivo": "medios/064.mp4",
+   "desde": 24.6
+  },
+  {
+   "archivo": "medios/256.mp4",
+   "desde": 28.0
+  },
+  {
+   "archivo": "medios/040.mp4",
+   "desde": 31.7
+  },
+  {
+   "archivo": "medios/189.mp4",
+   "desde": 33.7
+  },
+  {
+   "archivo": "medios/124.mp4",
+   "desde": 36.5
+  },
+  {
+   "archivo": "medios/262.mp4",
+   "desde": 38.0
+  },
+  {
+   "archivo": "medios/161.mp4",
+   "desde": 40.0
+  },
+  {
+   "archivo": "medios/164.mp4",
+   "desde": 41.7
+  },
+  {
+   "archivo": "medios/185.mp4",
+   "desde": 43.2
+  },
+  {
+   "archivo": "medios/175.mp4",
+   "desde": 46.6
+  },
+  {
+   "archivo": "medios/197.mp4",
+   "desde": 50.4
+  },
+  {
+   "archivo": "medios/101.mp4",
+   "desde": 53.6
+  },
+  {
+   "archivo": "medios/237.mp4",
+   "desde": 57.4
+  }
+ ],
+ "destellos": [
+  {
+   "archivo": "medios/005.mp4",
+   "duracion": 3.0
+  },
+  {
+   "archivo": "medios/042.mp4",
+   "duracion": 3.0
+  },
+  {
+   "archivo": "medios/091.mp4",
+   "duracion": 3.0
+  },
+  {
+   "archivo": "medios/027.mp4",
+   "duracion": 3.0
+  },
+  {
+   "archivo": "medios/046.mp4",
+   "duracion": 3.0
+  },
+  {
+   "archivo": "medios/035.mp4",
+   "duracion": 3.0
+  },
+  {
+   "archivo": "medios/209.mp4",
+   "duracion": 3.0
+  },
+  {
+   "archivo": "medios/137.mp4",
+   "duracion": 3.0
+  },
+  {
+   "archivo": "medios/191.mp4",
+   "duracion": 3.0
+  },
+  {
+   "archivo": "medios/154.mp4",
+   "duracion": 3.0
+  },
+  {
+   "archivo": "medios/236.mp4",
+   "duracion": 3.0
+  },
+  {
+   "archivo": "medios/040.mp4",
+   "duracion": 3.0
+  }
+ ],
+ "look": {
+  "color": true,
+  "saturacion": 1.0,
+  "tinte": [
+   1.04,
+   0.98,
+   0.9
+  ],
+  "tono_ref": 0.6
+ },
+ "letra": [
+  {
+   "lineas": "I'm still\ngettin' over\nyou",
+   "tiempos": [
+    0.72,
+    1.62,
+    2.36,
+    3.32,
+    3.9
+   ],
+   "fin": 5.9
+  },
+  {
+   "lineas": "know it's been\na while, but\nif I see you",
+   "tiempos": [
+    7.52,
+    8.14,
+    8.76,
+    9.0,
+    9.24,
+    9.56,
+    9.66,
+    9.9,
+    10.06,
+    10.38
+   ]
+  },
+  {
+   "lineas": "with someone else\ndon't know\nwhat I'd do",
+   "tiempos": [
+    11.22,
+    12.22,
+    12.62,
+    12.98,
+    13.14,
+    13.36,
+    13.58,
+    13.88
+   ]
+  },
+  {
+   "lineas": "I know that I said\nthat we're\nthrough",
+   "tiempos": [
+    15.04,
+    15.66,
+    15.94,
+    16.14,
+    16.44,
+    16.8,
+    17.02,
+    17.28
+   ]
+  },
+  {
+   "lineas": "but I'm still chasin'\nthis high\nbecause",
+   "tiempos": [
+    17.98,
+    18.66,
+    18.9,
+    19.08,
+    19.62,
+    20.04,
+    20.32
+   ]
+  },
+  {
+   "lineas": "you are\nthe worst drug\nI've ever done",
+   "tiempos": [
+    20.86,
+    21.76,
+    22.46,
+    22.72,
+    23.08,
+    23.54,
+    23.98,
+    24.28
+   ],
+   "fin": 26.5
+  },
+  {
+   "lineas": "you are\nthe only feelin'\nthat I want",
+   "tiempos": [
+    28.06,
+    28.78,
+    29.5,
+    29.76,
+    30.02,
+    30.56,
+    31.02,
+    31.42
+   ]
+  },
+  {
+   "lineas": "'cause when you're\nnot around",
+   "tiempos": [
+    33.8,
+    34.52,
+    34.78,
+    35.14,
+    35.5
+   ]
+  },
+  {
+   "lineas": "sick and\nstrung out",
+   "tiempos": [
+    36.62,
+    36.76,
+    37.12,
+    37.4
+   ]
+  },
+  {
+   "lineas": "never got sleep\nat night",
+   "tiempos": [
+    38.14,
+    38.7,
+    39.06,
+    39.46,
+    39.74
+   ]
+  },
+  {
+   "lineas": "fight and fuck\nthen we're fine",
+   "tiempos": [
+    40.1,
+    40.4,
+    40.72,
+    41.02,
+    41.16,
+    41.36
+   ]
+  },
+  {
+   "lineas": "addicted\nand now",
+   "tiempos": [
+    41.82,
+    42.14,
+    42.76
+   ]
+  },
+  {
+   "lineas": "there's no way out\nwith you",
+   "tiempos": [
+    43.32,
+    43.9,
+    44.16,
+    44.42,
+    44.94,
+    45.3
+   ]
+  },
+  {
+   "lineas": "what will I\nwhat will I\ndo?",
+   "tiempos": [
+    46.72,
+    47.24,
+    47.46,
+    47.94,
+    48.1,
+    48.36,
+    48.74
+   ]
+  },
+  {
+   "lineas": "I don't know\nhow to\nquit you",
+   "tiempos": [
+    50.48,
+    50.76,
+    50.96,
+    51.34,
+    51.68,
+    51.82,
+    52.1
+   ]
+  },
+  {
+   "lineas": "what will I\nwhat will I\ndo?",
+   "tiempos": [
+    53.7,
+    54.22,
+    54.44,
+    54.92,
+    55.14,
+    55.32,
+    55.7
+   ]
+  },
+  {
+   "lineas": "I don't know\nhow to\nquit you",
+   "tiempos": [
+    57.5,
+    57.7,
+    57.92,
+    58.26,
+    58.62,
+    58.78,
+    59.12
+   ]
+  }
+ ],
+ "texto_fin": 60.0
+}
