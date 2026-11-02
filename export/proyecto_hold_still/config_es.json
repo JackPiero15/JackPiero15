@@ -1,0 +1,397 @@
+{
+ "duracion": 60.6,
+ "salida": {
+  "ancho": 1440,
+  "alto": 1080,
+  "fps": 30,
+  "lienzo": "4:3",
+  "crf": 18
+ },
+ "bucle": null,
+ "audio": {
+  "archivo": "medios/cancion.wav",
+  "inicio": 55.6,
+  "lufs": -14,
+  "fade_in": 0.4,
+  "fade_out": [
+   59.800000000000004,
+   0.8
+  ]
+ },
+ "fundido_negro": [
+  60.0,
+  60.6
+ ],
+ "base": [
+  {
+   "archivo": "medios/155.mp4",
+   "desde": 0.0
+  },
+  {
+   "archivo": "medios/228.mp4",
+   "desde": 3.4
+  },
+  {
+   "archivo": "medios/166.mp4",
+   "desde": 6.7
+  },
+  {
+   "archivo": "medios/204.mp4",
+   "desde": 10.2
+  },
+  {
+   "archivo": "medios/174.mp4",
+   "desde": 15.0
+  },
+  {
+   "archivo": "medios/057.mp4",
+   "desde": 18.0
+  },
+  {
+   "archivo": "medios/212.mp4",
+   "desde": 21.1
+  },
+  {
+   "archivo": "medios/161.mp4",
+   "desde": 22.5
+  },
+  {
+   "archivo": "medios/149.mp4",
+   "desde": 27.4
+  },
+  {
+   "archivo": "medios/127.mp4",
+   "desde": 30.4
+  },
+  {
+   "archivo": "medios/097.mp4",
+   "desde": 33.4
+  },
+  {
+   "archivo": "medios/181.mp4",
+   "desde": 35.9
+  },
+  {
+   "archivo": "medios/240.mp4",
+   "desde": 39.4
+  },
+  {
+   "archivo": "medios/183.mp4",
+   "desde": 42.9
+  },
+  {
+   "archivo": "medios/146.mp4",
+   "desde": 46.2
+  },
+  {
+   "archivo": "medios/110.mp4",
+   "desde": 50.4
+  },
+  {
+   "archivo": "medios/207.mp4",
+   "desde": 54.4
+  },
+  {
+   "archivo": "medios/235.mp4",
+   "desde": 56.7
+  },
+  {
+   "archivo": "medios/260.mp4",
+   "desde": 58.6
+  }
+ ],
+ "destellos": [
+  {
+   "archivo": "medios/035.mp4",
+   "duracion": 3.0
+  },
+  {
+   "archivo": "medios/105.mp4",
+   "duracion": 3.0
+  },
+  {
+   "archivo": "medios/171.mp4",
+   "duracion": 3.0
+  },
+  {
+   "archivo": "medios/192.mp4",
+   "duracion": 3.0
+  },
+  {
+   "archivo": "medios/222.mp4",
+   "duracion": 3.0
+  },
+  {
+   "archivo": "medios/032.mp4",
+   "duracion": 3.0
+  },
+  {
+   "archivo": "medios/018.mp4",
+   "duracion": 3.0
+  },
+  {
+   "archivo": "medios/202.mp4",
+   "duracion": 3.0
+  },
+  {
+   "archivo": "medios/062.mp4",
+   "duracion": 3.0
+  },
+  {
+   "archivo": "medios/115.mp4",
+   "duracion": 3.0
+  },
+  {
+   "archivo": "medios/105.mp4",
+   "duracion": 3.0
+  },
+  {
+   "archivo": "medios/171.mp4",
+   "duracion": 3.0
+  }
+ ],
+ "look": {
+  "color": true,
+  "saturacion": 0.9,
+  "tono_ref": 0.6
+ },
+ "letra": [
+  {
+   "lineas": "y, nena\npodría estar\ndonde quieras",
+   "tiempos": [
+    0.35,
+    0.636,
+    1.251,
+    1.885,
+    2.271,
+    2.704
+   ]
+  },
+  {
+   "lineas": "siempre que\nsea contigo",
+   "tiempos": [
+    3.42,
+    3.828,
+    4.12,
+    4.344
+   ]
+  },
+  {
+   "lineas": "aunque sé\nlo que has\nestado\nesperando",
+   "tiempos": [
+    6.78,
+    7.493,
+    7.735,
+    7.884,
+    8.124,
+    8.279,
+    8.701
+   ]
+  },
+  {
+   "lineas": "quédate quieta",
+   "tiempos": [
+    10.26,
+    10.591
+   ]
+  },
+  {
+   "lineas": "no hace falta\ntocarnos\npara sentir",
+   "tiempos": [
+    11.14,
+    11.72,
+    12.211,
+    12.542,
+    13.207,
+    13.389
+   ]
+  },
+  {
+   "lineas": "solo quiero\nestar cerca\nde ti",
+   "tiempos": [
+    15.28,
+    15.892,
+    16.107,
+    16.635,
+    17.34,
+    17.604
+   ]
+  },
+  {
+   "lineas": "nena, espera\nsin prisa\nya era hora",
+   "tiempos": [
+    18.12,
+    18.348,
+    18.88,
+    19.076,
+    19.277,
+    19.541,
+    19.825
+   ]
+  },
+  {
+   "lineas": "nena, ¿puedes\nconfiar\nen mí?",
+   "tiempos": [
+    21.14,
+    21.38,
+    21.74,
+    22.24,
+    22.42
+   ]
+  },
+  {
+   "lineas": "quédate quieta",
+   "tiempos": [
+    22.56,
+    22.891
+   ]
+  },
+  {
+   "lineas": "no hace falta\ntocarnos\npara sentir",
+   "tiempos": [
+    23.44,
+    24.02,
+    24.525,
+    24.803,
+    25.507,
+    25.661
+   ]
+  },
+  {
+   "lineas": "solo quiero\nestar cerca\nde ti",
+   "tiempos": [
+    27.56,
+    28.212,
+    28.433,
+    28.935,
+    29.62,
+    29.944
+   ]
+  },
+  {
+   "lineas": "nena, espera\nsin prisa\nya era hora",
+   "tiempos": [
+    30.46,
+    30.647,
+    31.219,
+    31.459,
+    31.648,
+    31.947,
+    32.265
+   ]
+  },
+  {
+   "lineas": "nena, ¿puedes\nconfiar\nen mí?",
+   "tiempos": [
+    33.46,
+    33.66,
+    34.06,
+    34.59,
+    34.76
+   ]
+  },
+  {
+   "lineas": "quieta",
+   "tiempos": [
+    36.0
+   ]
+  },
+  {
+   "lineas": "quédate quieta",
+   "tiempos": [
+    37.18,
+    38.347
+   ]
+  },
+  {
+   "lineas": "quédate quieta",
+   "tiempos": [
+    40.26,
+    41.153
+   ]
+  },
+  {
+   "lineas": "quédate quieta",
+   "tiempos": [
+    43.36,
+    44.23
+   ],
+   "fin": 45.3
+  },
+  {
+   "lineas": "guardemos\nun poco\nde espacio",
+   "tiempos": [
+    46.28,
+    46.942,
+    47.106,
+    47.348,
+    47.44
+   ]
+  },
+  {
+   "lineas": "porque\nno suelo ir\ndespacio",
+   "tiempos": [
+    48.22,
+    48.625,
+    48.764,
+    49.077,
+    49.328
+   ]
+  },
+  {
+   "lineas": "y no quiero\ncometer\nmás errores",
+   "tiempos": [
+    50.52,
+    50.608,
+    50.869,
+    51.21,
+    51.74,
+    51.944
+   ]
+  },
+  {
+   "lineas": "no quiero\narruinar esto",
+   "tiempos": [
+    52.68,
+    52.869,
+    53.163,
+    53.738
+   ]
+  },
+  {
+   "lineas": "pronto quizás\nvivas\nen mi casa",
+   "tiempos": [
+    54.46,
+    54.833,
+    55.109,
+    55.431,
+    55.666,
+    55.931
+   ]
+  },
+  {
+   "lineas": "a cien millas\npor hora\nsin frenos",
+   "tiempos": [
+    56.72,
+    56.86,
+    57.023,
+    57.32,
+    57.58,
+    57.964,
+    58.24
+   ]
+  },
+  {
+   "lineas": "te llevaste\nmi auto\nde prueba",
+   "tiempos": [
+    58.6,
+    58.753,
+    59.118,
+    59.24,
+    59.72,
+    59.883
+   ]
+  }
+ ],
+ "texto_fin": 60.1
+}
