@@ -1,0 +1,323 @@
+{
+ "duracion": 46.067,
+ "salida": {
+  "ancho": 1440,
+  "alto": 1080,
+  "fps": 30,
+  "lienzo": "4:3",
+  "crf": 18
+ },
+ "bucle": null,
+ "audio": {
+  "archivo": "medios/audio_tiktok.wav",
+  "inicio": 0.0,
+  "lufs": -14,
+  "fade_in": 0.02,
+  "fade_out": [
+   45.767,
+   0.3
+  ]
+ },
+ "fundido_negro": [
+  45.567,
+  46.067
+ ],
+ "base": [
+  {
+   "archivo": "medios/142.mp4",
+   "desde": 0.0
+  },
+  {
+   "archivo": "medios/219.mp4",
+   "desde": 2.52
+  },
+  {
+   "archivo": "medios/052.mp4",
+   "desde": 5.42
+  },
+  {
+   "archivo": "medios/182.mp4",
+   "desde": 8.32
+  },
+  {
+   "archivo": "medios/067.mp4",
+   "desde": 11.82
+  },
+  {
+   "archivo": "medios/002.mp4",
+   "desde": 14.72
+  },
+  {
+   "archivo": "medios/156.mp4",
+   "desde": 17.02
+  },
+  {
+   "archivo": "medios/190.mp4",
+   "desde": 18.72
+  },
+  {
+   "archivo": "medios/154.mp4",
+   "desde": 20.22
+  },
+  {
+   "archivo": "medios/046.mp4",
+   "desde": 22.72
+  },
+  {
+   "archivo": "medios/141.mp4",
+   "desde": 26.62
+  },
+  {
+   "archivo": "medios/224.mp4",
+   "desde": 28.52
+  },
+  {
+   "archivo": "medios/191.mp4",
+   "desde": 30.92
+  },
+  {
+   "archivo": "medios/181.mp4",
+   "desde": 34.72
+  },
+  {
+   "archivo": "medios/169.mp4",
+   "desde": 37.52
+  },
+  {
+   "archivo": "medios/206.mp4",
+   "desde": 40.12
+  },
+  {
+   "archivo": "medios/062.mp4",
+   "desde": 42.82
+  }
+ ],
+ "destellos": [
+  {
+   "archivo": "medios/010.mp4",
+   "duracion": 3.0
+  },
+  {
+   "archivo": "medios/045.mp4",
+   "duracion": 3.0
+  },
+  {
+   "archivo": "medios/074.mp4",
+   "duracion": 3.0
+  },
+  {
+   "archivo": "medios/084.mp4",
+   "duracion": 3.0
+  },
+  {
+   "archivo": "medios/096.mp4",
+   "duracion": 3.0
+  },
+  {
+   "archivo": "medios/123.mp4",
+   "duracion": 3.0
+  },
+  {
+   "archivo": "medios/136.mp4",
+   "duracion": 3.0
+  },
+  {
+   "archivo": "medios/165.mp4",
+   "duracion": 3.0
+  },
+  {
+   "archivo": "medios/177.mp4",
+   "duracion": 3.0
+  },
+  {
+   "archivo": "medios/179.mp4",
+   "duracion": 3.0
+  },
+  {
+   "archivo": "medios/212.mp4",
+   "duracion": 3.0
+  },
+  {
+   "archivo": "medios/267.mp4",
+   "duracion": 3.0
+  }
+ ],
+ "look": {
+  "color": true,
+  "saturacion": 0.85,
+  "tono_ref": 0.6
+ },
+ "letra": [
+  {
+   "lineas": "contigo\nes lo más débil\nque siento",
+   "tiempos": [
+    0.08,
+    0.591,
+    0.916,
+    1.254,
+    1.527,
+    1.866,
+    2.078
+   ]
+  },
+  {
+   "lineas": "nena\nnos besamos\nes lo que\nmenos siento",
+   "tiempos": [
+    2.56,
+    2.85,
+    3.195,
+    3.958,
+    4.242,
+    4.403,
+    4.567,
+    5.117
+   ]
+  },
+  {
+   "lineas": "nena\nsolo espero\nque podamos\nsuperarlo",
+   "tiempos": [
+    5.42,
+    5.647,
+    6.159,
+    6.719,
+    7.007,
+    7.713
+   ]
+  },
+  {
+   "lineas": "nena\nnos besamos\nes lo más débil\ncontigo",
+   "tiempos": [
+    8.32,
+    8.691,
+    9.054,
+    9.874,
+    10.087,
+    10.315,
+    10.62,
+    11.076
+   ]
+  },
+  {
+   "lineas": "es hora\nde hacer\nlo correcto",
+   "tiempos": [
+    11.76,
+    11.869,
+    12.056,
+    12.174,
+    12.53,
+    12.641
+   ]
+  },
+  {
+   "lineas": "todo\nha estado\nmal",
+   "tiempos": [
+    13.18,
+    13.429,
+    13.578,
+    14.211
+   ]
+  },
+  {
+   "lineas": "y el fuego\nen tus ojos",
+   "tiempos": [
+    17.1,
+    17.303,
+    17.567,
+    17.968,
+    18.207,
+    18.429
+   ]
+  },
+  {
+   "lineas": "se fue\napagando\npor tanto\ntiempo",
+   "tiempos": [
+    18.72,
+    18.822,
+    18.958,
+    19.294,
+    19.488,
+    19.773
+   ]
+  },
+  {
+   "lineas": "y me dices\nque quizás\nnunca encuentre\nlo que quiero",
+   "tiempos": [
+    22.74,
+    22.921,
+    23.153,
+    23.372,
+    23.632,
+    24.148,
+    24.414,
+    25.01,
+    25.167,
+    25.434
+   ]
+  },
+  {
+   "lineas": "lo intentaré\nnena\nlo intentaré",
+   "tiempos": [
+    26.7,
+    26.877,
+    27.546,
+    27.934,
+    28.131
+   ]
+  },
+  {
+   "lineas": "pero prefiero\narriesgarme\narriesgarme",
+   "tiempos": [
+    28.58,
+    28.787,
+    29.306,
+    30.006
+   ]
+  },
+  {
+   "lineas": "sí, prefiero\narriesgarme\na estar contigo",
+   "tiempos": [
+    31.0,
+    31.505,
+    32.151,
+    33.024,
+    33.171,
+    33.621
+   ]
+  },
+  {
+   "lineas": "todos\nmis domingos",
+   "tiempos": [
+    35.41,
+    35.884,
+    36.161
+   ]
+  },
+  {
+   "lineas": "prefiero no\npasarlos\ncontigo",
+   "tiempos": [
+    38.06,
+    38.583,
+    38.78,
+    39.418
+   ]
+  },
+  {
+   "lineas": "todos\nmis domingos",
+   "tiempos": [
+    41.05,
+    41.568,
+    41.947
+   ]
+  },
+  {
+   "lineas": "prefiero no\npasarlos\ncontigo",
+   "tiempos": [
+    43.76,
+    44.308,
+    44.486,
+    45.098
+   ]
+  }
+ ],
+ "texto_fin": 45.717
+}

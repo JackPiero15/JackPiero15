@@ -1,0 +1,298 @@
+{
+ "duracion": 46.067,
+ "salida": {
+  "ancho": 1440,
+  "alto": 1080,
+  "fps": 30,
+  "lienzo": "4:3",
+  "crf": 18
+ },
+ "bucle": null,
+ "audio": {
+  "archivo": "medios/audio_tiktok.wav",
+  "inicio": 0.0,
+  "lufs": -14,
+  "fade_in": 0.02,
+  "fade_out": [
+   45.767,
+   0.3
+  ]
+ },
+ "fundido_negro": [
+  45.567,
+  46.067
+ ],
+ "base": [
+  {
+   "archivo": "medios/147.mp4",
+   "desde": 0.0
+  },
+  {
+   "archivo": "medios/211.mp4",
+   "desde": 2.76
+  },
+  {
+   "archivo": "medios/188.mp4",
+   "desde": 5.56
+  },
+  {
+   "archivo": "medios/064.mp4",
+   "desde": 9.46
+  },
+  {
+   "archivo": "medios/256.mp4",
+   "desde": 12.86
+  },
+  {
+   "archivo": "medios/040.mp4",
+   "desde": 16.56
+  },
+  {
+   "archivo": "medios/189.mp4",
+   "desde": 18.56
+  },
+  {
+   "archivo": "medios/124.mp4",
+   "desde": 21.36
+  },
+  {
+   "archivo": "medios/262.mp4",
+   "desde": 22.86
+  },
+  {
+   "archivo": "medios/161.mp4",
+   "desde": 24.86
+  },
+  {
+   "archivo": "medios/164.mp4",
+   "desde": 26.56
+  },
+  {
+   "archivo": "medios/185.mp4",
+   "desde": 28.06
+  },
+  {
+   "archivo": "medios/175.mp4",
+   "desde": 31.46
+  },
+  {
+   "archivo": "medios/197.mp4",
+   "desde": 35.26
+  },
+  {
+   "archivo": "medios/101.mp4",
+   "desde": 38.46
+  },
+  {
+   "archivo": "medios/237.mp4",
+   "desde": 42.26
+  }
+ ],
+ "destellos": [
+  {
+   "archivo": "medios/005.mp4",
+   "duracion": 3.0
+  },
+  {
+   "archivo": "medios/042.mp4",
+   "duracion": 3.0
+  },
+  {
+   "archivo": "medios/091.mp4",
+   "duracion": 3.0
+  },
+  {
+   "archivo": "medios/027.mp4",
+   "duracion": 3.0
+  },
+  {
+   "archivo": "medios/046.mp4",
+   "duracion": 3.0
+  },
+  {
+   "archivo": "medios/035.mp4",
+   "duracion": 3.0
+  },
+  {
+   "archivo": "medios/209.mp4",
+   "duracion": 3.0
+  },
+  {
+   "archivo": "medios/137.mp4",
+   "duracion": 3.0
+  },
+  {
+   "archivo": "medios/191.mp4",
+   "duracion": 3.0
+  },
+  {
+   "archivo": "medios/154.mp4",
+   "duracion": 3.0
+  },
+  {
+   "archivo": "medios/236.mp4",
+   "duracion": 3.0
+  },
+  {
+   "archivo": "medios/040.mp4",
+   "duracion": 3.0
+  }
+ ],
+ "look": {
+  "color": true,
+  "saturacion": 1.0,
+  "tinte": [
+   1.04,
+   0.98,
+   0.9
+  ],
+  "tono_ref": 0.6
+ },
+ "letra": [
+  {
+   "lineas": "sé que dije\nque lo nuestro\nterminó",
+   "tiempos": [
+    0.08,
+    0.59,
+    0.824,
+    1.154,
+    1.543,
+    1.732,
+    2.11
+   ]
+  },
+  {
+   "lineas": "pero sigo\nbuscando\neste subidón\nporque",
+   "tiempos": [
+    2.84,
+    3.588,
+    3.828,
+    4.31,
+    4.7,
+    5.22
+   ]
+  },
+  {
+   "lineas": "eres\nla peor droga\nque he probado",
+   "tiempos": [
+    5.72,
+    6.898,
+    7.381,
+    7.732,
+    8.238,
+    8.638,
+    8.904
+   ],
+   "fin": 11.36
+  },
+  {
+   "lineas": "eres\nlo único\nque quiero\nsentir",
+   "tiempos": [
+    12.92,
+    13.961,
+    14.441,
+    14.838,
+    15.137,
+    15.779
+   ]
+  },
+  {
+   "lineas": "porque cuando\nno estás",
+   "tiempos": [
+    18.66,
+    19.491,
+    19.962,
+    20.286
+   ]
+  },
+  {
+   "lineas": "enfermo y\nen abstinencia",
+   "tiempos": [
+    21.48,
+    21.746,
+    21.89,
+    22.036
+   ]
+  },
+  {
+   "lineas": "nunca dormía\nen las noches",
+   "tiempos": [
+    23.0,
+    23.519,
+    24.056,
+    24.241,
+    24.555
+   ]
+  },
+  {
+   "lineas": "peleamos\ncogemos\ny estamos bien",
+   "tiempos": [
+    24.96,
+    25.477,
+    25.921,
+    25.991,
+    26.231
+   ]
+  },
+  {
+   "lineas": "adicto\ny ahora",
+   "tiempos": [
+    26.68,
+    26.962,
+    27.186
+   ]
+  },
+  {
+   "lineas": "no hay salida\ncontigo",
+   "tiempos": [
+    28.18,
+    28.457,
+    28.839,
+    29.646
+   ]
+  },
+  {
+   "lineas": "¿qué voy a\nqué voy a\nhacer?",
+   "tiempos": [
+    31.58,
+    32.1,
+    32.276,
+    32.56,
+    32.896,
+    33.064,
+    33.168
+   ]
+  },
+  {
+   "lineas": "no sé\ncómo\ndejarte",
+   "tiempos": [
+    35.34,
+    35.706,
+    35.908,
+    36.522
+   ]
+  },
+  {
+   "lineas": "¿qué voy a\nqué voy a\nhacer?",
+   "tiempos": [
+    38.56,
+    39.08,
+    39.256,
+    39.54,
+    39.912,
+    40.072,
+    40.144
+   ]
+  },
+  {
+   "lineas": "no sé\ncómo\ndejarte",
+   "tiempos": [
+    42.36,
+    42.655,
+    42.859,
+    43.461
+   ]
+  }
+ ],
+ "texto_fin": 45.717
+}

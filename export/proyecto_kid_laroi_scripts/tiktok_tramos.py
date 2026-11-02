@@ -1,0 +1,55 @@
+# Tramos de los audios de TikTok (tiempos absolutos de la canción original, en s).
+# Cada frase: (inglés, tiempos, español, fin opcional)
+TT={}
+TT["holdstill"]={"off":130.04,"base_shift":73.87,"frases":[
+ ("and baby I could be\nwherever\nthat you want",[130.10,130.28,130.64,130.94,131.22,131.44,131.88,132.20,132.42],"y, nena\npodría estar\ndonde quieras"),
+ ("just as long\nas it's\nwith you",[132.82,132.96,133.16,133.42,133.60,133.74,134.00],"siempre que\nsea contigo"),
+ ("I can tell what\nyou've been\nwaitin' on, though",[135.98,136.50,136.74,137.12,137.34,137.66,137.78,138.08,138.66],"aunque sé\nlo que has\nestado\nesperando"),
+ ("hold still",[139.76,139.96],"quédate quieta"),
+ ("no, we don't gotta\ntouch\nto feel",[141.44,141.68,141.78,141.96,142.44,142.70,142.98],"no hace falta\ntocarnos\npara sentir"),
+ ("all I wanna do\nis get close\nto you",[144.72,145.04,145.40,145.46,145.62,145.80,146.12,146.74,147.02],"solo quiero\nestar cerca\nde ti"),
+ ("baby, hold on\ndon't rush it\noverdue",[147.54,147.74,147.94,148.46,148.60,148.78,149.16],"nena, espera\nsin prisa\nya era hora"),
+ ("baby, can you\njust trust me?",[150.54,150.82,151.02,151.18,151.52,151.86],"nena, ¿puedes\nconfiar\nen mí?"),
+ ("hold still",[152.18,152.46],"quédate quieta"),
+ ("no, we don't gotta\ntouch\nto feel",[153.60,153.86,154.06,154.28,154.72,155.00,155.24],"no hace falta\ntocarnos\npara sentir"),
+ ("all I wanna do\nis get close\nto you",[157.04,157.30,157.52,157.66,157.94,158.08,158.48,159.06,159.34],"solo quiero\nestar cerca\nde ti"),
+ ("baby, hold on\ndon't rush it\noverdue",[159.60,160.02,160.30,160.82,160.92,161.12,161.56],"nena, espera\nsin prisa\nya era hora"),
+ ("baby, can you\njust trust me?",[162.84,163.10,163.34,163.48,163.80,164.22],"nena, ¿puedes\nconfiar\nen mí?"),
+ ("still",[166.74],"quieta"),
+ ("hold still",[167.26,167.62],"quédate quieta"),
+ ("hold still",[170.60,171.40],"quédate quieta"),
+ ("hold still",[172.90,173.52],"quédate quieta"),
+ ("overdue\nbaby, can you\njust trust me?",[174.06,175.10,175.38,175.64,175.80,176.12,176.52],"ya era hora\nnena, ¿puedes\nconfiar en mí?")]}
+TT["weakest"]={"off":68.22,"base_shift":45.44,"frases":[
+ ("with you\nit's the\nweakest feeling",[68.30,68.52,68.94,69.52,69.78,70.24],"contigo\nes lo más débil\nque siento"),
+ ("baby, we kiss\nit's the least\nI'm feeling",[70.78,71.12,71.40,71.74,72.38,72.60,72.84,73.30],"nena\nnos besamos\nes lo que\nmenos siento"),
+ ("baby, I just hope\nthat we can\nbeat it",[73.64,73.92,74.24,74.64,75.06,75.40,75.64,76.16,76.28],"nena\nsolo espero\nque podamos\nsuperarlo"),
+ ("baby, we kiss\nit's the weakest\nfeeling with you",[76.54,76.92,77.20,77.44,78.04,78.28,78.80,79.32,79.52],"nena\nnos besamos\nes lo más débil\ncontigo"),
+ ("it's time\nto do right",[79.98,80.22,80.48,80.76,80.90],"es hora\nde hacer\nlo correcto"),
+ ("everything\nhas been\nwrong",[81.40,81.80,82.12,82.40],"todo\nha estado\nmal"),
+ ("and the fire\nin your eyes",[85.32,85.68,85.94,86.22,86.44,86.68],"y el fuego\nen tus ojos"),
+ ("has been dyin'\nfor too long",[86.94,87.10,87.30,87.58,87.84,88.04],"se fue\napagando\npor tanto\ntiempo"),
+ ("and you tell me\nI might never find\nwhat I want",[90.96,91.36,91.46,91.80,92.08,92.28,92.56,92.90,93.28,93.54,93.88],"y me dices\nque quizás\nnunca encuentre\nlo que quiero"),
+ ("I'll try, baby\nI'll try",[94.92,95.30,95.76,96.26,96.62],"lo intentaré\nnena\nlo intentaré"),
+ ("but I'd rather\nrisk it\nrisk it",[96.80,97.00,97.36,97.70,98.00,98.56,98.84],"pero prefiero\narriesgarme\narriesgarme"),
+ ("yeah, I'd rather risk it\nthan be\nwith you",[99.22,99.96,100.20,100.56,100.86,101.20,101.56,101.78,102.16],"sí, prefiero\narriesgarme\na estar contigo"),
+ ("all of my\nSundays",[103.63,103.98,104.20,104.42],"todos\nmis domingos"),
+ ("I'd rather not\nspend\nwith you",[106.28,106.56,106.88,107.22,107.58,107.98],"prefiero no\npasarlos\ncontigo"),
+ ("all of my\nSundays",[109.27,109.62,109.92,110.22],"todos\nmis domingos"),
+ ("I'd rather not\nspend\nwith you",[111.98,112.30,112.60,112.90,113.26,113.66],"prefiero no\npasarlos\ncontigo")]}
+TT["quityou"]={"off":50.04,"base_shift":0.0,"frases":[
+ ("I know that I said\nthat we're\nthrough",[50.12,50.56,50.84,51.04,51.34,51.70,51.92,52.18],"sé que dije\nque lo nuestro\nterminó"),
+ ("but I'm still chasin'\nthis high\nbecause",[52.88,53.56,53.80,53.98,54.52,54.94,55.22],"pero sigo\nbuscando\neste subidón\nporque"),
+ ("you are\nthe worst drug\nI've ever done",[55.76,56.66,57.36,57.62,57.98,58.44,58.88,59.18],"eres\nla peor droga\nque he probado",61.4),
+ ("you are\nthe only feelin'\nthat I want",[62.96,63.68,64.40,64.66,64.92,65.46,65.92,66.32],"eres\nlo único\nque quiero\nsentir"),
+ ("'cause when you're\nnot around",[68.70,69.42,69.68,70.04,70.40],"porque cuando\nno estás"),
+ ("sick and\nstrung out",[71.52,71.66,72.02,72.30],"enfermo y\nen abstinencia"),
+ ("never got sleep\nat night",[73.04,73.60,73.96,74.36,74.64],"nunca dormía\nen las noches"),
+ ("fight and fuck\nthen we're fine",[75.00,75.30,75.62,75.92,76.06,76.26],"peleamos\ncogemos\ny estamos bien"),
+ ("addicted\nand now",[76.72,77.04,77.66],"adicto\ny ahora"),
+ ("there's no way out\nwith you",[78.22,78.80,79.06,79.32,79.84,80.20],"no hay salida\ncontigo"),
+ ("what will I\nwhat will I\ndo?",[81.62,82.14,82.36,82.84,83.00,83.26,83.64],"¿qué voy a\nqué voy a\nhacer?"),
+ ("I don't know\nhow to\nquit you",[85.38,85.66,85.86,86.24,86.58,86.72,87.00],"no sé\ncómo\ndejarte"),
+ ("what will I\nwhat will I\ndo?",[88.60,89.12,89.34,89.82,90.04,90.22,90.60],"¿qué voy a\nqué voy a\nhacer?"),
+ ("I don't know\nhow to\nquit you",[92.40,92.60,92.82,93.16,93.52,93.68,94.02],"no sé\ncómo\ndejarte")]}
+TT["nights"]={"off":3.62,"base_shift":0.0,"frases":None}  # se toma la tabla completa de letras.py

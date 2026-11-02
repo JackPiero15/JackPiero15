@@ -1,0 +1,312 @@
+{
+ "duracion": 59.067,
+ "salida": {
+  "ancho": 1440,
+  "alto": 1080,
+  "fps": 30,
+  "lienzo": "4:3",
+  "crf": 18
+ },
+ "bucle": null,
+ "audio": {
+  "archivo": "medios/audio_tiktok.wav",
+  "inicio": 0.0,
+  "lufs": -14,
+  "fade_in": 0.02,
+  "fade_out": [
+   58.767,
+   0.3
+  ]
+ },
+ "fundido_negro": [
+  58.567,
+  59.067
+ ],
+ "base": [
+  {
+   "archivo": "medios/066.mp4",
+   "desde": 0.0
+  },
+  {
+   "archivo": "medios/129.mp4",
+   "desde": 4.58
+  },
+  {
+   "archivo": "medios/131.mp4",
+   "desde": 9.18
+  },
+  {
+   "archivo": "medios/108.mp4",
+   "desde": 10.18
+  },
+  {
+   "archivo": "medios/146.mp4",
+   "desde": 13.78
+  },
+  {
+   "archivo": "medios/061.mp4",
+   "desde": 17.58
+  },
+  {
+   "archivo": "medios/151.mp4",
+   "desde": 20.68
+  },
+  {
+   "archivo": "medios/284.mp4",
+   "desde": 23.18
+  },
+  {
+   "archivo": "medios/275.mp4",
+   "desde": 26.28
+  },
+  {
+   "archivo": "medios/087.mp4",
+   "desde": 30.78
+  },
+  {
+   "archivo": "medios/282.mp4",
+   "desde": 33.38
+  },
+  {
+   "archivo": "medios/197.mp4",
+   "desde": 34.98
+  },
+  {
+   "archivo": "medios/181.mp4",
+   "desde": 36.38
+  },
+  {
+   "archivo": "medios/267.mp4",
+   "desde": 39.98
+  },
+  {
+   "archivo": "medios/148.mp4",
+   "desde": 43.18
+  },
+  {
+   "archivo": "medios/243.mp4",
+   "desde": 45.88
+  },
+  {
+   "archivo": "medios/129.mp4",
+   "desde": 51.38
+  },
+  {
+   "archivo": "medios/279.mp4",
+   "desde": 55.08
+  }
+ ],
+ "destellos": [
+  {
+   "archivo": "medios/004.mp4",
+   "duracion": 3.0
+  },
+  {
+   "archivo": "medios/066.mp4",
+   "duracion": 3.0
+  },
+  {
+   "archivo": "medios/108.mp4",
+   "duracion": 3.0
+  },
+  {
+   "archivo": "medios/267.mp4",
+   "duracion": 3.0
+  },
+  {
+   "archivo": "medios/129.mp4",
+   "duracion": 3.0
+  },
+  {
+   "archivo": "medios/279.mp4",
+   "duracion": 3.0
+  },
+  {
+   "archivo": "medios/284.mp4",
+   "duracion": 3.0
+  },
+  {
+   "archivo": "medios/197.mp4",
+   "duracion": 3.0
+  },
+  {
+   "archivo": "medios/151.mp4",
+   "duracion": 3.0
+  },
+  {
+   "archivo": "medios/061.mp4",
+   "duracion": 3.0
+  },
+  {
+   "archivo": "medios/131.mp4",
+   "duracion": 3.0
+  },
+  {
+   "archivo": "medios/282.mp4",
+   "duracion": 3.0
+  }
+ ],
+ "look": {
+  "color": true,
+  "saturacion": 1.0,
+  "tono_ref": 0.55
+ },
+ "letra": [
+  {
+   "lineas": "toma mi mano\nhasta ser\ncenizas",
+   "tiempos": [
+    10.2,
+    10.86,
+    11.323,
+    11.7,
+    12.143,
+    12.385
+   ]
+  },
+  {
+   "lineas": "ámame hasta\nque me pongan\nen mi ataúd",
+   "tiempos": [
+    13.94,
+    14.527,
+    14.852,
+    15.032,
+    15.16,
+    15.587,
+    15.813,
+    16.05
+   ]
+  },
+  {
+   "lineas": "tengo\nsentimientos\nque oculto",
+   "tiempos": [
+    17.64,
+    18.16,
+    18.882,
+    19.309
+   ]
+  },
+  {
+   "lineas": "¿puedo\ncontártelo?\nes lo que\nte pregunto",
+   "tiempos": [
+    20.78,
+    21.278,
+    22.003,
+    22.144,
+    22.273,
+    22.395,
+    22.554
+   ]
+  },
+  {
+   "lineas": "besos con\nvino tinto\nen la casa que\ntus padres",
+   "tiempos": [
+    23.28,
+    23.819,
+    24.059,
+    24.391,
+    24.86,
+    25.024,
+    25.167,
+    25.452,
+    25.685,
+    25.877
+   ]
+  },
+  {
+   "lineas": "te rentaron\n¿cómo pudiste\nolvidarlo?",
+   "tiempos": [
+    26.34,
+    26.756,
+    27.497,
+    27.877,
+    28.703
+   ]
+  },
+  {
+   "lineas": "pienso en ti\ny en nada\nmás",
+   "tiempos": [
+    30.82,
+    31.601,
+    31.821,
+    32.08,
+    32.239,
+    32.437,
+    32.712
+   ]
+  },
+  {
+   "lineas": "así que\nsi tan solo\nvinieras",
+   "tiempos": [
+    33.44,
+    33.614,
+    33.788,
+    33.93,
+    34.101,
+    34.277
+   ]
+  },
+  {
+   "lineas": "podría\nmostrártelo\nyo mismo",
+   "tiempos": [
+    35.02,
+    35.28,
+    35.79,
+    35.95
+   ]
+  },
+  {
+   "lineas": "en noches\ncomo esta\nnecesito\ntu amor",
+   "tiempos": [
+    36.44,
+    36.732,
+    37.199,
+    37.569,
+    38.254,
+    39.011,
+    39.335
+   ]
+  },
+  {
+   "lineas": "cuando\nnecesito que\nalguien sane\nmi alma",
+   "tiempos": [
+    40.08,
+    40.52,
+    40.99,
+    41.24,
+    41.78,
+    42.28,
+    42.74
+   ]
+  },
+  {
+   "lineas": "es en noches\ncomo esta",
+   "tiempos": [
+    43.22,
+    43.518,
+    43.767,
+    44.024,
+    44.295
+   ]
+  },
+  {
+   "lineas": "noches como\nnoches como\nesta",
+   "tiempos": [
+    45.92,
+    46.46,
+    47.0,
+    47.34,
+    47.68
+   ],
+   "fin": 51.38
+  },
+  {
+   "lineas": "noches\ncomo esta",
+   "tiempos": [
+    55.1,
+    55.64,
+    55.98
+   ]
+  }
+ ],
+ "texto_fin": 58.717
+}

@@ -1,0 +1,319 @@
+{
+ "duracion": 47.533,
+ "salida": {
+  "ancho": 1440,
+  "alto": 1080,
+  "fps": 30,
+  "lienzo": "4:3",
+  "crf": 18
+ },
+ "bucle": null,
+ "audio": {
+  "archivo": "medios/audio_tiktok.wav",
+  "inicio": 0.0,
+  "lufs": -14,
+  "fade_in": 0.02,
+  "fade_out": [
+   47.233000000000004,
+   0.3
+  ]
+ },
+ "fundido_negro": [
+  47.033,
+  47.533
+ ],
+ "base": [
+  {
+   "archivo": "medios/155.mp4",
+   "desde": 0.0
+  },
+  {
+   "archivo": "medios/228.mp4",
+   "desde": 2.83
+  },
+  {
+   "archivo": "medios/166.mp4",
+   "desde": 6.13
+  },
+  {
+   "archivo": "medios/204.mp4",
+   "desde": 9.63
+  },
+  {
+   "archivo": "medios/174.mp4",
+   "desde": 14.43
+  },
+  {
+   "archivo": "medios/057.mp4",
+   "desde": 17.43
+  },
+  {
+   "archivo": "medios/212.mp4",
+   "desde": 20.53
+  },
+  {
+   "archivo": "medios/161.mp4",
+   "desde": 21.93
+  },
+  {
+   "archivo": "medios/149.mp4",
+   "desde": 26.83
+  },
+  {
+   "archivo": "medios/127.mp4",
+   "desde": 29.83
+  },
+  {
+   "archivo": "medios/097.mp4",
+   "desde": 32.83
+  },
+  {
+   "archivo": "medios/181.mp4",
+   "desde": 35.33
+  },
+  {
+   "archivo": "medios/240.mp4",
+   "desde": 38.83
+  },
+  {
+   "archivo": "medios/183.mp4",
+   "desde": 42.33
+  },
+  {
+   "archivo": "medios/146.mp4",
+   "desde": 45.63
+  }
+ ],
+ "destellos": [
+  {
+   "archivo": "medios/035.mp4",
+   "duracion": 3.0
+  },
+  {
+   "archivo": "medios/105.mp4",
+   "duracion": 3.0
+  },
+  {
+   "archivo": "medios/171.mp4",
+   "duracion": 3.0
+  },
+  {
+   "archivo": "medios/192.mp4",
+   "duracion": 3.0
+  },
+  {
+   "archivo": "medios/222.mp4",
+   "duracion": 3.0
+  },
+  {
+   "archivo": "medios/032.mp4",
+   "duracion": 3.0
+  },
+  {
+   "archivo": "medios/018.mp4",
+   "duracion": 3.0
+  },
+  {
+   "archivo": "medios/202.mp4",
+   "duracion": 3.0
+  },
+  {
+   "archivo": "medios/062.mp4",
+   "duracion": 3.0
+  },
+  {
+   "archivo": "medios/115.mp4",
+   "duracion": 3.0
+  },
+  {
+   "archivo": "medios/105.mp4",
+   "duracion": 3.0
+  },
+  {
+   "archivo": "medios/171.mp4",
+   "duracion": 3.0
+  }
+ ],
+ "look": {
+  "color": true,
+  "saturacion": 0.9,
+  "tono_ref": 0.6
+ },
+ "letra": [
+  {
+   "lineas": "y, nena\npodría estar\ndonde quieras",
+   "tiempos": [
+    0.06,
+    0.226,
+    0.724,
+    1.285,
+    1.684,
+    2.107
+   ]
+  },
+  {
+   "lineas": "siempre que\nsea contigo",
+   "tiempos": [
+    2.78,
+    3.224,
+    3.5,
+    3.672
+   ]
+  },
+  {
+   "lineas": "aunque sé\nlo que has\nestado\nesperando",
+   "tiempos": [
+    5.94,
+    6.902,
+    7.14,
+    7.304,
+    7.53,
+    7.691,
+    7.989
+   ]
+  },
+  {
+   "lineas": "quédate quieta",
+   "tiempos": [
+    9.72,
+    9.971
+   ]
+  },
+  {
+   "lineas": "no hace falta\ntocarnos\npara sentir",
+   "tiempos": [
+    11.4,
+    11.57,
+    11.756,
+    11.936,
+    12.516,
+    12.791
+   ]
+  },
+  {
+   "lineas": "solo quiero\nestar cerca\nde ti",
+   "tiempos": [
+    14.68,
+    15.33,
+    15.527,
+    16.0,
+    16.7,
+    17.024
+   ]
+  },
+  {
+   "lineas": "nena, espera\nsin prisa\nya era hora",
+   "tiempos": [
+    17.5,
+    17.707,
+    18.311,
+    18.501,
+    18.692,
+    18.961,
+    19.245
+   ]
+  },
+  {
+   "lineas": "nena, ¿puedes\nconfiar\nen mí?",
+   "tiempos": [
+    20.5,
+    20.78,
+    21.14,
+    21.65,
+    21.82
+   ]
+  },
+  {
+   "lineas": "quédate quieta",
+   "tiempos": [
+    22.14,
+    22.471
+   ]
+  },
+  {
+   "lineas": "no hace falta\ntocarnos\npara sentir",
+   "tiempos": [
+    23.56,
+    23.744,
+    24.04,
+    24.255,
+    24.805,
+    25.072
+   ]
+  },
+  {
+   "lineas": "solo quiero\nestar cerca\nde ti",
+   "tiempos": [
+    27.0,
+    27.462,
+    27.807,
+    28.34,
+    29.02,
+    29.344
+   ]
+  },
+  {
+   "lineas": "nena, espera\nsin prisa\nya era hora",
+   "tiempos": [
+    29.56,
+    29.99,
+    30.671,
+    30.838,
+    31.026,
+    31.336,
+    31.645
+   ]
+  },
+  {
+   "lineas": "nena, ¿puedes\nconfiar\nen mí?",
+   "tiempos": [
+    32.8,
+    33.06,
+    33.44,
+    33.97,
+    34.18
+   ]
+  },
+  {
+   "lineas": "quieta",
+   "tiempos": [
+    36.7
+   ]
+  },
+  {
+   "lineas": "quédate quieta",
+   "tiempos": [
+    37.22,
+    37.632
+   ]
+  },
+  {
+   "lineas": "quédate quieta",
+   "tiempos": [
+    40.56,
+    41.476
+   ]
+  },
+  {
+   "lineas": "quédate quieta",
+   "tiempos": [
+    42.86,
+    43.57
+   ]
+  },
+  {
+   "lineas": "ya era hora\nnena, ¿puedes\nconfiar en mí?",
+   "tiempos": [
+    44.02,
+    44.372,
+    44.841,
+    45.192,
+    45.486,
+    45.854,
+    46.326,
+    46.52
+   ]
+  }
+ ],
+ "texto_fin": 47.183
+}
