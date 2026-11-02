@@ -1,0 +1,322 @@
+{
+ "duracion": 50.0,
+ "salida": {
+  "ancho": 1440,
+  "alto": 1080,
+  "fps": 30,
+  "lienzo": "4:3",
+  "crf": 18
+ },
+ "bucle": null,
+ "audio": {
+  "archivo": "medios/cancion.wav",
+  "inicio": 12.8,
+  "lufs": -14,
+  "fade_in": 0.4,
+  "fade_out": [
+   49.2,
+   0.8
+  ]
+ },
+ "fundido_negro": [
+  49.4,
+  50.0
+ ],
+ "base": [
+  {
+   "archivo": "medios/131.mp4",
+   "desde": 0.0
+  },
+  {
+   "archivo": "medios/108.mp4",
+   "desde": 1.0
+  },
+  {
+   "archivo": "medios/146.mp4",
+   "desde": 4.6
+  },
+  {
+   "archivo": "medios/061.mp4",
+   "desde": 8.4
+  },
+  {
+   "archivo": "medios/151.mp4",
+   "desde": 11.5
+  },
+  {
+   "archivo": "medios/284.mp4",
+   "desde": 14.0
+  },
+  {
+   "archivo": "medios/275.mp4",
+   "desde": 17.1
+  },
+  {
+   "archivo": "medios/087.mp4",
+   "desde": 21.6
+  },
+  {
+   "archivo": "medios/282.mp4",
+   "desde": 24.2
+  },
+  {
+   "archivo": "medios/197.mp4",
+   "desde": 25.8
+  },
+  {
+   "archivo": "medios/181.mp4",
+   "desde": 27.2
+  },
+  {
+   "archivo": "medios/267.mp4",
+   "desde": 30.8
+  },
+  {
+   "archivo": "medios/148.mp4",
+   "desde": 34.0
+  },
+  {
+   "archivo": "medios/243.mp4",
+   "desde": 36.7
+  },
+  {
+   "archivo": "medios/129.mp4",
+   "desde": 42.2
+  },
+  {
+   "archivo": "medios/279.mp4",
+   "desde": 45.9
+  }
+ ],
+ "destellos": [
+  {
+   "archivo": "medios/004.mp4",
+   "duracion": 3.0
+  },
+  {
+   "archivo": "medios/066.mp4",
+   "duracion": 3.0
+  },
+  {
+   "archivo": "medios/108.mp4",
+   "duracion": 3.0
+  },
+  {
+   "archivo": "medios/267.mp4",
+   "duracion": 3.0
+  },
+  {
+   "archivo": "medios/129.mp4",
+   "duracion": 3.0
+  },
+  {
+   "archivo": "medios/279.mp4",
+   "duracion": 3.0
+  },
+  {
+   "archivo": "medios/284.mp4",
+   "duracion": 3.0
+  },
+  {
+   "archivo": "medios/197.mp4",
+   "duracion": 3.0
+  },
+  {
+   "archivo": "medios/151.mp4",
+   "duracion": 3.0
+  },
+  {
+   "archivo": "medios/061.mp4",
+   "duracion": 3.0
+  },
+  {
+   "archivo": "medios/131.mp4",
+   "duracion": 3.0
+  },
+  {
+   "archivo": "medios/282.mp4",
+   "duracion": 3.0
+  }
+ ],
+ "look": {
+  "color": true,
+  "saturacion": 1.0,
+  "tono_ref": 0.55
+ },
+ "letra": [
+  {
+   "lineas": "hold my hand\nuntil we turn\nto ashes",
+   "tiempos": [
+    1.02,
+    1.54,
+    2.06,
+    2.38,
+    2.78,
+    2.96,
+    3.22,
+    3.4
+   ]
+  },
+  {
+   "lineas": "love me 'til\nthey put me\nin my casket",
+   "tiempos": [
+    4.76,
+    5.28,
+    5.48,
+    5.72,
+    5.94,
+    6.1,
+    6.34,
+    6.54,
+    6.82
+   ]
+  },
+  {
+   "lineas": "I got all these feelings\nthat I'm\nmaskin'",
+   "tiempos": [
+    8.46,
+    8.64,
+    8.86,
+    9.06,
+    9.28,
+    9.6,
+    9.92,
+    10.3
+   ]
+  },
+  {
+   "lineas": "can I lay it on you?\nthat's what\nI'm askin'",
+   "tiempos": [
+    11.6,
+    11.78,
+    12.0,
+    12.26,
+    12.46,
+    12.56,
+    12.86,
+    13.14,
+    13.26,
+    13.6
+   ]
+  },
+  {
+   "lineas": "red wine kissin'\nin the house\nthat your parents",
+   "tiempos": [
+    14.1,
+    14.52,
+    14.8,
+    15.32,
+    15.6,
+    15.82,
+    16.1,
+    16.42,
+    16.66
+   ]
+  },
+  {
+   "lineas": "got for you, rented\nhow'd you\nforget it?",
+   "tiempos": [
+    17.16,
+    17.66,
+    18.0,
+    18.3,
+    18.7,
+    19.2,
+    19.66,
+    20.2
+   ]
+  },
+  {
+   "lineas": "I think about you\nand nothin'\nelse",
+   "tiempos": [
+    21.64,
+    22.06,
+    22.36,
+    22.7,
+    22.98,
+    23.2,
+    23.54
+   ]
+  },
+  {
+   "lineas": "so if you would\njust come\nover",
+   "tiempos": [
+    24.26,
+    24.4,
+    24.48,
+    24.68,
+    24.92,
+    25.08,
+    25.3
+   ]
+  },
+  {
+   "lineas": "I could show you\nfor myself",
+   "tiempos": [
+    25.84,
+    26.0,
+    26.12,
+    26.34,
+    26.5,
+    26.72
+   ]
+  },
+  {
+   "lineas": "and it's nights like this\nwhen I need\nyour love",
+   "tiempos": [
+    27.26,
+    27.56,
+    27.86,
+    28.14,
+    28.5,
+    29.08,
+    29.32,
+    29.48,
+    29.86,
+    30.28
+   ]
+  },
+  {
+   "lineas": "when I need someone\nthat'll heal\nmy soul",
+   "tiempos": [
+    30.9,
+    31.0,
+    31.34,
+    31.56,
+    32.06,
+    32.6,
+    33.1,
+    33.56
+   ]
+  },
+  {
+   "lineas": "it's nights\nlike this",
+   "tiempos": [
+    34.04,
+    34.56,
+    34.82,
+    35.1
+   ]
+  },
+  {
+   "lineas": "nights like\nnights like\nthis",
+   "tiempos": [
+    36.74,
+    37.28,
+    37.82,
+    38.16,
+    38.5
+   ],
+   "fin": 42.2
+  },
+  {
+   "lineas": "nights\nlike this",
+   "tiempos": [
+    45.92,
+    46.46,
+    46.8
+   ]
+  }
+ ],
+ "texto_fin": 49.5
+}
