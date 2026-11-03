@@ -1,0 +1,136 @@
+{
+  "titulo": "Se tronó los dedos de una sola mano durante 60 años",
+  "duracion": 48.0,
+  "serie": {"sello": "CUADERNO DE CURIOSIDADES · N.º 001"},
+
+  "estilo": {
+    "paleta": {
+      "papel": "#EFE7D6", "papel_claro": "#FBF7EE", "tinta": "#1C1B22", "acento": "#E2452B",
+      "cuadricula": "#CBD5DE", "margen": "#E9A79B", "liquido": "#2E5BD6", "liquido_claro": "#DCE5F6",
+      "hueso": "#F6EEDC", "cinta": "#F2D27A", "resaltador": "#F7D44C"
+    },
+    "boil_fps": 10, "boil_px": 1.6, "cuadricula": 54, "margen_x": 110,
+    "sub_y": 1420, "sub_size": 56, "sub_palabras": 5
+  },
+
+  "afirmaciones": [
+    {"dato": "Donald Unger se tronó los nudillos de la mano izquierda (no la derecha) por más de 60 años, al menos dos veces al día, y no encontró artritis en ninguna.",
+     "fuente": "Unger DL. Does knuckle cracking lead to arthritis of the fingers? Arthritis & Rheumatism 1998;41(5):949-950", "estado": "verificado"},
+    {"dato": "Ganó el Ig Nobel de Medicina 2009.", "fuente": "https://improbable.com/2009/11/05/interview-with-dr-knuckle-cracker/", "estado": "verificado"},
+    {"dato": "Resonancia magnética en tiempo real: el crack coincide con la formación de una cavidad de gas, en menos de 310 ms.",
+     "fuente": "Kawchuk GN et al. Real-Time Visualization of Joint Cavitation. PLoS ONE 2015. doi:10.1371/journal.pone.0119470", "estado": "verificado"},
+    {"dato": "Modelo matemático: el sonido se explicaría por el colapso parcial de la burbuja.",
+     "fuente": "Chandran Suja V, Barakat AI. A Mathematical Model for the Sounds Produced by Knuckle Cracking. Scientific Reports 2018;8:4600", "estado": "verificado"},
+    {"dato": "El experimento de Unger es de una sola persona: no es prueba definitiva.", "fuente": "Limitación metodológica (n = 1)", "estado": "verificado"}
+  ],
+
+  "narracion": [
+    {"t": [0.2, 4.0], "txt": "Este hombre se tronó los dedos de una sola mano… durante sesenta años.", "nota": "Gancho: énfasis en 'una sola'. Sin saludo."},
+    {"t": [4.1, 6.6], "txt": "Todo para llevarle la contraria a su mamá."},
+    {"t": [6.7, 9.3], "txt": "Ella le decía: «te va a dar artritis».", "nota": "Imitar el tono de mamá, breve."},
+    {"t": [9.5, 11.6], "txt": "Pero antes: ¿qué es ese crack?"},
+    {"t": [11.8, 16.2], "txt": "Entre tus huesos hay un líquido, el líquido sinovial, con gases disueltos."},
+    {"t": [16.4, 20.0], "txt": "Cuando jalas el dedo, los huesos se separan y la presión cae."},
+    {"t": [20.1, 23.6], "txt": "En menos de un tercio de segundo aparece una cavidad de gas."},
+    {"t": [23.8, 26.6], "txt": "Así lo grabaron con resonancia magnética en 2015.", "nota": "Decir 'dos mil quince'."},
+    {"t": [26.8, 29.2], "txt": "Lo que aún se discute es el sonido."},
+    {"t": [29.3, 32.6], "txt": "¿Sale cuando se forma la burbuja… o cuando colapsa en parte?"},
+    {"t": [33.0, 35.6], "txt": "¿Y la mamá? Después de sesenta años…"},
+    {"t": [35.7, 38.6], "txt": "ninguna de sus dos manos tenía artritis."},
+    {"t": [38.8, 42.0], "txt": "Lo publicó en 1998 y ganó un Ig Nobel.", "nota": "Decir 'mil novecientos noventa y ocho'."},
+    {"t": [42.2, 45.0], "txt": "Ojo: es una sola persona, no una prueba definitiva."},
+    {"t": [45.2, 47.7], "txt": "Ahora mira tus manos: ¿cuál es la de control?", "nota": "Cierre en loop: vuelve a las dos manos del inicio."}
+  ],
+
+  "sfx": [
+    {"t": 1.0, "tipo": "crack", "vol": 0.9},
+    {"t": 20.2, "tipo": "crack", "vol": 1.0},
+    {"t": 20.2, "tipo": "golpe", "vol": 0.6}
+  ],
+
+  "escenas": [
+    {
+      "id": "gancho", "t": [0, 9.4], "transicion": "corte",
+      "camara": {"z": [[0, 1.0], [9.4, 1.06, "lin"]], "cy": [[0, 960], [9.4, 930, "lin"]]},
+      "elementos": [
+        {"tipo": "texto", "t": [0.0, 4.0], "fi": 0.12, "x": 560, "y": 400, "size": 74, "txt": "Se tronó los dedos de\n*UNA* sola mano", "stagger": 0.06, "sfx": "pop"},
+        {"tipo": "mano", "t": [0.0, 9.4], "x": 340, "y": 820, "s": 1.05, "espejo": true, "dibujo": 0.35,
+         "curl": [[0.7, 0], [1.0, 1, "out"], [1.35, 0]], "marcar": [0, 1, 2, 3], "t_marca": 1.05, "fi": 0.01},
+        {"tipo": "mano", "t": [0.0, 9.4], "x": 760, "y": 820, "s": 1.05, "dibujo": 0.35, "fi": 0.01},
+        {"tipo": "contador", "t": [0.6, 9.4], "cuenta": [1.0, 3.9], "desde": 0, "hasta": 43800, "x": 340, "y": 1150, "size": 92, "prefijo": "+"},
+        {"tipo": "texto", "t": [0.6, 9.4], "x": 760, "y": 1150, "size": 92, "txt": "0", "fuente": "titulo", "entrada": "fade"},
+        {"tipo": "texto", "t": [1.2, 9.4], "x": 340, "y": 1235, "size": 28, "txt": "TRONADAS · IZQ.", "fuente": "mono", "entrada": "fade"},
+        {"tipo": "texto", "t": [1.2, 9.4], "x": 760, "y": 1235, "size": 28, "txt": "TRONADAS · DER.", "fuente": "mono", "entrada": "fade"},
+        {"tipo": "texto", "t": [4.1, 6.6], "x": 560, "y": 400, "size": 74, "txt": "Una mano *sí*.\nLa otra *nunca*.", "stagger": 0.08, "sfx": "pop"},
+        {"tipo": "cita", "t": [6.7, 9.4], "x": 560, "y": 400, "w": 760, "h": 210, "cola": [380, 560], "txt": "«Te va a dar *artritis*»", "size": 62, "sfx": "pop"}
+      ]
+    },
+    {
+      "id": "pregunta", "t": [9.4, 11.7], "transicion": "barrido",
+      "camara": {"z": [[9.4, 1.12], [11.7, 1.0, "out"]], "rot": [[9.4, -3], [11.7, 0, "out"]]},
+      "elementos": [
+        {"tipo": "texto", "t": [9.5, 11.7], "x": 540, "y": 800, "size": 132, "txt": "¿Qué es\nese *CRACK*?", "stagger": 0.09, "lh": 1.05, "sfx": "pop"},
+        {"tipo": "marca", "t": [10.4, 11.7], "forma": "subrayado", "x": 615, "y": 955, "largo": 470, "grosor": 12, "sfx": "lapiz"}
+      ]
+    },
+    {
+      "id": "mecanismo", "t": [11.7, 26.7], "transicion": "barrido",
+      "camara": {"z": [[11.7, 0.86], [16.0, 0.92, "io"], [19.8, 1.18, "io"], [23.5, 1.18], [24.6, 0.95, "io"], [26.7, 0.95]],
+                 "cy": [[11.7, 860], [16.0, 860], [19.8, 820, "io"], [23.5, 820], [24.6, 900, "io"]]},
+      "elementos": [
+        {"tipo": "articulacion", "t": [11.7, 26.7], "x": 540, "y": 820, "fi": 0.3,
+         "sep": [[11.7, 18], [16.8, 18], [18.6, 66, "io"]],
+         "burbuja": [[11.7, 0], [20.2, 0], [20.5, 30, "back"]], "t_pop": 20.2, "gas": 1},
+        {"tipo": "texto", "t": [12.3, 26.7], "x": 850, "y": 470, "size": 34, "txt": "HUESO", "fuente": "mono", "entrada": "fade"},
+        {"tipo": "trazo", "t": [12.4, 26.7], "pts": [[810, 500], [740, 520], [680, 590]], "flecha": true, "grosor": 6, "sfx": "lapiz", "sfx_vol": 0.4},
+        {"tipo": "texto", "t": [13.4, 23.4], "x": 840, "y": 1060, "size": 40, "txt": "líquido\n*sinovial*", "fuente": "cuerpo_b"},
+        {"tipo": "trazo", "t": [13.5, 23.4], "pts": [[805, 1010], [780, 975], [725, 935]], "flecha": true, "grosor": 6, "sfx": "lapiz", "sfx_vol": 0.4},
+        {"tipo": "texto", "t": [14.9, 19.5], "x": 240, "y": 1060, "size": 40, "txt": "gas\n*disuelto*", "fuente": "cuerpo_b"},
+        {"tipo": "trazo", "t": [15.0, 19.5], "pts": [[270, 1005], [330, 930], [410, 860]], "flecha": true, "grosor": 6, "sfx": "lapiz", "sfx_vol": 0.4},
+        {"tipo": "trazo", "t": [16.6, 20.0], "pts": [[960, 740], [960, 600]], "curva": false, "flecha": true, "grosor": 9, "color": "acento"},
+        {"tipo": "trazo", "t": [16.6, 20.0], "pts": [[960, 900], [960, 1040]], "curva": false, "flecha": true, "grosor": 9, "color": "acento"},
+        {"tipo": "texto", "t": [17.5, 20.0], "x": 230, "y": 560, "size": 56, "txt": "presión\n*↓ cae*", "sfx": "pop"},
+        {"tipo": "texto", "t": [20.4, 26.7], "x": 240, "y": 560, "size": 70, "txt": "*< 310 ms*", "sfx": "pop"},
+        {"tipo": "texto", "t": [20.6, 26.7], "x": 240, "y": 625, "size": 28, "txt": "cavidad de gas", "fuente": "mono", "entrada": "fade"},
+        {"tipo": "fuente", "t": [23.7, 26.7], "x": 110, "y": 1090, "size": 29,
+         "txt": "Kawchuk et al. (2015)\nPLoS ONE · resonancia\nmagnética en tiempo real"}
+      ]
+    },
+    {
+      "id": "debate", "t": [26.7, 32.8], "transicion": "barrido",
+      "camara": {"z": [[26.7, 1.0], [32.8, 1.04, "lin"]]},
+      "elementos": [
+        {"tipo": "texto", "t": [26.8, 32.8], "x": 560, "y": 380, "size": 70, "txt": "Lo que aún se\n*discute*: el sonido", "stagger": 0.06, "sfx": "pop"},
+        {"tipo": "caja", "t": [29.2, 32.8], "x": 295, "y": 830, "w": 400, "h": 560, "r": 34, "relleno": "papel_claro", "entrada": "pop", "rot": -1.5, "sfx": "pop"},
+        {"tipo": "caja", "t": [30.6, 32.8], "x": 805, "y": 830, "w": 400, "h": 560, "r": 34, "relleno": "papel_claro", "entrada": "pop", "rot": 1.5, "sfx": "pop"},
+        {"tipo": "texto", "t": [29.35, 32.8], "x": 295, "y": 640, "size": 52, "txt": "¿Al\n*formarse*?", "lh": 1.0},
+        {"tipo": "marca", "t": [29.6, 32.8], "forma": "circulo", "x": 295, "y": 870, "rx": 90, "ry": 90, "color": "liquido", "grosor": 9,
+         "s": [[29.6, 0.15], [30.5, 1.0, "back"]], "dibujo": 0.3},
+        {"tipo": "texto", "t": [29.5, 32.8], "x": 295, "y": 1050, "size": 26, "txt": "2015 · PLoS ONE", "fuente": "mono", "entrada": "fade"},
+        {"tipo": "texto", "t": [30.0, 32.8], "x": 550, "y": 830, "size": 64, "txt": "o", "fuente": "titulo"},
+        {"tipo": "texto", "t": [30.75, 32.8], "x": 805, "y": 640, "size": 52, "txt": "¿Al\n*colapsar*?", "lh": 1.0},
+        {"tipo": "marca", "t": [31.0, 32.8], "forma": "circulo", "x": 805, "y": 870, "rx": 90, "ry": 90, "color": "acento", "grosor": 9,
+         "s": [[31.0, 1.0], [31.9, 0.55, "out"]], "dibujo": 0.3},
+        {"tipo": "texto", "t": [31.0, 32.8], "x": 805, "y": 1050, "size": 26, "txt": "2018 · Sci. Reports", "fuente": "mono", "entrada": "fade"}
+      ]
+    },
+    {
+      "id": "veredicto", "t": [32.8, 48.0], "transicion": "barrido",
+      "camara": {"z": [[32.8, 1.0], [48.0, 1.05, "lin"]], "cy": [[32.8, 960], [48.0, 940, "lin"]]},
+      "elementos": [
+        {"tipo": "mano", "t": [32.8, 48.0], "x": 340, "y": 820, "s": 1.0, "espejo": true, "dibujo": 0.4},
+        {"tipo": "mano", "t": [32.8, 48.0], "x": 760, "y": 820, "s": 1.0, "dibujo": 0.4},
+        {"tipo": "texto", "t": [33.0, 35.6], "x": 560, "y": 410, "size": 96, "txt": "¿Y la *mamá*?", "sfx": "pop"},
+        {"tipo": "texto", "t": [35.7, 40.3], "x": 560, "y": 410, "size": 72, "txt": "60 años después:\n*0* artritis", "stagger": 0.07, "sfx": "pop"},
+        {"tipo": "marca", "t": [36.3, 48.0], "forma": "check", "x": 340, "y": 1090, "s": 1.0, "grosor": 11, "sfx": "lapiz"},
+        {"tipo": "marca", "t": [36.7, 48.0], "forma": "check", "x": 760, "y": 1090, "s": 1.0, "grosor": 11, "sfx": "lapiz"},
+        {"tipo": "fuente", "t": [38.8, 42.1], "x": 120, "y": 1150, "size": 29, "txt": "Unger, D. L. (1998)\nArthritis & Rheumatism\n41(5): 949–950"},
+        {"tipo": "texto", "t": [40.4, 42.1], "x": 560, "y": 410, "size": 72, "txt": "Ig Nobel de\n*Medicina* 2009", "stagger": 0.07, "sfx": "pop"},
+        {"tipo": "texto", "t": [42.2, 45.1], "x": 560, "y": 395, "size": 120, "txt": "Ojo: *n = 1*", "sfx": "pop"},
+        {"tipo": "texto", "t": [42.5, 45.1], "x": 560, "y": 505, "size": 38, "txt": "una persona ≠ prueba definitiva", "fuente": "cuerpo_b", "entrada": "fade"},
+        {"tipo": "texto", "t": [45.2, 48.0], "x": 560, "y": 410, "size": 70, "txt": "¿Cuál es tu\n*mano de control*?", "stagger": 0.07, "sfx": "pop"},
+        {"tipo": "marca", "t": [46.1, 48.0], "forma": "circulo", "x": 340, "y": 800, "rx": 230, "ry": 255, "grosor": 9, "sfx": "lapiz"}
+      ]
+    }
+  ]
+}
